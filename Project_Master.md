@@ -272,3 +272,16 @@ Finalizado
 
 Fecha:
 Julio 2026
+DA-009
+
+Fuentes de datos MVP aprobadas
+
+raw_matches  -> football-data.org
+raw_rankings -> FIFA Rankings históricos
+raw_players  -> API-Football
+
+Motivo:
+Minimizar complejidad inicial y acelerar la construcción del Dashboard V1.
+
+Estado:
+Aprobado
