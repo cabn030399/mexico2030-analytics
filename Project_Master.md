@@ -189,3 +189,36 @@ Entregables pendientes:
 * Tablas Silver
 * Tablas Gold
 * MVP Dashboard v1
+
+# 14. Decisiones Aprobadas
+
+## DA-001
+Fecha: 2026-07-09
+
+Se excluye la Selección Femenil del alcance inicial.
+
+Motivo:
+Reducir complejidad y enfocarse en Selección Mayor, Sub-23 y Sub-20.
+
+Estado:
+Aprobado.
+
+---
+
+## DA-002
+Fecha: 2026-07-09
+
+Se adopta arquitectura Bronze / Silver / Gold.
+
+Estado:
+Aprobado.
+
+---
+
+## DA-003
+Fecha: 2026-07-09
+
+API-Football será la fuente principal para el MVP.
+
+Estado:
+Aprobado.
