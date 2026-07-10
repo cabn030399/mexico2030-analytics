@@ -309,3 +309,28 @@ Reducir complejidad inicial, acelerar el Dashboard V1 y construir la automatizac
 
 Estado:
 Aprobado.
+DA-012
+
+Dataset histórico oficial aprobado para el MVP.
+
+Nombre:
+International Football Results from 1872 to 2026
+
+Autor:
+Mart Jürisoo
+
+Fuente:
+Kaggle
+
+Archivo principal:
+results.csv
+
+Archivos futuros:
+shootouts.csv
+goalscorers.csv
+
+Motivo:
+Cobertura histórica completa, alta calidad, amplia adopción por la comunidad de analítica deportiva y compatibilidad con BigQuery y Tableau.
+
+Estado:
+Aprobado.
