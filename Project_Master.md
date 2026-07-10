@@ -189,6 +189,26 @@ Entregables pendientes:
 * Tablas Silver
 * Tablas Gold
 * MVP Dashboard v1
+* ## MVP Dashboard V1
+
+Objetivo:
+
+Publicar el primer dashboard de Tricolor Analytics.
+
+Páginas:
+
+1. Resumen Histórico México 2014-Presente
+2. Evolución Ranking FIFA
+3. Análisis de Rivales
+
+Tablas requeridas:
+
+gold.fact_matches
+gold.fact_rankings
+
+Tabla opcional:
+
+gold.dim_players
 
 # 14. Decisiones Aprobadas
 
@@ -222,3 +242,10 @@ API-Football será la fuente principal para el MVP.
 
 Estado:
 Aprobado.
+DA-004
+
+Proyecto BigQuery:
+mexico2030analytics
+
+Estado:
+Aprobado
