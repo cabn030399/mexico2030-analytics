@@ -334,3 +334,17 @@ Cobertura histórica completa, alta calidad, amplia adopción por la comunidad d
 
 Estado:
 Aprobado.
+DA-014
+
+Archivos oficiales del Dataset Histórico v1.0
+
+results.csv
+goalscorers.csv
+shootouts.csv
+former_names.csv
+
+Fuente:
+International Football Results from 1872 to 2026 (Kaggle)
+
+Estado:
+Aprobado
