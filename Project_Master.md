@@ -285,3 +285,12 @@ Minimizar complejidad inicial y acelerar la construcción del Dashboard V1.
 
 Estado:
 Aprobado
+DA-010
+
+Documento Architecture.md creado.
+
+Objetivo:
+Centralizar las decisiones técnicas y la arquitectura del proyecto.
+
+Estado:
+Completado.
