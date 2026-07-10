@@ -164,6 +164,19 @@ Proyecto BigQuery: mexico2030analytics
 Estado: Aprobado DA-005
 
 La fase de planificación inicial queda concluida.
+DA-006
+
+Se aprueba la creación de documentación pública desde el inicio del proyecto.
+
+Documentos:
+- README.md
+- Project_Master.md
+
+Objetivo:
+Facilitar mantenimiento, colaboración y visibilidad profesional.
+
+Estado:
+Aprobado
 
 El proyecto entra en fase de ejecución.
 
