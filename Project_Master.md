@@ -294,3 +294,18 @@ Centralizar las decisiones técnicas y la arquitectura del proyecto.
 
 Estado:
 Completado.
+DA-011
+
+Se adopta una estrategia híbrida para raw_matches.
+
+Fase MVP:
+Dataset histórico consolidado (CSV).
+
+Fase de automatización:
+football-data.org.
+
+Motivo:
+Reducir complejidad inicial, acelerar el Dashboard V1 y construir la automatización sobre una base ya validada.
+
+Estado:
+Aprobado.
