@@ -63,3 +63,9 @@ Objetivos:
 * Explorar results.csv
 * Construir primera carga hacia BigQuery
 * Crear tabla bronze.raw_matches
+## [v0.2.0] - 2026-07-11
+### Añadido
+- Notebook creado: `notebooks/001_data_ingestion.ipynb`
+- Objetivo: Exploración inicial y análisis de calidad del dataset histórico de resultados internacionales.
+- Estado: Completado exitosamente.
+- Hallazgos clave: 49,505 registros totales y 1,008 partidos identificados de la Selección de México.
