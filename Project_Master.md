@@ -364,3 +364,22 @@ Completado
 
 Fecha:
 Julio 2026
+### Sprint 3 - Silver Layer
+
+Estado: COMPLETADO
+
+Entregables:
+
+- 003_silver_matches.ipynb
+- matches_silver.csv
+
+Resultados:
+
+- 49,501 partidos históricos validados.
+- 0 registros duplicados.
+- 0 valores nulos.
+- match_id generado.
+
+Estado:
+
+Aprobado.

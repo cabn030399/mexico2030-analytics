@@ -69,3 +69,35 @@ Objetivos:
 - Objetivo: Exploración inicial y análisis de calidad del dataset histórico de resultados internacionales.
 - Estado: Completado exitosamente.
 - Hallazgos clave: 49,505 registros totales y 1,008 partidos identificados de la Selección de México.
+DA-013
+
+Se identificaron 4 registros con home_score y away_score nulos.
+
+Corresponden a partidos proyectados del Mundial FIFA 2026.
+
+Decisión:
+Mantener registros en Bronze.
+Excluir registros sin marcador en Silver y Gold.
+
+Estado:
+Aprobado.
+## DA-015
+
+Fecha: 2026-07-13
+
+Sprint 3 - Silver Layer
+
+Acciones:
+
+- Eliminados 4 registros sin marcador.
+- Validación de duplicados completada.
+- Creado match_id.
+- Generado matches_silver.csv.
+
+Resultado:
+
+silver.matches contiene 49,501 registros válidos para análisis.
+
+Estado:
+
+Aprobado.
