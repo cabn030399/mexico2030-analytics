@@ -383,3 +383,9 @@ Resultados:
 Estado:
 
 Aprobado.
+Se aprueba fact_mexico_matches como primera tabla Gold oficial.
+
+Granularidad:
+1 fila = 1 partido de México.
+
+Esta tabla será la fuente principal del Dashboard Tableau V1.
