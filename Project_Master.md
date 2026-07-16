@@ -389,3 +389,33 @@ Granularidad:
 1 fila = 1 partido de México.
 
 Esta tabla será la fuente principal del Dashboard Tableau V1.
+# DEC-008 – Publicación del Dashboard Tableau V1
+
+Fecha: 2026-07-14
+
+## Contexto
+
+Se completó la construcción inicial del Dashboard Tableau V1 utilizando como fuente oficial la tabla:
+
+gold.fact_mexico_matches
+
+La versión MVP incluye:
+
+- KPI Partidos Jugados
+- KPI Victorias
+- KPI Empates
+- KPI Derrotas
+- KPI % Victorias
+- Visualización: Rendimiento de México por Año
+
+## Resultado
+
+El dashboard fue publicado en Tableau Public.
+
+## Enlace
+https://public.tableau.com/app/profile/carlos.borja1355/viz/Mexico2030_Analytics_V1_twb/RendimientodeMxicoporAo
+## Decisión
+
+Tableau Public se adopta como plataforma oficial para publicar visualizaciones interactivas del proyecto México2030 Analytics durante la fase MVP.
+
+Los dashboards publicados deberán referenciarse tanto en GitHub como en LinkedIn para fortalecer el portafolio profesional y la marca personal asociada al proyecto.

@@ -180,3 +180,9 @@ https://github.com/cabn030399
 ## ⚽ Tricolor Analytics
 
 Datos, contexto y análisis para entender el camino de México rumbo al Mundial 2030.
+
+## Dashboard Interactivo
+
+Visualización oficial del proyecto México2030 Analytics:
+
+🔗 [Dashboard Tableau Public](https://public.tableau.com/app/profile/carlos.borja1355/viz/Mexico2030_Analytics_V1_twb/RendimientodeMxicoporAo)
