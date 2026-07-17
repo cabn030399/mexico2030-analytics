@@ -4,11 +4,8 @@
 
 Proyecto de Sports Analytics enfocado en analizar la evolución de la Selección Mexicana de Fútbol rumbo al Mundial 2030 mediante técnicas de análisis de datos, ingeniería de datos, visualización y storytelling.
 
-!<img width="1366" height="768" alt="Captura de pantalla (158)" src="https://github.com/user-attachments/assets/d0d34500-9160-4ad9-8781-19a5dd357059" />
+<img width="1366" height="768" alt="Captura de pantalla (159)" src="https://github.com/user-attachments/assets/026875ca-e9d2-4bbf-a7eb-19a6ebf96836" />
 
-
-
-## 🎯 Objetivo
 
 Construir una plataforma de análisis que permita estudiar el rendimiento histórico y futuro de las selecciones nacionales masculinas de México:
 
