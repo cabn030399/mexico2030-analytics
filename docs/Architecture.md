@@ -1,6 +1,5 @@
 # Architecture Document
-
-# Camino al Mundial 2030
+# 🇲🇽 México2030 Analytics
 
 Última actualización: Julio 2026
 
@@ -8,43 +7,37 @@
 
 # 1. Objetivo
 
-Definir la arquitectura de datos inicial para el proyecto Camino al Mundial 2030.
+Definir la arquitectura de datos implementada para México2030 Analytics.
 
-La arquitectura está diseñada para soportar el análisis histórico y futuro de las selecciones nacionales masculinas de México rumbo al Mundial 2030.
+La arquitectura está diseñada para soportar el análisis histórico de la Selección Mexicana de Fútbol y servir como base para futuras automatizaciones rumbo al Mundial 2030.
 
 Principios:
 
-* Simplicidad
-* Escalabilidad
-* Bajo costo
-* Facilidad de mantenimiento
-* Orientación a portafolio profesional
+- Simplicidad
+- Escalabilidad
+- Bajo costo
+- Fácil mantenimiento
+- Orientación a portafolio profesional
 
 ---
 
 # 2. Arquitectura General
 
-Fuentes de Datos
-
-↓
-
+```text
+Dataset Kaggle
+        ↓
 Python ETL
-
-↓
-
-BigQuery
-
-↓
-
-Modelo Bronze / Silver / Gold
-
-↓
-
+        ↓
+BigQuery Bronze
+        ↓
+BigQuery Silver
+        ↓
+BigQuery Gold
+        ↓
 Tableau Public
-
-↓
-
-LinkedIn y Portafolio
+        ↓
+LinkedIn
+```
 
 ---
 
@@ -52,74 +45,51 @@ LinkedIn y Portafolio
 
 ## Desarrollo
 
-* Python
-* Jupyter Notebook
-* Visual Studio Code
-* Anaconda
+- Python
+- Pandas
+- Jupyter Notebook
+- VS Code
+- Anaconda
 
 ## Data Warehouse
 
-* Google BigQuery
+- Google BigQuery
+
+## SQL
+
+- BigQuery SQL
 
 ## Visualización
 
-* Tableau Public
+- Tableau Public
 
 ## Versionamiento
 
-* GitHub
+- GitHub
 
 ## Publicación
 
-* LinkedIn
+- LinkedIn
 
 ---
 
-# 4. Fuentes de Datos (MVP)
+# 4. Fuente Oficial del MVP
 
-## raw_matches
+## Dataset
 
-Fuente principal:
+International Football Results from 1872 to 2026
 
-* football-data.org
+## Autor
 
-Datos esperados:
+Mart Jürisoo
 
-* Fecha
-* Rival
-* Competición
-* Resultado
-* Local / Visitante
+## Plataforma
 
----
+Kaggle
 
-## raw_rankings
+## Archivo utilizado
 
-Fuente principal:
-
-* FIFA Rankings Históricos
-
-Datos esperados:
-
-* Fecha
-* Ranking FIFA
-* Puntos FIFA
-
----
-
-## raw_players
-
-Fuente principal:
-
-* API-Football
-
-Datos esperados:
-
-* Nombre
-* Posición
-* Club
-* Edad
-* Nacionalidad
+results.csv
 
 ---
 
@@ -127,145 +97,178 @@ Datos esperados:
 
 Proyecto:
 
+```text
 mexico2030analytics
+```
 
 ---
 
 # 6. Datasets
 
-## bronze
+## Bronze
 
-Datos crudos obtenidos desde las fuentes originales.
+Datos sin transformación.
 
 Tablas:
 
-* raw_matches
-* raw_rankings
-* raw_players
+- raw_matches
 
 ---
 
-## silver
+## Silver
 
 Datos limpios y normalizados.
 
 Tablas:
 
-* matches
-* rankings
-* players
+- matches
 
 ---
 
-## gold
+## Gold
 
-Datos listos para análisis y visualización.
+Datos listos para análisis.
 
 Tablas:
 
-* fact_matches
-* fact_rankings
-* dim_players
+- fact_mexico_matches
 
 ---
 
 # 7. Flujo de Datos
 
-1. Extraer datos desde las fuentes externas.
-2. Almacenar datos sin transformar en Bronze.
-3. Limpiar y normalizar datos en Silver.
-4. Construir tablas analíticas en Gold.
-5. Consumir tablas Gold desde Tableau Public.
-6. Publicar análisis y hallazgos en LinkedIn.
+## Bronze Layer
+
+Carga inicial desde Kaggle.
+
+Resultado:
+
+- raw_matches
 
 ---
 
-# 8. Dashboard MVP
+## Silver Layer
 
-Objetivo:
+Transformaciones:
 
-Publicar el primer dashboard histórico de la Selección Mexicana.
+- Limpieza de datos
+- Eliminación de duplicados
+- Estandarización
+- Generación de match_id
 
-Páginas previstas:
+Resultado:
 
-## Página 1
+- matches
 
-Resumen Histórico
+---
+
+## Gold Layer
+
+Transformaciones:
+
+- Filtrado exclusivo de México
+- Construcción de KPIs
+- Variables analíticas
+
+Resultado:
+
+- fact_mexico_matches
+
+---
+
+# 8. Dashboard Tableau V1
+
+Fuente:
+
+```text
+gold.fact_mexico_matches
+```
 
 KPIs:
 
-* Partidos
-* Victorias
-* Empates
-* Derrotas
-* Porcentaje de victorias
-* Goles anotados
-* Goles recibidos
-
----
-
-## Página 2
-
-Ranking FIFA
+- Partidos Jugados
+- Victorias
+- Empates
+- Derrotas
+- % Victorias
 
 Visualizaciones:
 
-* Evolución histórica del ranking
-* Evolución de puntos FIFA
+- Rendimiento Histórico por Año
+- Resultados por Competición
+- Home / Away / Neutral
+- Top 10 Rivales
+
+Estado:
+
+✅ Publicado en Tableau Public
 
 ---
 
-## Página 3
+# 9. Cobertura de Datos
 
-Rivales
-
-Visualizaciones:
-
-* Rivales más enfrentados
-* Mejores resultados
-* Peores resultados
+| Métrica | Valor |
+|----------|----------|
+| Primer partido | 1923-01-01 |
+| Último partido | 2026-07-05 |
+| Total partidos | 1008 |
 
 ---
 
-# 9. Alcance Actual
+# 10. Arquitectura Futura
 
-Incluido:
+## Bronze
 
-* Selección Mayor Masculina
-* Selección Sub-23
-* Selección Sub-20
+- raw_matches
+- raw_rankings
+- raw_players
 
-Excluido del MVP:
+## Silver
 
-* Selección Femenil
-* Modelos predictivos
-* Machine Learning
-* Tracking de jugadores
-* Eventos avanzados
-* Scouting
+- matches
+- rankings
+- players
 
----
+## Gold
 
-# 10. Evolución Futura
-
-Fase 2
-
-* Automatización ETL
-* Nuevas fuentes de datos
-* Seguimiento de convocatorias
-
-Fase 3
-
-* Métricas avanzadas
-* xG
-* Modelos predictivos
-* Sports Analytics avanzado
+- fact_mexico_matches
+- fact_fifa_ranking
+- fact_players_pool
 
 ---
 
-# 11. Principio Rector
+# 11. Evolución Planeada
 
-La prioridad del proyecto es generar análisis consistentes y públicos.
+## Sprint 6
 
-Un dashboard publicado aporta más valor que una arquitectura perfecta sin resultados visibles.
+Dashboard V1.1
 
+- Filtros globales
+- Mejoras visuales
+- Storytelling ejecutivo
+
+---
+
+## Sprint 7
+
+Analytics Avanzado
+
+- Rendimiento por década
+- Rendimiento por rival
+- Rendimiento por torneo
+
+---
+
+## Sprint 8
+
+Automatización
+
+- APIs
+- ETL automatizado
+- Actualización continua
+
+---
+
+# 12. Principio Rector
+
+> Un análisis publicado vale más que un análisis perfecto que nunca se publica.
