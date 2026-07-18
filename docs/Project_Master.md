@@ -1,183 +1,442 @@
-Proyecto Maestro
-Camino al Mundial 2030
+# Proyecto Maestro
+# 🇲🇽 México2030 Analytics
+
 Última actualización: Julio 2026
 
-1. Visión del Proyecto
-Construir una plataforma de Sports Analytics enfocada en las selecciones nacionales masculinas de México para analizar su evolución desde 2014 hasta el Mundial 2030.
+---
 
-El proyecto combinará ingeniería de datos, analítica, visualización y generación de contenido para construir una marca profesional en Sports Analytics.
+# 1. Visión del Proyecto
 
-2. Marca del Proyecto
-Nombre Principal
-Camino al Mundial 2030
+Construir una plataforma de Sports Analytics enfocada en analizar el rendimiento histórico y futuro de la Selección Mexicana de Fútbol mediante técnicas de Data Engineering, Data Analytics, Business Intelligence y Storytelling.
 
-Marca Analítica
+El proyecto servirá como:
+
+- Portafolio profesional de Data Analytics.
+- Plataforma de análisis rumbo al Mundial 2030.
+- Herramienta de desarrollo de marca personal en Sports Analytics.
+- Base para futuras automatizaciones y análisis avanzados.
+
+---
+
+# 2. Identidad del Proyecto
+
+## Nombre Oficial
+
+México2030 Analytics
+
+## Marca Analítica
+
 Tricolor Analytics
 
-Serie Editorial
+## Serie Editorial
+
 El Laboratorio del Tri
 
-3. Objetivos Estratégicos
-Conseguir oportunidades laborales en análisis de datos.
-Especializarse en Sports Analytics.
-Construir una marca personal sólida en LinkedIn.
-Crear un portafolio diferenciador.
-Desarrollar una plataforma pública de análisis futbolístico.
-4. Alcance Aprobado
-Incluido
-Selección Mexicana Mayor Masculina
-Selección Mexicana Sub-23
-Selección Mexicana Sub-20
-Excluido
-Selección Femenil
-Categorías menores distintas de Sub-20
-Clubes de liga como foco principal
-5. Periodo de Análisis
-Inicio histórico:
+---
 
-2014
+# 3. Objetivos Estratégicos
 
-Fin estimado:
+## Objetivos Profesionales
 
-2030
+- Conseguir oportunidades laborales como Data Analyst.
+- Especializarse en Sports Analytics.
+- Fortalecer el perfil profesional en LinkedIn.
+- Construir un portafolio técnico diferenciador.
 
-6. Enfoque Analítico
-Para cada partido se buscará analizar:
+## Objetivos Técnicos
 
-Rendimiento de México
-Rendimiento del rival
-Historial entre ambos equipos
-Tendencias recientes
-Jugadores destacados
-Convocatorias
-Rendimiento por entrenador
-Rendimiento por torneo
-7. Stack Tecnológico Aprobado
-Lenguaje:
+- Implementar una arquitectura moderna de datos.
+- Construir dashboards interactivos.
+- Automatizar la actualización de datos.
+- Generar análisis continuos rumbo al Mundial 2030.
 
-Python
-Base de Datos:
+---
 
-BigQuery
-Visualización:
+# 4. Alcance Actual (MVP)
 
+## Incluido
+
+- Selección Mexicana Mayor Masculina.
+- Resultados históricos oficiales.
+- Dashboard interactivo en Tableau Public.
+- Publicaciones analíticas en LinkedIn.
+- Arquitectura Bronze / Silver / Gold.
+- Procesos ETL con Python.
+- Data Warehouse en BigQuery.
+
+## Fuera del Alcance Actual
+
+- Selección Mexicana Femenil.
+- Selección Sub-23.
+- Selección Sub-20.
+- Datos detallados de jugadores.
+- Machine Learning.
+- Modelos predictivos.
+
+---
+
+# 5. Cobertura Histórica
+
+Fuente oficial validada:
+
+International Football Results from 1872 to 2026
+
+Autor:
+Mart Jürisoo (Kaggle)
+
+Cobertura actual de México:
+
+- Primer partido: 1923-01-01
+- Último partido: 2026-07-05
+- Total de partidos: 1008
+
+---
+
+# 6. Stack Tecnológico Aprobado
+
+## Data Engineering
+
+- Python
+- Pandas
+- Jupyter Notebook
+
+## Data Warehouse
+
+- Google BigQuery
+
+## SQL
+
+- BigQuery SQL
+
+## Visualización
+
+- Tableau Public
+
+## Versionamiento
+
+- GitHub
+
+## Publicación
+
+- LinkedIn
+
+---
+
+# 7. Arquitectura MVP Implementada
+
+```text
+Dataset Kaggle
+        ↓
+Python ETL
+        ↓
+BigQuery Bronze
+        ↓
+BigQuery Silver
+        ↓
+BigQuery Gold
+        ↓
 Tableau Public
-Control de Versiones:
-
-GitHub
-Publicación:
-
+        ↓
 LinkedIn
-8. Arquitectura Aprobada (MVP)
-API-Football ↓ Python ETL ↓ BigQuery ↓ SQL ↓ Tableau Public ↓ LinkedIn
+```
 
-9. Arquitectura de Datos
-Datasets BigQuery:
+---
 
-mexico2030_bronze
-mexico2030_silver
-mexico2030_gold
-Modelo:
+# 8. Arquitectura de Datos
 
-Bronze → Datos crudos
+## Proyecto BigQuery
 
-Silver → Datos limpios y normalizados
+mexico2030analytics
 
-Gold → KPIs y modelos analíticos
+## Datasets
 
-10. Fuentes de Datos Aprobadas
-Fase Inicial
-API-Football
-Fase Secundaria
-football-data.org
-Futuro
-soccerdata
-FBref
-StatsBomb Open Data
-Transfermarkt
-11. Restricciones del Proyecto
-Tiempo disponible:
+### Bronze
+
+- raw_matches
+
+### Silver
+
+- matches
+
+### Gold
+
+- fact_mexico_matches
+
+---
+
+# 9. Regla Oficial del Proyecto
+
+> Un análisis publicado vale más que un análisis perfecto que nunca se publica.
+
+---
+
+# 10. Restricciones
+
+## Tiempo disponible
 
 Mínimo 5 horas por semana.
 
-Prioridad:
+## Prioridad
 
 Consistencia y continuidad sobre complejidad técnica.
 
-12. Regla Oficial del Proyecto
-Un análisis publicado vale más que un análisis perfecto que nunca se publica.
+---
 
-13. Próximo Objetivo
-Diseñar el modelo físico de datos en BigQuery.
+# 11. Estado Oficial del Proyecto
 
-Entregables pendientes:
+## Versión Actual
 
-Nombre oficial del proyecto BigQuery
-Tablas Bronze
-Tablas Silver
-Tablas Gold
-MVP Dashboard v1
-MVP Dashboard V1
-Objetivo:
+v0.1.0
 
-Publicar el primer dashboard de Tricolor Analytics.
+## Estado
 
-Páginas:
+✅ MVP COMPLETADO
 
-Resumen Histórico México 2014-Presente
-Evolución Ranking FIFA
-Análisis de Rivales
-Tablas requeridas:
+## Fecha de Cierre
 
-gold.fact_matches gold.fact_rankings
+Julio 2026
 
-Tabla opcional:
+---
 
-gold.dim_players
+# 12. Historial de Sprints
 
-14. Decisiones Aprobadas
-DA-001
-Fecha: 2026-07-09
+## Sprint 1 – Exploración Inicial
+
+Estado: COMPLETADO
+
+Entregables:
+
+- Exploración del dataset histórico.
+- Validación inicial de calidad.
+
+Resultados:
+
+- Dataset seleccionado.
+- Estrategia MVP definida.
+
+---
+
+## Sprint 2 – Bronze Layer
+
+Estado: COMPLETADO
+
+Entregables:
+
+- 001_data_ingestion.ipynb
+- 002_bronze_raw_matches.ipynb
+
+Resultados:
+
+- Datos cargados en BigQuery Bronze.
+
+---
+
+## Sprint 3 – Silver Layer
+
+Estado: COMPLETADO
+
+Entregables:
+
+- 003_silver_matches.ipynb
+
+Resultados:
+
+- 49,501 partidos válidos.
+- 0 duplicados.
+- 0 valores nulos.
+- match_id generado.
+
+---
+
+## Sprint 4 – Gold Layer
+
+Estado: COMPLETADO
+
+Entregables:
+
+- fact_mexico_matches
+
+Resultados:
+
+- 1008 partidos de México.
+- Cobertura histórica 1923–2026.
+
+---
+
+## Sprint 5 – Dashboard Tableau V1
+
+Estado: COMPLETADO
+
+KPIs:
+
+- Partidos Jugados
+- Victorias
+- Empates
+- Derrotas
+- % Victorias
+
+Visualizaciones:
+
+- Rendimiento por Año
+- Resultados por Competición
+- Home vs Away vs Neutral
+- Top 10 Rivales
+
+Resultado:
+
+Dashboard publicado en Tableau Public.
+
+---
+
+# 13. Dashboard Oficial
+
+Tableau Public:
+
+https://public.tableau.com/views/Mexico2030_Analytics_V1_twb/DashboardV1SELECCIONMEXICO
+
+Estado:
+
+✅ Publicado
+
+---
+
+# 14. Roadmap
+
+## Fase 1 – MVP
+
+Estado: COMPLETADA
+
+- Infraestructura BigQuery.
+- Bronze Layer.
+- Silver Layer.
+- Gold Layer.
+- Dashboard Tableau V1.
+
+---
+
+## Fase 2 – Dashboard V1.1
+
+Estado: EN PLANIFICACIÓN
+
+Objetivos:
+
+- Filtros globales.
+- Mejora visual.
+- Storytelling ejecutivo.
+- Optimización del layout.
+
+---
+
+## Fase 3 – Analytics Avanzado
+
+Pendiente
+
+- Rendimiento por década.
+- Análisis por rival.
+- Rendimiento por torneo.
+- Nuevas tablas Gold.
+
+---
+
+## Fase 4 – Automatización
+
+Pendiente
+
+- Integración con APIs.
+- Actualización automática.
+- Automatización de dashboards.
+
+---
+
+# 15. Decisiones Arquitectónicas
+
+## DA-001
 
 Se excluye la Selección Femenil del alcance inicial.
 
-Motivo: Reducir complejidad y enfocarse en Selección Mayor, Sub-23 y Sub-20.
-
 Estado: Aprobado.
 
-DA-002
-Fecha: 2026-07-09
+---
+
+## DA-002
 
 Se adopta arquitectura Bronze / Silver / Gold.
 
 Estado: Aprobado.
 
-DA-003
-Fecha: 2026-07-09
+---
 
-API-Football será la fuente principal para el MVP.
+## DA-003
 
-Estado: Aprobado. DA-004
+Se adopta estrategia MVP basada en dataset histórico consolidado.
 
-Proyecto BigQuery: mexico2030analytics
+Estado: Aprobado.
 
-Estado: Aprobado DA-005
+---
 
-La fase de planificación inicial queda concluida.
-DA-006
+## DA-004
 
-Se aprueba la creación de documentación pública desde el inicio del proyecto.
+Proyecto BigQuery oficial:
 
-Documentos:
-- README.md
-- Project_Master.md
+mexico2030analytics
 
-Objetivo:
-Facilitar mantenimiento, colaboración y visibilidad profesional.
+Estado: Aprobado.
+
+---
+
+## DA-005
+
+Se aprueba el dataset oficial:
+
+International Football Results from 1872 to 2026
+
+Autor:
+Mart Jürisoo
+
+Fuente:
+Kaggle
+
+Estado: Aprobado.
+
+---
+
+## DA-006
+
+Se aprueba fact_mexico_matches como primera tabla Gold oficial.
+
+Granularidad:
+
+1 fila = 1 partido de México.
+
+Estado: Aprobado.
+
+---
+
+## DA-007
+
+Se adopta Tableau Public como plataforma oficial de visualización.
+
+Estado: Aprobado.
+
+---
+
+## DA-008
+
+Se valida la cobertura histórica oficial.
+
+Resultados:
+
+- 1008 partidos.
+- 1923–2026.
+
+Estado: Aprobado.
+
+---
+
+## DA-009
+
+Se declara completado el MVP v0.1.0.
 
 Estado:
-Aprobado
 
-El proyecto entra en fase de ejecución.
-
-Fecha: Julio 2026
+✅ Cerrado
