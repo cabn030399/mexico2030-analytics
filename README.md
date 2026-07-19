@@ -162,6 +162,17 @@ Objetivo actual:
 Construir la infraestructura inicial y comenzar la ingesta de datos históricos de la Selección Mexicana.
 
 ---
+## Roadmap
+
+✅ MVP Dashboard V1
+
+🔄 Dashboard V1.1
+
+⬜ Métricas avanzadas
+
+⬜ Automatización
+
+⬜ Dashboard Mundial 2030
 
 ## 📬 Autor
 
