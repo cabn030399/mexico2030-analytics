@@ -101,3 +101,93 @@ silver.matches contiene 49,501 registros válidos para análisis.
 Estado:
 
 Aprobado.
+---
+
+## [v0.3.0] - 2026-07-14
+
+### Sprint 4 - Gold Layer
+
+#### Añadido
+
+- Creación de la tabla `gold.fact_mexico_matches`.
+- Definición oficial de la granularidad:
+  - 1 fila = 1 partido de México.
+- Construcción de métricas analíticas para Tableau.
+
+#### Resultado
+
+Cobertura validada:
+
+- Primer partido: 1923-01-01
+- Último partido: 2026-07-05
+- Total partidos: 1008
+
+#### Estado
+
+✅ Completado
+
+---
+
+## [v0.4.0] - 2026-07-15
+
+### Sprint 5 - Dashboard Tableau V1
+
+#### Añadido
+
+KPIs:
+
+- Partidos Jugados
+- Victorias
+- Empates
+- Derrotas
+- % Victorias
+
+Visualizaciones:
+
+- Rendimiento por Año
+- Resultados por Competición
+- Home vs Away vs Neutral
+- Top 10 Rivales Más Enfrentados
+
+#### Resultado
+
+Dashboard publicado en Tableau Public.
+
+#### Estado
+
+✅ Completado
+
+---
+
+## [v0.5.0] - 2026-07-16
+
+### Cierre Oficial MVP
+
+#### Completado
+
+- BigQuery Bronze Layer
+- BigQuery Silver Layer
+- BigQuery Gold Layer
+- fact_mexico_matches
+- Dashboard Tableau V1
+- Publicación inicial en LinkedIn
+- Documentación técnica completa
+
+#### Resultado
+
+México2030 Analytics alcanza el estado:
+
+✅ MVP COMPLETADO
+
+Versión:
+
+v0.1.0
+
+Cobertura:
+
+- 1008 partidos
+- 1923–2026
+
+#### Estado
+
+✅ Cerrado

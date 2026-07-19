@@ -1,104 +1,148 @@
-# 🇲🇽 Camino al Mundial 2030
+# 🇲🇽 México2030 Analytics
 
 ## Tricolor Analytics
 
-Proyecto de Sports Analytics enfocado en analizar la evolución de la Selección Mexicana de Fútbol rumbo al Mundial 2030 mediante técnicas de análisis de datos, ingeniería de datos, visualización y storytelling.
+Proyecto de Sports Analytics enfocado en analizar el rendimiento histórico de la Selección Mexicana de Fútbol mediante técnicas de Data Analytics, Data Engineering y Business Intelligence.
+
+El objetivo es construir una plataforma de análisis que permita estudiar la evolución de México rumbo al Mundial 2030 y generar insights basados en datos para comprender tendencias, fortalezas y oportunidades de mejora del equipo nacional.
 
 ---
 
-## 🎯 Objetivo
+## 🔗 Enlaces
 
-Construir una plataforma de análisis que permita estudiar el rendimiento histórico y futuro de las selecciones nacionales masculinas de México:
+### 📊 Dashboard Tableau Public
 
-* Selección Mayor
-* Selección Sub-23
-* Selección Sub-20
+https://public.tableau.com/app/profile/carlos.borja1355/viz/Mexico2030_Analytics_V1_twb/RendimientodeMxicoporAo
 
-El proyecto busca responder preguntas como:
+### 💼 LinkedIn
 
-* ¿Cómo ha evolucionado el rendimiento de México desde 2014?
-* ¿Qué entrenadores han obtenido mejores resultados?
-* ¿Contra qué rivales tiene mejor desempeño?
-* ¿Cómo llega México a cada partido rumbo al Mundial 2030?
-* ¿Qué tendencias pueden identificarse antes y después de cada encuentro?
+https://www.linkedin.com/in/carlos-borja-analista
+
+### 💻 GitHub
+
+https://github.com/cabn030399
 
 ---
 
-## 📊 Alcance
+## 📸 Dashboard MVP
+
+<img width="1366" height="768" alt="Dashboard México2030 Analytics" src="https://github.com/user-attachments/assets/026875ca-e9d2-4bbf-a7eb-19a6ebf96836" />
+
+---
+
+## 🎯 Objetivo del Proyecto
+
+Responder preguntas como:
+
+- ¿Cómo ha evolucionado el rendimiento de México a lo largo de su historia?
+- ¿Contra qué rivales obtiene mejores resultados?
+- ¿Cómo cambia el desempeño según el torneo?
+- ¿Qué impacto tiene jugar como local, visitante o en sede neutral?
+- ¿Qué tendencias pueden identificarse rumbo al Mundial 2030?
+
+---
+
+## 📊 Alcance Actual (MVP)
 
 ### Incluido
 
-* Selección Mexicana Mayor Masculina
-* Selección Mexicana Sub-23
-* Selección Mexicana Sub-20
-* Partidos históricos desde 2014
-* Seguimiento continuo hasta 2030
-* Análisis de rivales directos
-* Ranking FIFA
-* Convocatorias y jugadores
+- Selección Mexicana Mayor Masculina
+- Resultados históricos oficiales
+- Dashboard interactivo en Tableau Public
+- Publicación de análisis en LinkedIn
+- Arquitectura Bronze / Silver / Gold
+- Procesos ETL con Python
+- Data Warehouse en BigQuery
 
-### Excluido (MVP)
+### Fuera del alcance actual
 
-* Selección Femenil
-* Modelos avanzados de scouting
-* Visión computacional
-* Tracking de jugadores
-* Machine Learning avanzado
+- Selección Femenil
+- Selección Sub-23
+- Selección Sub-20
+- Datos de jugadores
+- Modelos predictivos
+- Machine Learning
+
+---
+
+## 📂 Dataset Oficial
+
+### Fuente principal
+
+International Football Results from 1872 to 2026
+
+Autor:
+Mart Jürisoo (Kaggle)
+
+### Cobertura validada para México
+
+| Métrica | Valor |
+|----------|----------|
+| Primer partido | 1923-01-01 |
+| Último partido | 2026-07-05 |
+| Total partidos | 1008 |
 
 ---
 
 ## 🏗️ Arquitectura
 
-RAW Sources
-↓
-Bronze
-↓
-Silver
-↓
-Gold
-↓
+```text
+Fuentes de Datos
+        ↓
+Bronze Layer
+        ↓
+Silver Layer
+        ↓
+Gold Layer
+        ↓
 Tableau Public
-↓
+        ↓
 LinkedIn
+```
 
-### Fuentes de Datos
+### Capas implementadas
 
-* API-Football
-* football-data.org
-* FIFA Rankings
+#### Bronze
 
-Fuentes futuras:
+- raw_matches
 
-* FBref
-* soccerdata
-* StatsBomb Open Data
-* Transfermarkt
+#### Silver
+
+- matches
+
+#### Gold
+
+- fact_mexico_matches
 
 ---
 
 ## 🛠️ Stack Tecnológico
 
-### Ingeniería de Datos
+### Data Engineering
 
-* Python
-* Pandas
-* Requests
+- Python
+- Pandas
+- Jupyter Notebook
 
 ### Data Warehouse
 
-* Google BigQuery
+- Google BigQuery
+
+### SQL
+
+- BigQuery SQL
 
 ### Visualización
 
-* Tableau Public
+- Tableau Public
 
 ### Control de Versiones
 
-* GitHub
+- GitHub
 
-### Publicación
+### Comunicación
 
-* LinkedIn
+- LinkedIn
 
 ---
 
@@ -110,15 +154,17 @@ mexico2030-analytics/
 ├── docs/
 │   ├── Project_Master.md
 │   ├── Architecture.md
-│   └── Data_Dictionary.md
+│   ├── Data_Dictionary.md
+│   └── CHANGELOG.md
 │
 ├── data/
 │   ├── raw/
 │   └── processed/
 │
 ├── notebooks/
-│
-├── sql/
+│   ├── 001_data_ingestion.ipynb
+│   ├── 002_bronze_raw_matches.ipynb
+│   └── 003_silver_matches.ipynb
 │
 ├── dashboard/
 │
@@ -127,39 +173,44 @@ mexico2030-analytics/
 
 ---
 
-## 📈 Roadmap
+## 📈 Dashboard V1
 
-### Fase 1 — MVP
+### KPIs
 
-* Crear infraestructura en BigQuery
-* Obtener datos históricos de México desde 2014
-* Construir modelo Bronze / Silver / Gold
-* Desarrollar Dashboard V1
-* Publicar primeros análisis en LinkedIn
+- Partidos Jugados
+- Victorias
+- Empates
+- Derrotas
+- % Victorias
 
-### Fase 2
+### Visualizaciones
 
-* Automatización de cargas
-* Integración de nuevas fuentes
-* Seguimiento de convocatorias y jugadores
-
-### Fase 3
-
-* Análisis avanzados
-* Predicciones
-* Plataforma pública de Tricolor Analytics
+- Rendimiento Histórico por Año
+- Resultados por Competición
+- Rendimiento Home / Away / Neutral
+- Top 10 Rivales Más Enfrentados
 
 ---
 
 ## 🚀 Estado del Proyecto
 
-Fase actual:
+### Versión actual
 
-**Ejecución — Sprint 1**
+v0.1.0
 
-Objetivo actual:
+### Estado
 
-Construir la infraestructura inicial y comenzar la ingesta de datos históricos de la Selección Mexicana.
+✅ MVP COMPLETADO
+
+### Componentes finalizados
+
+- Infraestructura BigQuery
+- Bronze Layer
+- Silver Layer
+- Gold Layer
+- fact_mexico_matches
+- Dashboard Tableau V1
+- Publicación inicial en LinkedIn
 
 ---
 ## Roadmap
@@ -174,26 +225,58 @@ Construir la infraestructura inicial y comenzar la ingesta de datos históricos 
 
 ⬜ Dashboard Mundial 2030
 
-## 📬 Autor
+## 🗺️ Roadmap
+
+### ✅ Fase 1 — MVP
+
+- Infraestructura en BigQuery
+- Arquitectura Bronze / Silver / Gold
+- ETL inicial
+- Dashboard Tableau V1
+- Publicación inicial
+
+### 🔄 Fase 2 — Dashboard V1.1
+
+- Mejora visual del dashboard
+- Filtros globales
+- Optimización de storytelling
+- Mejor experiencia de usuario
+
+### ⬜ Fase 3 — Analytics Avanzado
+
+- Métricas por década
+- Análisis por rival
+- Rendimiento por torneo
+- Nuevas tablas Gold
+
+### ⬜ Fase 4 — Automatización
+
+- Integración con APIs
+- Actualización automática de datos
+- Pipeline automatizado
+
+### ⬜ Fase 5 — México rumbo al Mundial 2030
+
+- Seguimiento continuo de resultados
+- Publicaciones post-partido
+- Dashboard actualizado periódicamente
+
+---
+
+## 👨‍💻 Autor
 
 Carlos Borja
 
-Analista de Datos | Sports Analytics
+Data Analyst | Sports Analytics
 
 LinkedIn:
-[www.linkedin.com/in/carlos-borja-analista](http://www.linkedin.com/in/carlos-borja-analista)
+https://www.linkedin.com/in/carlos-borja-analista
 
 GitHub:
 https://github.com/cabn030399
 
 ---
 
-## ⚽ Tricolor Analytics
+## ⚽ México2030 Analytics
 
-Datos, contexto y análisis para entender el camino de México rumbo al Mundial 2030.
-
-## Dashboard Interactivo
-
-Visualización oficial del proyecto México2030 Analytics:
-
-🔗 [Dashboard Tableau Public](https://public.tableau.com/app/profile/carlos.borja1355/viz/Mexico2030_Analytics_V1_twb/RendimientodeMxicoporAo)
+Transformando datos en historias para entender el camino de la Selección Mexicana rumbo al Mundial 2030.
