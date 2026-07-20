@@ -515,4 +515,210 @@ La auditoría confirmó la consistencia entre la Gold Layer y las fuentes extern
 **Estado final:** APROBADO ✅
 
 **Score:** 9/9 validaciones aprobadas.
+# FIFA World Cup – Auditoría de Calidad de Datos
+
+**Proyecto:** México2030 Analytics
+**Capa validada:** Gold Layer
+**Tabla:** `gold.fact_mexico_matches`
+**Fecha:** 19 de julio de 2026
+
+---
+
+# Objetivo
+
+Validar la consistencia de las métricas principales del historial de México en Copas del Mundo y comprobar la alineación entre:
+
+* Gold Layer
+* Dashboard Tableau
+* Fuentes históricas externas
+
+---
+
+# Definición del universo analizado
+
+Durante la auditoría inicial se detectó que el filtro:
+
+```sql
+WHERE tournament LIKE '%World Cup%'
+```
+
+incluía dos competiciones diferentes:
+
+| Competición                  | Partidos |
+| ---------------------------- | -------: |
+| FIFA World Cup qualification |      160 |
+| FIFA World Cup               |       65 |
+
+Se corrigió el criterio utilizando únicamente:
+
+```sql
+WHERE tournament = 'FIFA World Cup'
+```
+
+---
+
+# Resultados validados
+
+## WC-001 — Partidos jugados
+
+Resultado:
+
+**65 partidos**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+## WC-002 — Victorias
+
+Resultado:
+
+**21 victorias**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+## WC-003 — Empates
+
+Resultado:
+
+**15 empates**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+## WC-004 — Derrotas
+
+Resultado:
+
+**29 derrotas**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+## WC-005 — Porcentaje de victorias
+
+Cálculo:
+
+21 / 65 = 32.31%
+
+Resultado:
+
+**32.31%**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+# Validación por condición de sede
+
+| Tipo    | Partidos |
+| ------- | -------: |
+| Neutral |       46 |
+| Home    |       14 |
+| Away    |        5 |
+
+Comprobación:
+
+46 + 14 + 5 = 65
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+# WC-009 — Top rivales enfrentados
+
+Resultado Gold Layer:
+
+| Posición | Rival       | Partidos |
+| -------- | ----------- | -------: |
+| 1        | Brazil      |        5 |
+| 2        | Germany     |        4 |
+| 3        | France      |        4 |
+| 4        | Argentina   |        4 |
+| 5        | Italy       |        3 |
+| 6        | Belgium     |        3 |
+| 7        | South Korea |        3 |
+| 8        | Netherlands |        2 |
+| 9        | England     |        2 |
+| 10       | Poland      |        2 |
+
+Validación:
+
+* Orden correcto en Tableau.
+* Rivales coinciden con Gold Layer.
+* No se detectaron problemas de normalización de nombres.
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+# Hallazgo detectado
+
+## Filtro de competición
+
+Se identificó que usar búsquedas amplias por nombre de torneo puede mezclar:
+
+* Copa del Mundo
+* Eliminatorias mundialistas
+
+Acción correctiva:
+
+Definir filtros exactos por competición.
+
+Ejemplo:
+
+Correcto:
+
+```sql
+tournament = 'FIFA World Cup'
+```
+
+Incorrecto:
+
+```sql
+tournament LIKE '%World Cup%'
+```
+
+---
+
+# Resultado final
+
+| Validación       | Estado |
+| ---------------- | ------ |
+| Partidos jugados | ✅      |
+| Victorias        | ✅      |
+| Empates          | ✅      |
+| Derrotas         | ✅      |
+| % Victorias      | ✅      |
+| Local            | ✅      |
+| Visitante        | ✅      |
+| Neutral          | ✅      |
+| Top rivales      | ✅      |
+
+## Score final
+
+**9/9 validaciones aprobadas**
+
+Estado:
+
+# APROBADO ✅
+
 
