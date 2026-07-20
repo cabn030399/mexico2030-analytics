@@ -501,6 +501,70 @@ Próximas auditorías:
 * Confederations Cup
 * Friendly
 * Otros torneos históricos
+# Changelog
+
+## México2030 Analytics
+
+---
+
+# v1.1.6 — Auditoría Friendly completada
+
+**Fecha:** 19 de julio de 2026
+
+---
+
+## Validación agregada
+
+Se completó la auditoría del torneo:
+
+* Friendly
+
+---
+
+# Resultados confirmados
+
+* 485 partidos
+* 225 victorias
+* 122 empates
+* 138 derrotas
+* 46.39% porcentaje de victorias
+
+---
+
+# Hallazgos
+
+Se confirmó que el modelo mantiene consistencia incluso en el bloque histórico más grande.
+
+Validaciones realizadas:
+
+* Resultados
+* Localía
+* Rivales
+* Dashboard
+* Consistencia matemática
+
+---
+
+# Resultado
+
+✅ Datos validados
+
+Score:
+
+9/9 validaciones aprobadas
+
+---
+
+## Fase Auditoría Inicial completada
+
+Competiciones auditadas:
+
+* Gold Cup
+* FIFA World Cup
+* Copa América
+* CONCACAF Nations League
+* FIFA World Cup Qualification
+* Friendly
 
 
 
