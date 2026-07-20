@@ -1257,6 +1257,168 @@ Por lo tanto, la validación externa se considera:
 APROBADO ✅
 
 **Score final: 9/9 validaciones aprobadas**
+# Friendly Matches – Auditoría de Calidad de Datos
+
+**Proyecto:** México2030 Analytics
+**Capa validada:** Gold Layer
+**Tabla:** `gold.fact_mexico_matches`
+**Competición:** Friendly
+**Fecha:** 19 de julio de 2026
+
+---
+
+# Objetivo
+
+Validar la calidad y consistencia de los partidos amistosos históricos de México mediante:
+
+* Gold Layer
+* Dashboard Tableau
+* Contraste histórico externo
+
+---
+
+# Definición del universo analizado
+
+Competición:
+
+```sql
+tournament = 'Friendly'
+```
+
+Registros analizados:
+
+**485 partidos**
+
+---
+
+# Resultados validados
+
+## FR-001 — Partidos jugados
+
+Resultado:
+
+**485 partidos**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+## FR-002 — Victorias
+
+Resultado:
+
+**225 victorias**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+## FR-003 — Empates
+
+Resultado:
+
+**122 empates**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+## FR-004 — Derrotas
+
+Resultado:
+
+**138 derrotas**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+# FR-005 — Porcentaje de victorias
+
+Cálculo:
+
+225 / 485
+
+Resultado:
+
+**46.39%**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+# Distribución por sede
+
+| Tipo    | Partidos |
+| ------- | -------: |
+| Neutral |      199 |
+| Home    |      161 |
+| Away    |      125 |
+
+Comprobación:
+
+199 + 161 + 125 = 485
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+# FR-009 — Top 10 rivales
+
+| Posición | Rival         | Partidos |
+| -------- | ------------- | -------: |
+| 1        | Colombia      |       23 |
+| 2        | United States |       23 |
+| 3        | Peru          |       21 |
+| 4        | Brazil        |       20 |
+| 5        | Argentina     |       20 |
+| 6        | Ecuador       |       19 |
+| 7        | Chile         |       19 |
+| 8        | Guatemala     |       17 |
+| 9        | Paraguay      |       15 |
+| 10       | Uruguay       |       15 |
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+# Validación externa
+
+Se realizó contraste histórico de rivales y estructura competitiva.
+
+Resultado:
+
+Los principales rivales encontrados son consistentes con el historial internacional de México.
+
+Nota:
+
+No existe una fuente pública única con exactamente el mismo agregado histórico de 485 partidos bajo los mismos criterios del dataset.
+
+---
+
+# Resultado final
+
+Estado:
+
+APROBADO ✅
+
+Score:
+
+**9/9 validaciones aprobadas**
 
 
 
