@@ -461,3 +461,145 @@ La documentación refleja el estado real del proyecto tras el cierre del MVP v0.
 Estado:
 
 Aprobado
+
+# Project Master Update
+
+## Fase: Auditoría de Calidad de Datos V1.0
+
+**Fecha de cierre:** 19 de julio de 2026
+
+---
+
+# DEC-XXX — Modelo histórico auditado y validado
+
+## Contexto
+
+Antes de continuar con nuevos dashboards y análisis avanzados, se decidió realizar una auditoría completa de las métricas históricas utilizadas en México2030 Analytics.
+
+El objetivo fue asegurar que los indicadores principales del modelo fueran consistentes, reproducibles y confiables.
+
+---
+
+# Alcance de auditoría
+
+La validación se realizó sobre la tabla:
+
+```
+gold.fact_mexico_matches
+```
+
+Métricas auditadas:
+
+* Partidos jugados
+* Victorias
+* Empates
+* Derrotas
+* Porcentaje de victorias
+* Distribución por sede:
+
+  * Home
+  * Away
+  * Neutral
+* Top rivales enfrentados
+
+---
+
+# Competiciones auditadas
+
+| Competición                  | Partidos | Estado     |
+| ---------------------------- | -------: | ---------- |
+| Friendly                     |      485 | ✅ Validado |
+| FIFA World Cup Qualification |      160 | ✅ Validado |
+| Gold Cup                     |       91 | ✅ Validado |
+| FIFA World Cup               |       65 | ✅ Validado |
+| Copa América                 |       51 | ✅ Validado |
+| CONCACAF Nations League      |       20 | ✅ Validado |
+
+---
+
+# Resultado global
+
+Total de partidos auditados:
+
+```
+872 partidos
+```
+
+Validaciones realizadas:
+
+```
+6 competiciones × 9 métricas = 54 validaciones
+```
+
+Resultado:
+
+```
+54/54 validaciones aprobadas
+```
+
+Estado:
+
+✅ Modelo histórico validado
+
+---
+
+# Metodología aplicada
+
+Cada competición siguió el mismo proceso:
+
+1. Confirmación del nombre exacto del torneo dentro del modelo.
+2. Extracción de métricas desde Gold Layer.
+3. Comparación contra Dashboard Tableau.
+4. Validación matemática de totales.
+5. Revisión de distribución de sedes.
+6. Validación del ranking de rivales.
+7. Contraste histórico externo.
+
+---
+
+# Decisiones técnicas derivadas
+
+## DEC-XXX-01 — Uso obligatorio de filtros exactos de competición
+
+Se establece como estándar utilizar:
+
+```sql
+WHERE tournament = 'Nombre exacto'
+```
+
+Evitando filtros ambiguos como:
+
+```sql
+LIKE '%texto%'
+```
+
+para prevenir mezcla entre competiciones similares.
+
+---
+
+## DEC-XXX-02 — Auditoría previa a nuevos dashboards
+
+Todo nuevo dashboard o análisis construido sobre Gold Layer deberá utilizar únicamente métricas previamente validadas.
+
+---
+
+# Impacto en el proyecto
+
+Con la auditoría completada, México2030 Analytics cuenta con una base histórica confiable para desarrollar:
+
+* Dashboard de rivales.
+* Dashboard mundialista.
+* Análisis comparativo por ciclos.
+* Scouting.
+* Modelos predictivos futuros.
+
+---
+
+# Estado de la fase
+
+COMPLETADA ✅
+
+Siguiente fase:
+
+Desarrollo de dashboards especializados y generación de insights de Sports Analytics.
+
