@@ -346,5 +346,77 @@ Próximas auditorías pendientes:
 * Confederaciones Cup
 * Nations League
 * Amistosos
+# Changelog
+
+## México2030 Analytics
+
+---
+
+# v1.1.4 — Auditoría CONCACAF Nations League completada
+
+**Fecha:** 19 de julio de 2026
+
+---
+
+## Validaciones agregadas
+
+Se completó la auditoría de calidad de datos para:
+
+* CONCACAF Nations League
+
+Métricas verificadas:
+
+* Partidos jugados
+* Victorias
+* Empates
+* Derrotas
+* Porcentaje de victorias
+* Distribución por sede
+* Top rivales históricos
+
+---
+
+# Resultados confirmados
+
+CONCACAF Nations League:
+
+* 20 partidos
+* 12 victorias
+* 3 empates
+* 5 derrotas
+* 60% porcentaje de victorias
+
+---
+
+# Hallazgos
+
+Se confirmó que el modelo diferencia correctamente:
+
+* CONCACAF Nations League
+* CONCACAF Championship
+* CONCACAF Championship qualification
+
+utilizando filtros exactos de competición.
+
+---
+
+# Resultado auditoría
+
+Estado:
+
+✅ Datos validados
+
+Score:
+
+9/9 validaciones aprobadas
+
+---
+
+Próximas auditorías:
+
+* Eliminatorias Mundialistas
+* Confederations Cup
+* Amistosos
+* Otros torneos históricos
 
 
