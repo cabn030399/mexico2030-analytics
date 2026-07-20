@@ -720,5 +720,169 @@ tournament LIKE '%World Cup%'
 Estado:
 
 # APROBADO ✅
+# Copa América – Auditoría de Calidad de Datos
+
+**Proyecto:** México2030 Analytics
+**Capa validada:** Gold Layer
+**Tabla:** `gold.fact_mexico_matches`
+**Competición:** Copa América
+**Fecha:** 19 de julio de 2026
+
+---
+
+# Objetivo
+
+Validar la consistencia de las métricas históricas de México en Copa América mediante la comparación entre:
+
+* Gold Layer
+* Dashboard Tableau
+* Fuentes históricas externas
+
+---
+
+# Definición del universo analizado
+
+Se confirmó que el nombre exacto de la competición dentro del modelo es:
+
+```sql
+tournament = 'Copa América'
+```
+
+Total de registros analizados:
+
+**51 partidos**
+
+---
+
+# Resultados validados
+
+## CA-001 — Partidos jugados
+
+Resultado:
+
+**51 partidos**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+## CA-002 — Victorias
+
+Resultado:
+
+**20 victorias**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+## CA-003 — Empates
+
+Resultado:
+
+**14 empates**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+## CA-004 — Derrotas
+
+Resultado:
+
+**17 derrotas**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+## CA-005 — Porcentaje de victorias
+
+Cálculo:
+
+20 / 51 = 39.21%
+
+Resultado:
+
+**39.21%**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+# Validación por sede
+
+| Tipo    | Partidos |
+| ------- | -------: |
+| Neutral |       46 |
+| Away    |        5 |
+| Home    |        0 |
+
+Comprobación:
+
+46 + 5 + 0 = 51
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+# CA-009 — Top 10 rivales enfrentados
+
+| Posición | Rival     | Partidos |
+| -------- | --------- | -------: |
+| 1        | Chile     |        7 |
+| 2        | Uruguay   |        6 |
+| 3        | Brazil    |        6 |
+| 4        | Ecuador   |        6 |
+| 5        | Peru      |        5 |
+| 6        | Venezuela |        4 |
+| 7        | Argentina |        4 |
+| 8        | Bolivia   |        3 |
+| 9        | Paraguay  |        3 |
+| 10       | Colombia  |        3 |
+
+Validación:
+
+* Orden confirmado en Tableau.
+* Valores coinciden con Gold Layer.
+* No se detectaron problemas de nombres de rivales.
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+# Resultado final
+
+| Validación       | Estado |
+| ---------------- | ------ |
+| Partidos jugados | ✅      |
+| Victorias        | ✅      |
+| Empates          | ✅      |
+| Derrotas         | ✅      |
+| % Victorias      | ✅      |
+| Local            | ✅      |
+| Visitante        | ✅      |
+| Neutral          | ✅      |
+| Top rivales      | ✅      |
+
+# Estado:
+
+APROBADO ✅
+
+**Score: 9/9 validaciones aprobadas**
 
 
