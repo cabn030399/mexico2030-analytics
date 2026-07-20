@@ -884,5 +884,172 @@ Estado:
 APROBADO ✅
 
 **Score: 9/9 validaciones aprobadas**
+# CONCACAF Nations League – Auditoría de Calidad de Datos
+
+**Proyecto:** México2030 Analytics
+**Capa validada:** Gold Layer
+**Tabla:** `gold.fact_mexico_matches`
+**Competición:** CONCACAF Nations League
+**Fecha:** 19 de julio de 2026
+
+---
+
+# Objetivo
+
+Validar la calidad y consistencia de las métricas históricas de México en la CONCACAF Nations League mediante la comparación entre:
+
+* Gold Layer
+* Dashboard Tableau
+* Fuentes históricas externas
+
+---
+
+# Definición del universo analizado
+
+Se confirmó que el nombre exacto de la competición dentro del modelo es:
+
+```sql
+tournament = 'CONCACAF Nations League'
+```
+
+Registros analizados:
+
+**20 partidos**
+
+---
+
+# Resultados validados
+
+## NL-001 — Partidos jugados
+
+Resultado:
+
+**20 partidos**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+## NL-002 — Victorias
+
+Resultado:
+
+**12 victorias**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+## NL-003 — Empates
+
+Resultado:
+
+**3 empates**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+## NL-004 — Derrotas
+
+Resultado:
+
+**5 derrotas**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+## NL-005 — Porcentaje de victorias
+
+Cálculo:
+
+[
+12/20 = 60%
+]
+
+Resultado:
+
+**60%**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+# Validación por sede
+
+| Tipo    | Partidos |
+| ------- | -------: |
+| Away    |        9 |
+| Home    |        6 |
+| Neutral |        5 |
+
+Comprobación:
+
+9 + 6 + 5 = 20
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+# NL-009 — Top rivales enfrentados
+
+Resultado:
+
+| Posición | Rival         | Partidos |
+| -------- | ------------- | -------: |
+| 1        | Panama        |        5 |
+| 2        | Honduras      |        4 |
+| 3        | United States |        3 |
+| 4        | Jamaica       |        2 |
+| 5        | Bermuda       |        2 |
+| 6        | Suriname      |        2 |
+| 7        | Costa Rica    |        1 |
+| 8        | Canada        |        1 |
+
+---
+
+## Observación
+
+La competición cuenta con un número reducido de ediciones, por lo que México solamente registra enfrentamientos contra 8 selecciones diferentes.
+
+No se identificaron problemas de datos.
+
+El Top de rivales fue validado correctamente aunque no alcanza 10 elementos debido al tamaño del universo.
+
+---
+
+# Resultado final
+
+| Validación       | Estado |
+| ---------------- | ------ |
+| Partidos jugados | ✅      |
+| Victorias        | ✅      |
+| Empates          | ✅      |
+| Derrotas         | ✅      |
+| % Victorias      | ✅      |
+| Local            | ✅      |
+| Visitante        | ✅      |
+| Neutral          | ✅      |
+| Top rivales      | ✅      |
+
+# Estado:
+
+APROBADO ✅
+
+**Score final: 9/9 validaciones aprobadas**
+
 
 
