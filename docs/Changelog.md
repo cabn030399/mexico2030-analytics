@@ -418,5 +418,89 @@ Próximas auditorías:
 * Confederations Cup
 * Amistosos
 * Otros torneos históricos
+* # Changelog
+
+## México2030 Analytics
+
+---
+
+# v1.1.5 — Auditoría FIFA World Cup Qualification completada
+
+**Fecha:** 19 de julio de 2026
+
+---
+
+## Validaciones agregadas
+
+Se completó la auditoría de calidad de datos para:
+
+* FIFA World Cup qualification
+
+Métricas verificadas:
+
+* Partidos jugados
+* Victorias
+* Empates
+* Derrotas
+* Porcentaje de victorias
+* Distribución por sede
+* Top 10 rivales históricos
+
+---
+
+# Resultados confirmados
+
+FIFA World Cup Qualification:
+
+* 160 partidos
+* 105 victorias
+* 32 empates
+* 23 derrotas
+* 65.63% porcentaje de victorias
+
+---
+
+# Hallazgos
+
+Se confirmó nuevamente la importancia de utilizar filtros exactos de competición.
+
+Estándar:
+
+```sql
+WHERE tournament = 'Nombre exacto'
+```
+
+Evitar:
+
+```sql
+LIKE '%texto%'
+```
+
+para impedir mezcla entre:
+
+* FIFA World Cup
+* FIFA World Cup qualification
+* Otras competiciones relacionadas
+
+---
+
+# Resultado auditoría
+
+Estado:
+
+✅ Datos validados
+
+Score:
+
+9/9 validaciones aprobadas
+
+---
+
+Próximas auditorías:
+
+* Confederations Cup
+* Friendly
+* Otros torneos históricos
+
 
 
