@@ -195,3 +195,85 @@ v1.1.1
 - Corregido filtro residual en visualización Top 10 Rivales.
 - Validación completa de métricas Gold Cup.
 - Auditoría de calidad completada (9/9 verificaciones aprobadas).
+- # Changelog
+
+## México2030 Analytics
+
+---
+
+# v1.1.2 — Auditoría FIFA World Cup completada
+
+**Fecha:** 19 de julio de 2026
+
+## Validaciones agregadas
+
+Se completó la auditoría de calidad de datos para la competición:
+
+* FIFA World Cup
+
+Métricas verificadas:
+
+* Partidos jugados
+* Victorias
+* Empates
+* Derrotas
+* Porcentaje de victorias
+* Distribución por sede
+* Top 10 rivales históricos
+
+---
+
+## Hallazgos corregidos
+
+### Filtro de competición
+
+Se detectó que consultas con:
+
+```sql
+LIKE '%World Cup%'
+```
+
+mezclaban:
+
+* FIFA World Cup
+* FIFA World Cup qualification
+
+Se estableció como estándar utilizar filtros exactos por competición.
+
+---
+
+## Resultado auditoría
+
+FIFA World Cup:
+
+* 65 partidos
+* 21 victorias
+* 15 empates
+* 29 derrotas
+* 32.31% victorias
+
+Estado:
+
+✅ Datos validados
+
+---
+
+## Mejoras futuras
+
+Pendiente optimización visual del componente:
+
+* Top 10 Rivales
+
+Objetivo:
+
+Mostrar exactamente 10 elementos en Tableau manteniendo el ranking correcto.
+
+---
+
+Próximo bloque de auditoría:
+
+* Eliminatorias Mundialistas
+* Copa América
+* Nations League
+* Amistosos
+
