@@ -461,3 +461,58 @@ La documentación refleja el estado real del proyecto tras el cierre del MVP v0.
 Estado:
 
 Aprobado
+# Gold Cup – Auditoría de Calidad de Datos
+
+**Fecha:** 19 de julio de 2026
+
+## Fuentes de validación
+
+* RSSSF
+* CONCACAF
+* Gold Layer (`gold.fact_mexico_matches`)
+
+## Resultados
+
+* Partidos jugados: 91 ✅
+* Victorias: 67 ✅
+* Empates: 13 ✅
+* Derrotas: 11 ✅
+* Porcentaje de victorias: 73.63% ✅
+* Partidos como local: 10 ✅
+* Partidos como visitante: 8 ✅
+* Partidos en sede neutral: 73 ✅
+* Top 10 rivales enfrentados: Validado ✅
+
+## Hallazgo detectado
+
+Durante la auditoría se identificó una discrepancia entre la Gold Layer y la visualización "Top 10 Rivales" en Tableau.
+
+### Síntoma
+
+* Panamá (6 partidos) no aparecía en el Top 10.
+* Brasil (3 partidos) aparecía dentro del Top 10.
+* La visualización mostraba únicamente 8 rivales.
+
+### Causa raíz
+
+Existía un filtro adicional sobre el campo `Opponent` aplicado en la hoja de Tableau.
+
+### Acción correctiva
+
+Se eliminó el filtro `Opponent` y se verificó nuevamente la visualización.
+
+### Resultado
+
+La visualización quedó alineada con la Gold Layer:
+
+* Panamá ocupa la posición 7 con 6 partidos.
+* Brasil ocupa la posición 11 con 3 partidos.
+
+## Conclusión
+
+La auditoría confirmó la consistencia entre la Gold Layer y las fuentes externas consultadas. No se detectaron errores de calidad en los datos de Gold Cup. La única incidencia encontrada correspondía a una configuración de visualización en Tableau y fue corregida exitosamente.
+
+**Estado final:** APROBADO ✅
+
+**Score:** 9/9 validaciones aprobadas.
+
