@@ -191,3 +191,7 @@ Cobertura:
 #### Estado
 
 ✅ Cerrado
+v1.1.1
+- Corregido filtro residual en visualización Top 10 Rivales.
+- Validación completa de métricas Gold Cup.
+- Auditoría de calidad completada (9/9 verificaciones aprobadas).
