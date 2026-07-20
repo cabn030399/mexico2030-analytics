@@ -1050,6 +1050,214 @@ El Top de rivales fue validado correctamente aunque no alcanza 10 elementos debi
 APROBADO ✅
 
 **Score final: 9/9 validaciones aprobadas**
+# FIFA World Cup Qualification – Auditoría de Calidad de Datos
+
+**Proyecto:** México2030 Analytics
+**Capa validada:** Gold Layer
+**Tabla:** `gold.fact_mexico_matches`
+**Competición:** FIFA World Cup qualification
+**Fecha:** 19 de julio de 2026
+
+---
+
+# Objetivo
+
+Validar la calidad y consistencia de las métricas históricas de México en eliminatorias mundialistas mediante:
+
+* Gold Layer
+* Dashboard Tableau
+* Contraste con fuentes históricas externas
+
+---
+
+# Definición del universo analizado
+
+Se confirmó que el nombre exacto de la competición dentro del modelo es:
+
+```sql
+tournament = 'FIFA World Cup qualification'
+```
+
+Registros analizados:
+
+**160 partidos**
+
+---
+
+# Resultados validados
+
+## WCQ-001 — Partidos jugados
+
+Resultado:
+
+**160 partidos**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+## WCQ-002 — Victorias
+
+Resultado:
+
+**105 victorias**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+## WCQ-003 — Empates
+
+Resultado:
+
+**32 empates**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+## WCQ-004 — Derrotas
+
+Resultado:
+
+**23 derrotas**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+# Validación matemática
+
+| Resultado | Partidos |
+| --------- | -------: |
+| Win       |      105 |
+| Draw      |       32 |
+| Loss      |       23 |
+| Total     |      160 |
+
+Comprobación:
+
+105 + 32 + 23 = 160
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+# WCQ-005 — Porcentaje de victorias
+
+Cálculo:
+
+105 / 160
+
+Resultado:
+
+**65.63%**
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+# Validación por sede
+
+| Tipo    | Partidos |
+| ------- | -------: |
+| Home    |       84 |
+| Away    |       71 |
+| Neutral |        5 |
+
+Comprobación:
+
+84 + 71 + 5 = 160
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+# WCQ-009 — Top 10 rivales enfrentados
+
+| Posición | Rival                            | Partidos |
+| -------- | -------------------------------- | -------: |
+| 1        | United States                    |       24 |
+| 2        | Costa Rica                       |       24 |
+| 3        | Honduras                         |       22 |
+| 4        | Canada                           |       14 |
+| 5        | Jamaica                          |       14 |
+| 6        | El Salvador                      |       12 |
+| 7        | Trinidad and Tobago              |       12 |
+| 8        | Panama                           |       10 |
+| 9        | Saint Vincent and the Grenadines |        6 |
+| 10       | Cuba                             |        4 |
+
+Validación:
+
+* Orden confirmado en Tableau.
+* Valores coinciden con Gold Layer.
+* Sin problemas de filtros detectados.
+
+Estado:
+
+✅ VALIDADO
+
+---
+
+# Validación externa
+
+Se realizó contraste histórico con fuentes externas relacionadas con:
+
+* estructura de eliminatorias FIFA/CONCACAF
+* rivales históricos de México
+* formatos de clasificación mundialista
+
+Resultados:
+
+* La separación entre competición final y clasificación es correcta.
+* Los rivales principales coinciden con la historia competitiva de CONCACAF.
+* La distribución local/visitante corresponde al formato histórico de eliminatorias.
+
+Nota metodológica:
+
+No existe una fuente pública única que presente exactamente el mismo agregado histórico de 160 partidos con el mismo criterio del dataset.
+
+Por lo tanto, la validación externa se considera:
+
+**Validación de consistencia histórica y estructural.**
+
+---
+
+# Resultado final
+
+| Validación       | Estado |
+| ---------------- | ------ |
+| Partidos jugados | ✅      |
+| Victorias        | ✅      |
+| Empates          | ✅      |
+| Derrotas         | ✅      |
+| % Victorias      | ✅      |
+| Local            | ✅      |
+| Visitante        | ✅      |
+| Neutral          | ✅      |
+| Top rivales      | ✅      |
+
+# Estado:
+
+APROBADO ✅
+
+**Score final: 9/9 validaciones aprobadas**
+
 
 
 
