@@ -1,140 +1,73 @@
 # Changelog
 
-# Camino al Mundial 2030
+# 🇲🇽 México2030 Analytics
+
+Registro oficial de cambios del proyecto.
 
 ---
 
-## v0.1.0 - Fundación del Proyecto
+# v1.1.0 — Dashboard Histórico Avanzado
 
-Fecha: Julio 2026
+**Fecha:** Julio 2026
 
-### Completado
+## Añadido
 
-* Definición de visión del proyecto.
-* Definición de objetivos estratégicos.
-* Definición de alcance.
-* Exclusión de Selección Femenil del MVP.
-* Selección de stack tecnológico.
-* Creación del repositorio GitHub.
-* Creación de Project_Master.md.
-* Creación de Architecture.md.
-* Creación de Data_Dictionary.md.
-* Creación de datasets Bronze, Silver y Gold.
-* Selección del dataset histórico oficial.
-* Descarga de resultados internacionales históricos.
+### Nuevo Dashboard Histórico Avanzado
 
-### Dataset Oficial MVP
+Construcción del segundo dashboard especializado utilizando exclusivamente la tabla:
 
-International Football Results from 1872 to 2026
+`gold.fact_mexico_matches`
 
-Autor:
-Mart Jürisoo
+### KPIs
 
-Fuente:
-Kaggle
+- Partidos Jugados
+- Goles Anotados
+- Goles Recibidos
+- Promedio de Goles Anotados
+- Promedio de Goles Recibidos
 
-Archivos:
+### Visualizaciones
 
-* results.csv
-* goalscorers.csv
-* shootouts.csv
-* former_names.csv
+- Evolución de Goles Anotados vs Goles Recibidos por Año
+- Top 10 Rivales con Más Goles Anotados
+- Top 10 Rivales con Más Goles Recibidos
+- Goles Anotados por Competición
+- Goles Recibidos por Competición
+- Rendimiento Ofensivo y Defensivo por Localía
 
-### Estado
+## Decisiones Arquitectónicas
 
-Fase de Planificación:
-✅ Completada
+- Se mantuvo una única fuente de datos (`gold.fact_mexico_matches`).
+- No se incorporaron nuevas tablas ni nuevas fuentes.
+- Se reutilizó la identidad visual del Dashboard Ejecutivo para mantener consistencia.
+- El análisis geográfico quedó pospuesto para futuras versiones al requerir nuevas dimensiones de datos.
 
-Fase de Infraestructura:
-✅ Completada
+## Resultado
 
-Fase de Desarrollo:
-⏳ En progreso
+✅ Dashboard publicado en Tableau Public.
 
 ---
 
-## Próxima Versión
+# v1.0.0 — MVP Completado
 
-v0.2.0
+**Fecha:** Julio 2026
 
-Objetivos:
+## Añadido
 
-* Crear notebook 001_data_ingestion.ipynb
-* Explorar results.csv
-* Construir primera carga hacia BigQuery
-* Crear tabla bronze.raw_matches
-## [v0.2.0] - 2026-07-11
-### Añadido
-- Notebook creado: `notebooks/001_data_ingestion.ipynb`
-- Objetivo: Exploración inicial y análisis de calidad del dataset histórico de resultados internacionales.
-- Estado: Completado exitosamente.
-- Hallazgos clave: 49,505 registros totales y 1,008 partidos identificados de la Selección de México.
-DA-013
+### Arquitectura
 
-Se identificaron 4 registros con home_score y away_score nulos.
+- BigQuery Bronze
+- BigQuery Silver
+- BigQuery Gold
 
-Corresponden a partidos proyectados del Mundial FIFA 2026.
+### Data Engineering
 
-Decisión:
-Mantener registros en Bronze.
-Excluir registros sin marcador en Silver y Gold.
+- ETL desarrollado con Python
+- Construcción de `gold.fact_mexico_matches`
 
-Estado:
-Aprobado.
-## DA-015
+### Dashboard Ejecutivo
 
-Fecha: 2026-07-13
-
-Sprint 3 - Silver Layer
-
-Acciones:
-
-- Eliminados 4 registros sin marcador.
-- Validación de duplicados completada.
-- Creado match_id.
-- Generado matches_silver.csv.
-
-Resultado:
-
-silver.matches contiene 49,501 registros válidos para análisis.
-
-Estado:
-
-Aprobado.
----
-
-## [v0.3.0] - 2026-07-14
-
-### Sprint 4 - Gold Layer
-
-#### Añadido
-
-- Creación de la tabla `gold.fact_mexico_matches`.
-- Definición oficial de la granularidad:
-  - 1 fila = 1 partido de México.
-- Construcción de métricas analíticas para Tableau.
-
-#### Resultado
-
-Cobertura validada:
-
-- Primer partido: 1923-01-01
-- Último partido: 2026-07-05
-- Total partidos: 1008
-
-#### Estado
-
-✅ Completado
-
----
-
-## [v0.4.0] - 2026-07-15
-
-### Sprint 5 - Dashboard Tableau V1
-
-#### Añadido
-
-KPIs:
+#### KPIs
 
 - Partidos Jugados
 - Victorias
@@ -142,439 +75,165 @@ KPIs:
 - Derrotas
 - % Victorias
 
-Visualizaciones:
+#### Visualizaciones
 
-- Rendimiento por Año
+- Rendimiento Histórico por Año
 - Resultados por Competición
-- Home vs Away vs Neutral
 - Top 10 Rivales Más Enfrentados
+- Rendimiento Home / Away / Neutral
 
-#### Resultado
+## Resultado
 
-Dashboard publicado en Tableau Public.
+Cobertura validada:
 
-#### Estado
+- Primer partido: 1923-01-01
+- Último partido: 2026-07-05
+- Total partidos: 1008
+
+Estado:
+
+✅ MVP COMPLETADO
+
+---
+
+# v0.4.0 — Gold Layer
+
+**Fecha:** Julio 2026
+
+## Añadido
+
+- Creación de `gold.fact_mexico_matches`
+- Definición oficial de la granularidad:
+  - 1 fila = 1 partido de México
+- Construcción de métricas analíticas para Tableau
+
+Estado:
 
 ✅ Completado
 
 ---
 
-## [v0.5.0] - 2026-07-16
+# v0.3.0 — Silver Layer
 
-### Cierre Oficial MVP
+**Fecha:** Julio 2026
 
-#### Completado
+## Añadido
 
-- BigQuery Bronze Layer
-- BigQuery Silver Layer
-- BigQuery Gold Layer
-- fact_mexico_matches
-- Dashboard Tableau V1
-- Publicación inicial en LinkedIn
-- Documentación técnica completa
+- Eliminación de registros sin marcador
+- Validación de duplicados
+- Creación de `match_id`
+- Construcción de `silver.matches`
 
-#### Resultado
+Resultado:
 
-México2030 Analytics alcanza el estado:
+49,501 registros válidos para análisis.
 
-✅ MVP COMPLETADO
+Estado:
 
-Versión:
-
-v0.1.0
-
-Cobertura:
-
-- 1008 partidos
-- 1923–2026
-
-#### Estado
-
-✅ Cerrado
-v1.1.1
-- Corregido filtro residual en visualización Top 10 Rivales.
-- Validación completa de métricas Gold Cup.
-- Auditoría de calidad completada (9/9 verificaciones aprobadas).
-- # Changelog
-
-## México2030 Analytics
+✅ Completado
 
 ---
 
-# v1.1.2 — Auditoría FIFA World Cup completada
+# v0.2.0 — Data Ingestion
 
-**Fecha:** 19 de julio de 2026
+**Fecha:** Julio 2026
 
-## Validaciones agregadas
+## Añadido
 
-Se completó la auditoría de calidad de datos para la competición:
+- Notebook `001_data_ingestion.ipynb`
+- Exploración inicial del dataset
+- Validación de calidad
+- Primera carga hacia BigQuery
 
-* FIFA World Cup
+Hallazgos:
 
-Métricas verificadas:
+- 49,505 registros históricos
+- 1,008 partidos correspondientes a México
 
-* Partidos jugados
-* Victorias
-* Empates
-* Derrotas
-* Porcentaje de victorias
-* Distribución por sede
-* Top 10 rivales históricos
+Estado:
+
+✅ Completado
 
 ---
 
-## Hallazgos corregidos
+# v0.1.0 — Fundación del Proyecto
 
-### Filtro de competición
+**Fecha:** Julio 2026
 
-Se detectó que consultas con:
+## Añadido
+
+- Definición de visión
+- Objetivos estratégicos
+- Alcance del proyecto
+- Selección del stack tecnológico
+- Creación del repositorio GitHub
+- Creación de la documentación inicial
+- Definición de la arquitectura Bronze / Silver / Gold
+- Selección del dataset oficial
+
+### Dataset Oficial
+
+International Football Results from 1872 to 2026
+
+Autor:
+
+Mart Jürisoo (Kaggle)
+
+Archivos:
+
+- results.csv
+- goalscorers.csv
+- shootouts.csv
+- former_names.csv
+
+Estado:
+
+✅ Proyecto iniciado
+
+---
+
+# Auditorías de Calidad
+
+Durante la construcción del Dashboard Ejecutivo se realizaron auditorías completas para validar la consistencia de las métricas por competición.
+
+## Competiciones auditadas
+
+- Gold Cup
+- FIFA World Cup
+- FIFA World Cup Qualification
+- Copa América
+- CONCACAF Nations League
+- Friendly
+
+## Validaciones realizadas
+
+- Partidos jugados
+- Victorias
+- Empates
+- Derrotas
+- Porcentaje de victorias
+- Distribución por localía
+- Top rivales históricos
+- Consistencia entre SQL, BigQuery y Tableau
+
+## Decisión aprobada
+
+Como estándar oficial del proyecto se utilizarán filtros exactos sobre el campo `tournament`.
+
+Ejemplo:
+
+```sql
+WHERE tournament = 'FIFA World Cup'
+```
+
+Evitando expresiones como:
 
 ```sql
 LIKE '%World Cup%'
 ```
 
-mezclaban:
+para impedir mezclar competiciones con nombres similares.
 
-* FIFA World Cup
-* FIFA World Cup qualification
+Resultado:
 
-Se estableció como estándar utilizar filtros exactos por competición.
-
----
-
-## Resultado auditoría
-
-FIFA World Cup:
-
-* 65 partidos
-* 21 victorias
-* 15 empates
-* 29 derrotas
-* 32.31% victorias
-
-Estado:
-
-✅ Datos validados
-
----
-
-## Mejoras futuras
-
-Pendiente optimización visual del componente:
-
-* Top 10 Rivales
-
-Objetivo:
-
-Mostrar exactamente 10 elementos en Tableau manteniendo el ranking correcto.
-
----
-
-Próximo bloque de auditoría:
-
-* Eliminatorias Mundialistas
-* Copa América
-* Nations League
-* Amistosos
-* # Changelog
-
-## México2030 Analytics
-
----
-
-# v1.1.3 — Auditoría Copa América completada
-
-**Fecha:** 19 de julio de 2026
-
-## Validaciones agregadas
-
-Se completó la auditoría de calidad de datos para:
-
-* Copa América
-
-Métricas verificadas:
-
-* Partidos jugados
-* Victorias
-* Empates
-* Derrotas
-* Porcentaje de victorias
-* Distribución por sede
-* Top 10 rivales históricos
-
----
-
-## Resultados confirmados
-
-Copa América:
-
-* 51 partidos
-* 20 victorias
-* 14 empates
-* 17 derrotas
-* 39.21% victorias
-
----
-
-## Resultado auditoría
-
-Estado:
-
-✅ Datos validados
-
-Score:
-
-9/9 validaciones aprobadas
-
----
-
-## Observaciones
-
-Se confirmó nuevamente la importancia de utilizar filtros exactos de competición dentro del campo `tournament`.
-
-Estándar aprobado:
-
-```sql
-WHERE tournament = 'Nombre exacto del torneo'
-```
-
----
-
-Próximas auditorías pendientes:
-
-* Eliminatorias Mundialistas
-* Confederaciones Cup
-* Nations League
-* Amistosos
-# Changelog
-
-## México2030 Analytics
-
----
-
-# v1.1.4 — Auditoría CONCACAF Nations League completada
-
-**Fecha:** 19 de julio de 2026
-
----
-
-## Validaciones agregadas
-
-Se completó la auditoría de calidad de datos para:
-
-* CONCACAF Nations League
-
-Métricas verificadas:
-
-* Partidos jugados
-* Victorias
-* Empates
-* Derrotas
-* Porcentaje de victorias
-* Distribución por sede
-* Top rivales históricos
-
----
-
-# Resultados confirmados
-
-CONCACAF Nations League:
-
-* 20 partidos
-* 12 victorias
-* 3 empates
-* 5 derrotas
-* 60% porcentaje de victorias
-
----
-
-# Hallazgos
-
-Se confirmó que el modelo diferencia correctamente:
-
-* CONCACAF Nations League
-* CONCACAF Championship
-* CONCACAF Championship qualification
-
-utilizando filtros exactos de competición.
-
----
-
-# Resultado auditoría
-
-Estado:
-
-✅ Datos validados
-
-Score:
-
-9/9 validaciones aprobadas
-
----
-
-Próximas auditorías:
-
-* Eliminatorias Mundialistas
-* Confederations Cup
-* Amistosos
-* Otros torneos históricos
-* # Changelog
-
-## México2030 Analytics
-
----
-
-# v1.1.5 — Auditoría FIFA World Cup Qualification completada
-
-**Fecha:** 19 de julio de 2026
-
----
-
-## Validaciones agregadas
-
-Se completó la auditoría de calidad de datos para:
-
-* FIFA World Cup qualification
-
-Métricas verificadas:
-
-* Partidos jugados
-* Victorias
-* Empates
-* Derrotas
-* Porcentaje de victorias
-* Distribución por sede
-* Top 10 rivales históricos
-
----
-
-# Resultados confirmados
-
-FIFA World Cup Qualification:
-
-* 160 partidos
-* 105 victorias
-* 32 empates
-* 23 derrotas
-* 65.63% porcentaje de victorias
-
----
-
-# Hallazgos
-
-Se confirmó nuevamente la importancia de utilizar filtros exactos de competición.
-
-Estándar:
-
-```sql
-WHERE tournament = 'Nombre exacto'
-```
-
-Evitar:
-
-```sql
-LIKE '%texto%'
-```
-
-para impedir mezcla entre:
-
-* FIFA World Cup
-* FIFA World Cup qualification
-* Otras competiciones relacionadas
-
----
-
-# Resultado auditoría
-
-Estado:
-
-✅ Datos validados
-
-Score:
-
-9/9 validaciones aprobadas
-
----
-
-Próximas auditorías:
-
-* Confederations Cup
-* Friendly
-* Otros torneos históricos
-# Changelog
-
-## México2030 Analytics
-
----
-
-# v1.1.6 — Auditoría Friendly completada
-
-**Fecha:** 19 de julio de 2026
-
----
-
-## Validación agregada
-
-Se completó la auditoría del torneo:
-
-* Friendly
-
----
-
-# Resultados confirmados
-
-* 485 partidos
-* 225 victorias
-* 122 empates
-* 138 derrotas
-* 46.39% porcentaje de victorias
-
----
-
-# Hallazgos
-
-Se confirmó que el modelo mantiene consistencia incluso en el bloque histórico más grande.
-
-Validaciones realizadas:
-
-* Resultados
-* Localía
-* Rivales
-* Dashboard
-* Consistencia matemática
-
----
-
-# Resultado
-
-✅ Datos validados
-
-Score:
-
-9/9 validaciones aprobadas
-
----
-
-## Fase Auditoría Inicial completada
-
-Competiciones auditadas:
-
-* Gold Cup
-* FIFA World Cup
-* Copa América
-* CONCACAF Nations League
-* FIFA World Cup Qualification
-* Friendly
-
-v1.1.0
-
-Nuevo Dashboard Histórico Avanzado
-
-• KPIs ofensivos
-• KPIs defensivos
-• Evolución de goles por año
-• Top rivales por goles anotados
-• Top rivales por goles recibidos
-• Goles por competición
-• Rendimiento por localía
-
+✅ Todas las auditorías fueron aprobadas satisfactoriamente.
