@@ -258,14 +258,12 @@ Analytics Avanzado
 - Rendimiento por torneo
 
 ---
+BigQuery Gold
+        │
+        ▼
+Dashboard Ejecutivo
 
-## Sprint 8
-
-Automatización
-
-- APIs
-- ETL automatizado
-- Actualización continua
+Dashboard Histórico
 
 ---
 
