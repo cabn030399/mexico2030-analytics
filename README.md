@@ -33,12 +33,11 @@ https://github.com/cabn030399
 # 📸 Dashboards
 
 ## Dashboard Ejecutivo
-
-*(Agregar captura aquí)*
+$<img width="1366" height="768" alt="Captura de pantalla (209)" src="https://github.com/user-attachments/assets/03ab2458-f8cd-49a1-baa1-aaa615b97eb9" />
 
 ## Dashboard Histórico Avanzado
 
-*(Agregar captura aquí)*
+$<img width="1366" height="768" alt="Captura de pantalla (208)" src="https://github.com/user-attachments/assets/a04c6a40-8865-422b-bd32-32c7c6c206ef" />
 
 ---
 
