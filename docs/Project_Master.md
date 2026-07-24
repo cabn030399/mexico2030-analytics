@@ -586,7 +586,7 @@ Todo nuevo dashboard o análisis construido sobre Gold Layer deberá utilizar ú
 # Impacto en el proyecto
 
 Con la auditoría completada, México2030 Analytics cuenta con una base histórica confiable para desarrollar:
-
+* Dashboard de Goles a favor y en contra
 * Dashboard de rivales.
 * Dashboard mundialista.
 * Análisis comparativo por ciclos.
@@ -602,4 +602,12 @@ COMPLETADA ✅
 Siguiente fase:
 
 Desarrollo de dashboards especializados y generación de insights de Sports Analytics.
+Sprint 7
 
+Decisiones tomadas
+
+Se mantiene la fuente única gold.fact_mexico_matches.
+No se incorporan nuevas tablas.
+Se pospone el análisis geográfico hasta disponer de más dimensiones.
+Se construye un dashboard especializado en rendimiento ofensivo y defensivo.
+Se reutiliza la identidad visual del Dashboard Ejecutivo para mantener consistencia.
