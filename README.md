@@ -10,9 +10,10 @@ El objetivo es construir una plataforma de análisis que permita estudiar la evo
 
 ## 🔗 Enlaces
 
-### 📊 Dashboard Tableau Public
+### 📊 Dashboards Tableau Public
 
 https://public.tableau.com/app/profile/carlos.borja1355/viz/Mexico2030_Analytics_V1_twb/RendimientodeMxicoporAo
+https://public.tableau.com/app/profile/carlos.borja1355/viz/DashboardRendimientoOfensivo-Defensivo/DashboardRendimientoOfensivo-Defensivo
 
 ### 💼 LinkedIn
 
@@ -262,6 +263,21 @@ v0.1.0
 - Dashboard actualizado periódicamente
 
 ---
+Dashboards disponibles
+
+✅ Dashboard Ejecutivo
+    • KPIs generales
+    • Rendimiento histórico
+    • Rivales
+    • Competiciones
+    • Localía
+
+✅ Dashboard Histórico Avanzado
+    • Goles anotados y recibidos
+    • Evolución ofensiva y defensiva
+    • Top rivales por goles
+    • Goles por competición
+    • Rendimiento por localía
 
 ## 👨‍💻 Autor
 
