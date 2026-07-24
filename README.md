@@ -8,74 +8,87 @@ El objetivo es construir una plataforma de análisis que permita estudiar la evo
 
 ---
 
-## 🔗 Enlaces
+# 🔗 Enlaces
 
-### 📊 Dashboards Tableau Public
+## 📊 Dashboards Tableau Public
+
+### Dashboard Ejecutivo
 
 https://public.tableau.com/app/profile/carlos.borja1355/viz/Mexico2030_Analytics_V1_twb/RendimientodeMxicoporAo
+
+### Dashboard Histórico Avanzado
+
 https://public.tableau.com/app/profile/carlos.borja1355/viz/DashboardRendimientoOfensivo-Defensivo/DashboardRendimientoOfensivo-Defensivo
 
-### 💼 LinkedIn
+## 💼 LinkedIn
 
 https://www.linkedin.com/in/carlos-borja-analista
 
-### 💻 GitHub
+## 💻 GitHub
 
 https://github.com/cabn030399
 
 ---
 
-## 📸 Dashboard MVP
+# 📸 Dashboards
 
-<img width="1366" height="768" alt="Dashboard México2030 Analytics" src="https://github.com/user-attachments/assets/026875ca-e9d2-4bbf-a7eb-19a6ebf96836" />
+## Dashboard Ejecutivo
+
+*(Agregar captura aquí)*
+
+## Dashboard Histórico Avanzado
+
+*(Agregar captura aquí)*
 
 ---
 
-## 🎯 Objetivo del Proyecto
+# 🎯 Objetivo del Proyecto
 
 Responder preguntas como:
 
-- ¿Cómo ha evolucionado el rendimiento de México a lo largo de su historia?
+- ¿Cómo ha evolucionado el rendimiento histórico de la Selección Mexicana?
 - ¿Contra qué rivales obtiene mejores resultados?
-- ¿Cómo cambia el desempeño según el torneo?
-- ¿Qué impacto tiene jugar como local, visitante o en sede neutral?
+- ¿En qué competiciones presenta mejor desempeño?
+- ¿Cómo cambia el rendimiento según la localía?
+- ¿Cómo ha evolucionado ofensiva y defensivamente a lo largo del tiempo?
 - ¿Qué tendencias pueden identificarse rumbo al Mundial 2030?
 
 ---
 
-## 📊 Alcance Actual (MVP)
+# 📊 Alcance Actual
 
-### Incluido
+## Incluido
 
 - Selección Mexicana Mayor Masculina
 - Resultados históricos oficiales
-- Dashboard interactivo en Tableau Public
-- Publicación de análisis en LinkedIn
 - Arquitectura Bronze / Silver / Gold
 - Procesos ETL con Python
 - Data Warehouse en BigQuery
+- Dashboards interactivos en Tableau Public
+- Publicación de análisis en LinkedIn
 
-### Fuera del alcance actual
+## Fuera del alcance actual
 
 - Selección Femenil
-- Selección Sub-23
-- Selección Sub-20
-- Datos de jugadores
-- Modelos predictivos
+- Selecciones menores
+- APIs deportivas
+- Automatización del pipeline
 - Machine Learning
+- Modelos predictivos
 
 ---
 
-## 📂 Dataset Oficial
+# 📂 Dataset Oficial
 
-### Fuente principal
+## Fuente Principal
 
 International Football Results from 1872 to 2026
 
 Autor:
+
 Mart Jürisoo (Kaggle)
 
-### Cobertura validada para México
+## Cobertura Validada
 
 | Métrica | Valor |
 |----------|----------|
@@ -85,7 +98,7 @@ Mart Jürisoo (Kaggle)
 
 ---
 
-## 🏗️ Arquitectura
+# 🏗️ Arquitectura
 
 ```text
 Fuentes de Datos
@@ -96,58 +109,62 @@ Silver Layer
         ↓
 Gold Layer
         ↓
+Dashboard Ejecutivo
+        ↓
+Dashboard Histórico
+        ↓
 Tableau Public
         ↓
 LinkedIn
 ```
 
-### Capas implementadas
+## Capas implementadas
 
-#### Bronze
+### Bronze
 
 - raw_matches
 
-#### Silver
+### Silver
 
 - matches
 
-#### Gold
+### Gold
 
 - fact_mexico_matches
 
 ---
 
-## 🛠️ Stack Tecnológico
+# 🛠️ Stack Tecnológico
 
-### Data Engineering
+## Data Engineering
 
 - Python
 - Pandas
 - Jupyter Notebook
 
-### Data Warehouse
+## Data Warehouse
 
 - Google BigQuery
 
-### SQL
+## SQL
 
 - BigQuery SQL
 
-### Visualización
+## Visualización
 
 - Tableau Public
 
-### Control de Versiones
+## Control de Versiones
 
 - GitHub
 
-### Comunicación
+## Comunicación
 
 - LinkedIn
 
 ---
 
-## 📂 Estructura del Proyecto
+# 📂 Estructura del Proyecto
 
 ```text
 mexico2030-analytics/
@@ -167,16 +184,25 @@ mexico2030-analytics/
 │   ├── 002_bronze_raw_matches.ipynb
 │   └── 003_silver_matches.ipynb
 │
-├── dashboard/
+├── dashboards/
 │
 └── README.md
 ```
 
 ---
 
-## 📈 Dashboard V1
+# 📊 Dashboards Disponibles
 
-### KPIs
+| Dashboard | Estado | Descripción |
+|-----------|--------|-------------|
+| Dashboard Ejecutivo | ✅ Publicado | Visión general del rendimiento histórico mediante KPIs, resultados, rivales, competiciones y localía. |
+| Dashboard Histórico Avanzado | ✅ Publicado | Análisis ofensivo y defensivo mediante goles, evolución histórica, rivales, competiciones y localía. |
+
+---
+
+# 📊 Dashboard Ejecutivo
+
+## KPIs
 
 - Partidos Jugados
 - Victorias
@@ -184,115 +210,121 @@ mexico2030-analytics/
 - Derrotas
 - % Victorias
 
-### Visualizaciones
+## Visualizaciones
 
 - Rendimiento Histórico por Año
 - Resultados por Competición
-- Rendimiento Home / Away / Neutral
 - Top 10 Rivales Más Enfrentados
+- Rendimiento Home / Away / Neutral
 
 ---
 
-## 🚀 Estado del Proyecto
+# ⚽ Dashboard Histórico Avanzado
 
-### Versión actual
+## KPIs
 
-v0.1.0
+- Partidos Jugados
+- Goles Anotados
+- Goles Recibidos
+- Promedio de Goles Anotados
+- Promedio de Goles Recibidos
 
-### Estado
+## Visualizaciones
+
+- Goles Anotados vs Goles Recibidos por Año
+- Top 10 Rivales con Más Goles Anotados
+- Top 10 Rivales con Más Goles Recibidos
+- Goles Anotados por Competición
+- Goles Recibidos por Competición
+- Rendimiento Ofensivo y Defensivo por Localía
+
+---
+
+# 🚀 Estado del Proyecto
+
+## Versión
+
+**v1.1.0**
+
+## Estado
 
 ✅ MVP COMPLETADO
 
-### Componentes finalizados
+## Componentes Finalizados
 
 - Infraestructura BigQuery
-- Bronze Layer
-- Silver Layer
-- Gold Layer
-- fact_mexico_matches
-- Dashboard Tableau V1
-- Publicación inicial en LinkedIn
+- Arquitectura Bronze / Silver / Gold
+- ETL con Python
+- Tabla Gold `fact_mexico_matches`
+- Dashboard Ejecutivo
+- Dashboard Histórico Avanzado
+- Publicaciones en LinkedIn
 
 ---
-## Roadmap
 
-✅ MVP Dashboard V1
+# 🗺️ Roadmap
 
-🔄 Dashboard V1.1
+## ✅ Fase 1 — MVP
 
-⬜ Métricas avanzadas
-
-⬜ Automatización
-
-⬜ Dashboard Mundial 2030
-
-## 🗺️ Roadmap
-
-### ✅ Fase 1 — MVP
-
-- Infraestructura en BigQuery
+- Infraestructura BigQuery
 - Arquitectura Bronze / Silver / Gold
 - ETL inicial
-- Dashboard Tableau V1
-- Publicación inicial
+- Dashboard Ejecutivo
 
-### 🔄 Fase 2 — Dashboard V1.1
+## ✅ Fase 2 — Dashboard Histórico Avanzado
 
-- Mejora visual del dashboard
-- Filtros globales
-- Optimización de storytelling
-- Mejor experiencia de usuario
+- KPIs ofensivos
+- KPIs defensivos
+- Evolución de goles
+- Rivales por goles
+- Goles por competición
+- Rendimiento por localía
 
-### ⬜ Fase 3 — Analytics Avanzado
+## ⬜ Fase 3 — Dashboard Rivales
 
-- Métricas por década
-- Análisis por rival
-- Rendimiento por torneo
+- Historial por selección
+- Balance histórico
+- Diferencia de goles
+- Tendencias por rival
+
+## ⬜ Fase 4 — Dashboard Mundiales
+
+- Participaciones
+- Resultados
+- Rendimiento por edición
+- Eliminatorias
+
+## ⬜ Fase 5 — Nuevas Capas Analíticas
+
+- Ranking FIFA
+- Competiciones
+- Scouting
 - Nuevas tablas Gold
 
-### ⬜ Fase 4 — Automatización
+## ⬜ Fase 6 — Automatización
 
 - Integración con APIs
-- Actualización automática de datos
 - Pipeline automatizado
-
-### ⬜ Fase 5 — México rumbo al Mundial 2030
-
-- Seguimiento continuo de resultados
-- Publicaciones post-partido
-- Dashboard actualizado periódicamente
+- Actualización programada
 
 ---
-Dashboards disponibles
 
-✅ Dashboard Ejecutivo
-    • KPIs generales
-    • Rendimiento histórico
-    • Rivales
-    • Competiciones
-    • Localía
+# 👨‍💻 Autor
 
-✅ Dashboard Histórico Avanzado
-    • Goles anotados y recibidos
-    • Evolución ofensiva y defensiva
-    • Top rivales por goles
-    • Goles por competición
-    • Rendimiento por localía
-
-## 👨‍💻 Autor
-
-Carlos Borja
+**Carlos Borja**
 
 Data Analyst | Sports Analytics
 
-LinkedIn:
+LinkedIn
+
 https://www.linkedin.com/in/carlos-borja-analista
 
-GitHub:
+GitHub
+
 https://github.com/cabn030399
 
 ---
 
-## ⚽ México2030 Analytics
+# ⚽ México2030 Analytics
 
-Transformando datos en historias para entender el camino de la Selección Mexicana rumbo al Mundial 2030.
+**Transformando datos en historias para entender el camino de la Selección Mexicana rumbo al Mundial 2030.**
