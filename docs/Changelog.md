@@ -566,5 +566,15 @@ Competiciones auditadas:
 * FIFA World Cup Qualification
 * Friendly
 
+v1.1.0
 
+Nuevo Dashboard Histórico Avanzado
+
+• KPIs ofensivos
+• KPIs defensivos
+• Evolución de goles por año
+• Top rivales por goles anotados
+• Top rivales por goles recibidos
+• Goles por competición
+• Rendimiento por localía
 
