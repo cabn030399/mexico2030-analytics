@@ -7,8 +7,7 @@ Colección de consultas SQL estructuradas y optimizadas para el proyecto **Méxi
 
 ## ⏳ Históricos
 *Consultas enfocadas en rachas de rendimiento y grandes hitos a lo largo del tiempo.*
-
-- [ ] `01_mayor_racha_victorias.sql` — Mayor racha de victorias consecutivas
+- [x] 01 Mayor racha de victorias consecutivas ✅
 - [ ] `02_mayor_racha_derrotas.sql` — Mayor racha de derrotas consecutivas
 - [ ] `03_mayor_racha_sin_ganar.sql` — Mayor racha sin ganar
 - [ ] `04_mayor_racha_anotando.sql` — Mayor racha anotando goles
