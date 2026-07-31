@@ -207,6 +207,10 @@ ORDER BY victorias_consecutivas DESC,
          inicio_racha
 
 LIMIT 1;
+
+RESULTADO DE LA CONSULTA 30/JULIO/2026:
+    Fila	inicio_racha	fin_racha	victorias_consecutivas	goles_anotados	goles_recibidos	diferencia_goles	primer_rival	ultimo_rival	torneo_inicio	torneo_final
+  1	1987-01-13	1990-04-17	13	40.0	9.0	31.0	El Salvador	Colombia	Friendly	Friendly	
 ===============================================================================
 DESCRIPCIÓN DEL ALGORITMO
 ===============================================================================
