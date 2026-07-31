@@ -12,15 +12,36 @@ Consulta:
 
 Objetivo:
 Identificar la mayor racha de victorias consecutivas de la
-Selección Mexicana y mostrar información contextual de dicha racha.
+Selección Mexicana mostrando información contextual.
 
 Definición:
-Una racha inicia con una victoria y continúa mientras los partidos
-siguientes también sean victorias.
+Una racha comienza con una victoria y continúa mientras los
+partidos siguientes también sean victorias.
 La racha termina al registrarse un empate o una derrota.
 
-Tabla:
+Tabla principal:
 gold.fact_mexico_matches
+
+Columnas utilizadas:
+- match_date
+- opponent
+- tournament
+- goals_for
+- goals_against
+- goal_difference
+- result
+
+Salida:
+- Fecha de inicio
+- Fecha de fin
+- Número de victorias consecutivas
+- Goles anotados
+- Goles recibidos
+- Diferencia de goles
+- Primer rival
+- Último rival
+- Primer torneo
+- Último torneo
 
 Autor:
 Carlos Borja
@@ -32,184 +53,125 @@ Módulo:
 Match Analytics
 
 Versión:
-v1.0.0
+v2.0.0
+
+Última actualización:
+2026-07-30
 
 ===============================================================================
 */
 
-
 -- ============================================================================
 -- CTE 1
--- ordered_matches
---
--- Objetivo:
--- Obtener todos los partidos ordenados cronológicamente e incluir
--- toda la información que necesitaremos durante el algoritmo.
+-- Preparar y ordenar cronológicamente los partidos.
 -- ============================================================================
 
 WITH ordered_matches AS (
 
-    SELECT
+SELECT
 
-        match_date,
-        opponent,
-        tournament,
-        goals_for,
-        goals_against,
-        goal_difference,
-        result
+    match_date,
+    opponent,
+    tournament,
+    goals_for,
+    goals_against,
+    goal_difference,
+    result
 
-    FROM `mexico2030analytics.gold.fact_mexico_matches`
+FROM `mexico2030analytics.gold.fact_mexico_matches`
 
 ),
 
 -- ============================================================================
 -- CTE 2
--- previous_match
---
--- Objetivo:
--- Obtener el resultado del partido inmediatamente anterior mediante
--- la función LAG().
---
--- Esto permitirá detectar cuándo inicia una nueva racha.
+-- Obtener el resultado del partido anterior.
 -- ============================================================================
 
 previous_match AS (
 
-    SELECT
+SELECT
 
-        *,
+    *,
 
-        LAG(result) OVER(
-            ORDER BY match_date
-        ) AS previous_result
+    LAG(result) OVER(
+        ORDER BY match_date
+    ) AS previous_result
 
-    FROM ordered_matches
+FROM ordered_matches
 
 ),
 
 -- ============================================================================
 -- CTE 3
--- streak_groups
---
--- Objetivo:
--- Asignar un identificador único a cada racha.
---
--- Cada vez que aparece un resultado distinto de victoria,
--- se genera un nuevo grupo.
+-- Crear identificadores de rachas.
 -- ============================================================================
 
 streak_groups AS (
 
-    SELECT
+SELECT
 
-        *,
+    *,
 
-        SUM(
+    SUM(
 
-            CASE
+        CASE
 
-                WHEN result <> 'Win'
-                     OR previous_result <> 'Win'
-                     OR previous_result IS NULL
+            WHEN result <> 'Win'
+                 OR previous_result <> 'Win'
+                 OR previous_result IS NULL
 
-                THEN 1
+            THEN 1
 
-                ELSE 0
+            ELSE 0
 
-            END
+        END
 
-        ) OVER(
+    ) OVER(
 
-            ORDER BY match_date
+        ORDER BY match_date
 
-        ) AS streak_group
+    ) AS streak_group
 
-    FROM previous_match
+FROM previous_match
 
 ),
 
 -- ============================================================================
 -- CTE 4
--- win_streaks
---
--- Objetivo:
--- Agrupar únicamente las victorias y calcular la duración de cada racha.
+-- Calcular estadísticas de cada racha de victorias.
 -- ============================================================================
 
 win_streaks AS (
 
-    SELECT
-
-        streak_group,
-
-        MIN(match_date) AS inicio_racha,
-
-        MAX(match_date) AS fin_racha,
-
-        COUNT(*) AS victorias_consecutivas,
-
-        SUM(goals_for) AS goles_anotados,
-
-        SUM(goals_against) AS goles_recibidos,
-
-        SUM(goal_difference) AS diferencia_goles
-
-    FROM streak_groups
-
-    WHERE result='Win'
-
-    GROUP BY streak_group
-
-),
-
--- ============================================================================
--- CTE 5
--- streak_details
---
--- Objetivo:
--- Recuperar el rival y torneo del primer y último partido de la racha.
--- ============================================================================
-
-streak_details AS (
-
 SELECT
 
-    ws.*,
+    streak_group,
 
-    (
-        SELECT opponent
-        FROM streak_groups s
-        WHERE s.streak_group = ws.streak_group
-        ORDER BY match_date
-        LIMIT 1
-    ) AS primer_rival,
+    MIN(match_date) AS inicio_racha,
 
-    (
-        SELECT opponent
-        FROM streak_groups s
-        WHERE s.streak_group = ws.streak_group
-        ORDER BY match_date DESC
-        LIMIT 1
-    ) AS ultimo_rival,
+    MAX(match_date) AS fin_racha,
 
-    (
-        SELECT tournament
-        FROM streak_groups s
-        WHERE s.streak_group = ws.streak_group
-        ORDER BY match_date
-        LIMIT 1
-    ) AS torneo_inicio,
+    COUNT(*) AS victorias_consecutivas,
 
-    (
-        SELECT tournament
-        FROM streak_groups s
-        WHERE s.streak_group = ws.streak_group
-        ORDER BY match_date DESC
-        LIMIT 1
-    ) AS torneo_final
+    SUM(goals_for) AS goles_anotados,
 
-FROM win_streaks ws
+    SUM(goals_against) AS goles_recibidos,
+
+    SUM(goal_difference) AS diferencia_goles,
+
+    ARRAY_AGG(opponent ORDER BY match_date LIMIT 1)[OFFSET(0)] AS primer_rival,
+
+    ARRAY_AGG(opponent ORDER BY match_date DESC LIMIT 1)[OFFSET(0)] AS ultimo_rival,
+
+    ARRAY_AGG(tournament ORDER BY match_date LIMIT 1)[OFFSET(0)] AS torneo_inicio,
+
+    ARRAY_AGG(tournament ORDER BY match_date DESC LIMIT 1)[OFFSET(0)] AS torneo_final
+
+FROM streak_groups
+
+WHERE result='Win'
+
+GROUP BY streak_group
 
 )
 
@@ -219,28 +181,69 @@ FROM win_streaks ws
 
 SELECT
 
-    inicio_racha,
+inicio_racha,
 
-    fin_racha,
+fin_racha,
 
-    victorias_consecutivas,
+victorias_consecutivas,
 
-    goles_anotados,
+goles_anotados,
 
-    goles_recibidos,
+goles_recibidos,
 
-    diferencia_goles,
+diferencia_goles,
 
-    primer_rival,
+primer_rival,
 
-    ultimo_rival,
+ultimo_rival,
 
-    torneo_inicio,
+torneo_inicio,
 
-    torneo_final
+torneo_final
 
-FROM streak_details
+FROM win_streaks
 
-ORDER BY victorias_consecutivas DESC
+ORDER BY victorias_consecutivas DESC,
+         inicio_racha
 
 LIMIT 1;
+===============================================================================
+DESCRIPCIÓN DEL ALGORITMO
+===============================================================================
+
+CTE 1 - ordered_matches
+-----------------------
+Selecciona los campos necesarios para el análisis y prepara
+los partidos en orden cronológico.
+
+CTE 2 - previous_match
+----------------------
+Utiliza la función LAG() para obtener el resultado del partido
+anterior. Esto permite detectar cuándo una racha comienza.
+
+CTE 3 - streak_groups
+---------------------
+Mediante una suma acumulada (SUM OVER) se asigna un identificador
+único a cada racha de victorias consecutivas.
+
+CTE 4 - win_streaks
+-------------------
+Agrupa únicamente los partidos ganados y calcula:
+
+• Fecha de inicio.
+• Fecha de fin.
+• Número de victorias.
+• Goles anotados.
+• Goles recibidos.
+• Diferencia de goles.
+• Primer rival.
+• Último rival.
+• Primer torneo.
+• Último torneo.
+
+Resultado final
+---------------
+Ordena todas las rachas por número de victorias consecutivas y
+devuelve únicamente la mayor racha histórica.
+
+===============================================================================
