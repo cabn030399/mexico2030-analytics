@@ -1,0 +1,275 @@
+/*
+===============================================================================
+México2030 Analytics
+SQL Analytics Library
+===============================================================================
+
+Consulta:
+03 - Mayor racha de victorias consecutivas
+    Selección Mayor A
+
+Objetivo:
+Identificar la mayor racha de victorias consecutivas de México
+considerando únicamente partidos de la Selección Mayor A.
+
+Criterio:
+
+INCLUYE:
+- Competiciones oficiales
+- Amistosos internacionales de la Selección Mayor A
+
+EXCLUYE:
+- Olympic Games
+- Kirin Cup
+- Marlboro Cup
+- NAFU Championship
+- NAFC Championship
+- Lunar New Year Cup
+- Pan American Championship
+- Korea Cup
+- Central American and Caribbean Games
+- Partidos identificados como selecciones B/no A
+
+Exclusión identificada:
+26-04-1988 | México 4-1 Honduras
+Motivo: partido registrado como "B v A", no Selección Mayor A.
+
+Fuente de auditoría:
+11v11
+
+Tabla principal:
+mexico2030analytics.gold.fact_mexico_matches
+
+Versión:
+v2.0.0
+
+===============================================================================
+*/
+
+
+-- ============================================================================
+-- CTE 1
+-- official_A_competitions
+--
+-- Definición de las competiciones que pueden formar parte del historial
+-- de la Selección Mayor A.
+-- ============================================================================
+
+WITH official_A_competitions AS (
+
+    SELECT tournament
+    FROM UNNEST([
+
+        'FIFA World Cup',
+        'FIFA World Cup qualification',
+        'Gold Cup',
+        'CONCACAF Championship',
+        'CONCACAF Championship qualification',
+        'Copa América',
+        'Confederations Cup',
+        'CONCACAF Nations League',
+        'Friendly'
+
+    ]) AS tournament
+
+),
+
+
+-- ============================================================================
+-- CTE 2
+-- excluded_non_A_matches
+--
+-- Partidos identificados mediante auditoría externa como NO pertenecientes
+-- a la Selección Mayor A.
+--
+-- El dataset original no contiene una columna que identifique directamente
+-- partidos A/B, por lo que estas excepciones deben documentarse.
+-- ============================================================================
+
+excluded_non_A_matches AS (
+
+    SELECT
+        DATE '1988-04-26' AS match_date,
+        'Honduras' AS opponent,
+        'México B vs Honduras A' AS motivo
+
+),
+
+
+-- ============================================================================
+-- CTE 3
+-- ordered_matches
+--
+-- Seleccionar partidos pertenecientes a las competiciones definidas para
+-- Selección Mayor A y excluir encuentros identificados como no-A.
+-- ============================================================================
+
+ordered_matches AS (
+
+    SELECT
+
+        m.match_date,
+        m.opponent,
+        m.tournament,
+        m.goals_for,
+        m.goals_against,
+        m.goal_difference,
+        m.result
+
+    FROM `mexico2030analytics.gold.fact_mexico_matches` AS m
+
+    INNER JOIN official_A_competitions AS c
+        ON m.tournament = c.tournament
+
+    LEFT JOIN excluded_non_A_matches AS e
+        ON m.match_date = e.match_date
+        AND m.opponent = e.opponent
+
+    WHERE e.match_date IS NULL
+
+),
+
+
+-- ============================================================================
+-- CTE 4
+-- previous_match
+--
+-- Obtener el resultado del partido anterior dentro del universo
+-- de partidos de Selección Mayor A.
+-- ============================================================================
+
+previous_match AS (
+
+    SELECT
+
+        *,
+
+        LAG(result) OVER (
+            ORDER BY match_date
+        ) AS previous_result
+
+    FROM ordered_matches
+
+),
+
+
+-- ============================================================================
+-- CTE 5
+-- streak_groups
+--
+-- Identificar el inicio de cada nueva racha de victorias.
+-- ============================================================================
+
+streak_groups AS (
+
+    SELECT
+
+        *,
+
+        SUM(
+
+            CASE
+
+                WHEN result <> 'Win'
+                     OR previous_result <> 'Win'
+                     OR previous_result IS NULL
+
+                THEN 1
+
+                ELSE 0
+
+            END
+
+        ) OVER (
+
+            ORDER BY match_date
+
+        ) AS streak_group
+
+    FROM previous_match
+
+),
+
+
+-- ============================================================================
+-- CTE 6
+-- win_streaks
+--
+-- Calcular las estadísticas de cada racha de victorias.
+-- ============================================================================
+
+win_streaks AS (
+
+    SELECT
+
+        streak_group,
+
+        MIN(match_date) AS inicio_racha,
+
+        MAX(match_date) AS fin_racha,
+
+        COUNT(*) AS victorias_consecutivas,
+
+        SUM(goals_for) AS goles_anotados,
+
+        SUM(goals_against) AS goles_recibidos,
+
+        SUM(goal_difference) AS diferencia_goles,
+
+        ARRAY_AGG(
+            opponent
+            ORDER BY match_date
+            LIMIT 1
+        )[OFFSET(0)] AS primer_rival,
+
+        ARRAY_AGG(
+            opponent
+            ORDER BY match_date DESC
+            LIMIT 1
+        )[OFFSET(0)] AS ultimo_rival,
+
+        ARRAY_AGG(
+            tournament
+            ORDER BY match_date
+            LIMIT 1
+        )[OFFSET(0)] AS torneo_inicio,
+
+        ARRAY_AGG(
+            tournament
+            ORDER BY match_date DESC
+            LIMIT 1
+        )[OFFSET(0)] AS torneo_final
+
+    FROM streak_groups
+
+    WHERE result = 'Win'
+
+    GROUP BY streak_group
+
+)
+
+
+-- ============================================================================
+-- RESULTADO FINAL
+-- ============================================================================
+
+SELECT
+
+    inicio_racha,
+    fin_racha,
+    victorias_consecutivas,
+    goles_anotados,
+    goles_recibidos,
+    diferencia_goles,
+    primer_rival,
+    ultimo_rival,
+    torneo_inicio,
+    torneo_final
+
+FROM win_streaks
+
+ORDER BY
+    victorias_consecutivas DESC,
+    inicio_racha
+
+LIMIT 1;
