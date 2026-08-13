@@ -273,3 +273,13 @@ ORDER BY
     inicio_racha
 
 LIMIT 1;
+Y la Consulta 03 devuelve:
+
+📅 Inicio: 13/01/1987
+📅 Fin: 17/04/1990
+🏆 Victorias consecutivas: 11
+⚽ Goles anotados: 32
+🥅 Goles recibidos: 6
+📈 Diferencia: +26
+🇸🇻 Primer rival: El Salvador
+🇨🇴 Último rival: Colombia
