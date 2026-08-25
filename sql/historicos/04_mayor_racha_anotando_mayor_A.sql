@@ -241,3 +241,4 @@ Racha Mayor A: 05/07/2009 → 17/03/2010
 37 goles a favor
 9 goles en contra
 +28 diferencia de goles
+Los amistosos 0–0 de 2010 rompen la racha
