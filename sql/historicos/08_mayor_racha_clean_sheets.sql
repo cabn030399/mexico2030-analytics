@@ -233,3 +233,11 @@ LIMIT 1;
 | Último rival                  |            Costa Rica |
 | Torneo inicial                |              Friendly |
 | Torneo final                  | CONCACAF Championship |
+
+Greece              1-0
+Bermuda             2-0
+Bermuda             4-0
+Haiti               0-0
+Trinidad and Tobago 2-0
+Cuba                1-0
+Costa Rica          1-0
