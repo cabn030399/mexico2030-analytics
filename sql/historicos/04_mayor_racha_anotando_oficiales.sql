@@ -241,3 +241,4 @@ Racha
 +23 diferencia de goles
 Primer rival: Costa Rica
 Último rival: Francia
+Los amistosos no forman parte del universo
