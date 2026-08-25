@@ -220,5 +220,16 @@ ORDER BY
     inicio_racha
 
 LIMIT 1;
-Fila	inicio_racha	fin_racha	clean_sheets_consecutivas	goles_anotados	goles_recibidos	diferencia_goles	primer_rival	ultimo_rival	torneo_inicio	torneo_final
-1	1971-09-30	1971-12-02	7	11.0	0.0	11.0	Greece	Costa Rica	Friendly	CONCACAF Championship
+
+| Métrica                       |             Resultado |
+| ----------------------------- | --------------------: |
+| **Clean sheets consecutivas** |                 **7** |
+| Inicio                        |            30/09/1971 |
+| Fin                           |            02/12/1971 |
+| Goles anotados                |                    11 |
+| Goles recibidos               |                 **0** |
+| Diferencia                    |                   +11 |
+| Primer rival                  |                Greece |
+| Último rival                  |            Costa Rica |
+| Torneo inicial                |              Friendly |
+| Torneo final                  | CONCACAF Championship |
