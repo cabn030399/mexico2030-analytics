@@ -1,0 +1,273 @@
+-- ============================================================
+-- CONSULTA 03
+-- Mayor racha sin ganar
+-- Selección Mayor A
+-- México2030 Analytics
+-- ============================================================
+
+
+WITH ordered_matches AS (
+
+    -- ========================================================
+    -- CTE 1: Partidos de la Selección Mayor A
+    -- ========================================================
+
+    SELECT
+        match_id,
+        match_date,
+        opponent,
+        tournament,
+        goals_for,
+        goals_against,
+        goal_difference,
+        result
+
+    FROM `mexico2030analytics.gold.fact_mexico_matches`
+
+    -- Criterio actual de Selección Mayor A
+    -- Se excluyen los Juegos Olímpicos.
+
+    WHERE tournament NOT IN (
+        'Olympic Games'
+    )
+
+),
+
+
+previous_match AS (
+
+    -- ========================================================
+    -- CTE 2: Resultado del partido anterior
+    -- ========================================================
+
+    SELECT
+        match_id,
+        match_date,
+        opponent,
+        tournament,
+        goals_for,
+        goals_against,
+        goal_difference,
+        result,
+
+        LAG(result) OVER (
+            ORDER BY match_date, match_id
+        ) AS previous_result
+
+    FROM ordered_matches
+
+),
+
+
+streak_groups AS (
+
+    -- ========================================================
+    -- CTE 3: Identificación de grupos de racha
+    -- ========================================================
+
+    SELECT
+        match_id,
+        match_date,
+        opponent,
+        tournament,
+        goals_for,
+        goals_against,
+        goal_difference,
+        result,
+        previous_result,
+
+        SUM(
+            CASE
+                -- Una victoria rompe la racha.
+                -- También inicia un nuevo grupo.
+
+                WHEN result = 'Win'
+                     OR previous_result = 'Win'
+                     OR previous_result IS NULL
+                THEN 1
+
+                ELSE 0
+            END
+        ) OVER (
+            ORDER BY match_date, match_id
+        ) AS streak_group
+
+    FROM previous_match
+
+),
+
+
+winless_streaks AS (
+
+    -- ========================================================
+    -- CTE 4: Agrupación de partidos sin victoria
+    -- ========================================================
+
+    SELECT
+
+        streak_group,
+
+        MIN(match_date) AS inicio_racha,
+
+        MAX(match_date) AS fin_racha,
+
+        COUNT(*) AS partidos_sin_ganar,
+
+        SUM(
+            CASE
+                WHEN result = 'Draw'
+                THEN 1
+                ELSE 0
+            END
+        ) AS empates,
+
+        SUM(
+            CASE
+                WHEN result = 'Loss'
+                THEN 1
+                ELSE 0
+            END
+        ) AS derrotas,
+
+        SUM(goals_for) AS goles_anotados,
+
+        SUM(goals_against) AS goles_recibidos,
+
+        SUM(goal_difference) AS diferencia_goles
+
+    FROM streak_groups
+
+    WHERE result IN ('Loss', 'Draw')
+
+    GROUP BY
+        streak_group
+
+),
+
+
+streak_details AS (
+
+    -- ========================================================
+    -- CTE 5: Información contextual de la racha
+    -- ========================================================
+
+    SELECT
+
+        ws.streak_group,
+
+        ws.inicio_racha,
+
+        ws.fin_racha,
+
+        ws.partidos_sin_ganar,
+
+        ws.empates,
+
+        ws.derrotas,
+
+        ws.goles_anotados,
+
+        ws.goles_recibidos,
+
+        ws.diferencia_goles,
+
+        MIN(
+            CASE
+                WHEN sg.match_date = ws.inicio_racha
+                THEN sg.opponent
+            END
+        ) AS primer_rival,
+
+        MIN(
+            CASE
+                WHEN sg.match_date = ws.fin_racha
+                THEN sg.opponent
+            END
+        ) AS ultimo_rival,
+
+        MIN(
+            CASE
+                WHEN sg.match_date = ws.inicio_racha
+                THEN sg.tournament
+            END
+        ) AS torneo_inicio,
+
+        MIN(
+            CASE
+                WHEN sg.match_date = ws.fin_racha
+                THEN sg.tournament
+            END
+        ) AS torneo_final
+
+    FROM winless_streaks AS ws
+
+    INNER JOIN streak_groups AS sg
+        ON ws.streak_group = sg.streak_group
+
+    GROUP BY
+        ws.streak_group,
+        ws.inicio_racha,
+        ws.fin_racha,
+        ws.partidos_sin_ganar,
+        ws.empates,
+        ws.derrotas,
+        ws.goles_anotados,
+        ws.goles_recibidos,
+        ws.diferencia_goles
+
+)
+
+
+-- ============================================================
+-- RESULTADO FINAL
+-- ============================================================
+
+SELECT
+
+    inicio_racha,
+
+    fin_racha,
+
+    partidos_sin_ganar,
+
+    empates,
+
+    derrotas,
+
+    goles_anotados,
+
+    goles_recibidos,
+
+    diferencia_goles,
+
+    primer_rival,
+
+    ultimo_rival,
+
+    torneo_inicio,
+
+    torneo_final
+
+FROM streak_details
+
+ORDER BY
+    partidos_sin_ganar DESC,
+    inicio_racha ASC
+
+LIMIT 1;
+Consulta 03 — Resultado validado
+#	Fecha	Rival	Resultado
+1	14-jun-1970	Italy	Loss
+2	30-sep-1970	Brazil	Loss
+3	17-feb-1971	Russia	Draw
+4	20-feb-1971	Russia	Draw
+5	06-jul-1971	Greece	Draw
+6	18-ago-1971	German DR	Loss
+7	08-sep-1971	Germany	Loss
+8	18-sep-1971	German DR	Draw
+9	22-sep-1971	Yugoslavia	Loss
+10	25-sep-1971	Italy	Loss
+
+La secuencia es:
+
+L → L → D → D → D → L → L → D → L → L
