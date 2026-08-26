@@ -1,0 +1,231 @@
+/*
+===============================================================================
+México2030 Analytics
+SQL Analytics Library
+===============================================================================
+
+Consulta:
+07 - Mayor racha sin anotar
+      Partidos Oficiales
+
+Objetivo:
+Identificar la mayor cantidad de partidos consecutivos en los que México
+no consiguió marcar ningún gol dentro del universo de partidos oficiales.
+
+Definición:
+
+Un partido forma parte de la racha cuando:
+
+    goals_for = 0
+
+Un partido con:
+
+    goals_for > 0
+
+rompe la racha.
+
+Metodología Oficiales:
+Se incluyen únicamente los torneos clasificados como oficiales dentro de
+la metodología de México2030 Analytics.
+
+Se excluyen:
+- Friendly
+- Central American and Caribbean Games
+- Olympic Games
+- USA Cup
+- Korea Cup
+- Lunar New Year Cup
+- Kirin Cup
+- Marlboro Cup
+
+Tabla:
+mexico2030analytics.gold.fact_mexico_matches
+
+Versión:
+v1.0.0
+
+===============================================================================
+*/
+
+
+-- ============================================================================
+-- CTE 1
+-- ordered_matches
+--
+-- Seleccionar únicamente partidos oficiales y ordenarlos cronológicamente.
+-- ============================================================================
+
+WITH ordered_matches AS (
+
+    SELECT
+
+        match_id,
+        match_date,
+        opponent,
+        tournament,
+        goals_for,
+        goals_against,
+        goal_difference,
+        result
+
+    FROM `mexico2030analytics.gold.fact_mexico_matches`
+
+    WHERE tournament IN (
+
+        'FIFA World Cup qualification',
+        'Gold Cup',
+        'FIFA World Cup',
+        'Copa América',
+        'CONCACAF Championship',
+        'Confederations Cup',
+        'CONCACAF Nations League',
+        'CONCACAF Championship qualification',
+        'Pan American Championship',
+        'NAFC Championship',
+        'NAFU Championship'
+
+    )
+
+),
+
+
+-- ============================================================================
+-- CTE 2
+-- streak_groups
+--
+-- Crear un identificador para cada racha de partidos sin anotar.
+--
+-- Cada partido donde México anota al menos un gol incrementa el grupo
+-- y rompe la racha.
+-- ============================================================================
+
+streak_groups AS (
+
+    SELECT
+
+        *,
+
+        COUNTIF(goals_for > 0) OVER (
+
+            ORDER BY
+                match_date,
+                match_id
+
+            ROWS BETWEEN UNBOUNDED PRECEDING
+            AND CURRENT ROW
+
+        ) AS streak_group
+
+    FROM ordered_matches
+
+),
+
+
+-- ============================================================================
+-- CTE 3
+-- scoreless_streaks
+--
+-- Calcular las estadísticas de cada racha de partidos consecutivos
+-- sin anotar.
+-- ============================================================================
+
+scoreless_streaks AS (
+
+    SELECT
+
+        streak_group,
+
+        MIN(match_date) AS inicio_racha,
+
+        MAX(match_date) AS fin_racha,
+
+        COUNT(*) AS partidos_sin_anotar,
+
+        SUM(goals_for) AS goles_anotados,
+
+        SUM(goals_against) AS goles_recibidos,
+
+        SUM(goal_difference) AS diferencia_goles,
+
+        ARRAY_AGG(
+            opponent
+            ORDER BY match_date, match_id
+            LIMIT 1
+        )[OFFSET(0)] AS primer_rival,
+
+        ARRAY_AGG(
+            opponent
+            ORDER BY match_date DESC, match_id DESC
+            LIMIT 1
+        )[OFFSET(0)] AS ultimo_rival,
+
+        ARRAY_AGG(
+            tournament
+            ORDER BY match_date, match_id
+            LIMIT 1
+        )[OFFSET(0)] AS torneo_inicio,
+
+        ARRAY_AGG(
+            tournament
+            ORDER BY match_date DESC, match_id DESC
+            LIMIT 1
+        )[OFFSET(0)] AS torneo_final
+
+    FROM streak_groups
+
+    WHERE goals_for = 0
+
+    GROUP BY streak_group
+
+)
+
+
+-- ============================================================================
+-- RESULTADO FINAL
+-- ============================================================================
+
+SELECT
+
+    inicio_racha,
+
+    fin_racha,
+
+    partidos_sin_anotar,
+
+    goles_anotados,
+
+    goles_recibidos,
+
+    diferencia_goles,
+
+    primer_rival,
+
+    ultimo_rival,
+
+    torneo_inicio,
+
+    torneo_final
+
+FROM scoreless_streaks
+
+ORDER BY
+
+    partidos_sin_anotar DESC,
+    inicio_racha ASC
+
+LIMIT 1;
+Consulta 07 — Oficiales queda en 3 partidos sin anotar, sujeto a la auditoría de los tres partidos.
+
+El récord obtenido es:
+
+Métrica	Resultado
+Partidos sin anotar	3
+Inicio	1961-11-05
+Fin	1962-06-03
+Goles anotados	0
+Goles recibidos	3
+Diferencia	-3
+Primer rival	Paraguay
+Último rival	Spain
+Torneo inicial	FIFA World Cup qualification
+Torneo final	FIFA World Cup
