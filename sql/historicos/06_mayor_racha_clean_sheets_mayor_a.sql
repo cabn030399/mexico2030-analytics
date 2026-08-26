@@ -217,3 +217,10 @@ Primer rival	Greece
 Último rival	Costa Rica
 Torneo inicial	Friendly
 Torneo final	CONCACAF Championship
+1	1	8575	1971-09-30	Greece	Friendly	1.0	0.0	1.0	Win
+2	2	8581	1971-10-06	Bermuda	CONCACAF Championship qualification	2.0	0.0	2.0	Win
+3	3	8582	1971-10-06	Bermuda	CONCACAF Championship qualification	4.0	0.0	4.0	Win
+4	4	8647	1971-11-21	Haiti	CONCACAF Championship	0.0	0.0	0.0	Draw
+5	5	8655	1971-11-26	Trinidad and Tobago	CONCACAF Championship	2.0	0.0	2.0	Win
+6	6	8659	1971-11-28	Cuba	CONCACAF Championship	1.0	0.0	1.0	Win
+7	7	8671	1971-12-02	Costa Rica	CONCACAF Championship	1.0	0.0	1.0	Win
