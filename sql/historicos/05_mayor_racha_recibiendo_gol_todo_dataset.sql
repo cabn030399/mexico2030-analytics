@@ -228,3 +228,4 @@ LIMIT 1;
 | Diferencia                     |              -5 |
 | Primer rival                   |      Costa Rica |
 | Último rival                   |   United States |
+ES EL MISMO RECORD PARA SELECCION MAYOR A
