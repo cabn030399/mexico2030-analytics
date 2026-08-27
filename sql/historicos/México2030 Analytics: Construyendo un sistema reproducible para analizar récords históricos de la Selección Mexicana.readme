@@ -1,0 +1,268 @@
+México2030 Analytics: Construyendo un sistema reproducible para analizar récords históricos de la Selección Mexicana
+Introducción
+
+Los récords deportivos suelen presentarse como cifras aisladas:
+
+mayor racha de victorias, mayor racha de derrotas, mayor racha anotando...
+
+Pero una cifra histórica solamente es útil si podemos responder:
+
+¿De dónde salió?
+
+Ese fue el objetivo de esta etapa de México2030 Analytics.
+
+En lugar de buscar únicamente récords históricos, construí un conjunto de consultas SQL reproducibles utilizando BigQuery para identificar y validar siete tipos de rachas de la Selección Mexicana.
+
+El análisis se realizó bajo tres universos diferentes:
+
+Todo el dataset
+Selección Mayor A / Clase A
+Partidos oficiales
+
+Esto permitió comprobar cómo cambia un récord dependiendo de la definición del universo analizado.
+
+Las 7 preguntas analíticas
+
+El sistema analiza:
+
+Mayor racha de victorias
+Mayor racha de derrotas
+Mayor racha sin ganar
+Mayor racha anotando
+Mayor racha recibiendo gol
+Mayor racha de clean sheets
+Mayor racha sin anotar
+
+Cada consulta devuelve no solamente la longitud de la racha, sino también información contextual:
+
+fecha inicial
+fecha final
+partidos
+goles anotados
+goles recibidos
+diferencia de goles
+primer rival
+último rival
+torneo inicial
+torneo final
+4. El reto no estaba en escribir el COUNT
+
+Uno de los principales aprendizajes de esta etapa fue que el problema no era simplemente calcular una suma o un COUNT.
+
+El verdadero reto era definir correctamente qué significa que dos partidos sean consecutivos.
+
+Por ejemplo, para una racha de partidos anotando:
+
+goals_for > 0
+
+Un partido con:
+
+goals_for = 0
+
+rompe la racha.
+
+Pero existe una segunda dimensión:
+
+¿Qué partidos forman parte del universo?
+
+Un amistoso puede romper una racha de Mayor A.
+
+Pero ese mismo amistoso no existe dentro del universo de partidos oficiales.
+
+Por lo tanto:
+
+La definición del universo forma parte del cálculo de la métrica.
+
+Este fue uno de los principales hallazgos metodológicos del análisis.
+
+5. Cómo se construyeron las rachas
+
+Las consultas utilizan una estrategia basada en SQL analítico.
+
+Primero se ordenan cronológicamente los partidos:
+
+ORDER BY match_date, match_id
+
+Después se identifica el evento que rompe una racha.
+
+Por ejemplo, para partidos anotando:
+
+COUNTIF(goals_for = 0) OVER (...)
+
+genera un identificador de grupo.
+
+Posteriormente se agrupan los partidos:
+
+GROUP BY streak_group
+
+y se calculan las métricas:
+
+COUNT(*)
+SUM(goals_for)
+SUM(goals_against)
+SUM(goal_difference)
+
+Finalmente se obtiene la racha máxima:
+
+ORDER BY partidos_anotando DESC
+LIMIT 1
+
+El mismo patrón se adapta a victorias, derrotas, clean sheets, partidos sin ganar, partidos sin anotar y partidos recibiendo gol.
+
+6. La importancia de auditar el resultado
+
+Otro aprendizaje importante fue que:
+
+una consulta SQL puede ejecutarse correctamente y producir un resultado incorrecto desde el punto de vista analítico.
+
+Por eso cada récord fue auditado.
+
+Por ejemplo, cuando apareció una racha de 17 partidos anotando, no nos limitamos a aceptar el resultado.
+
+Se reconstruyó la secuencia partido por partido.
+
+Eso permitió detectar inicialmente una aparente inconsistencia y posteriormente explicar correctamente la diferencia entre los tres universos.
+
+La validación pasó por:
+
+Resultado → partidos que forman la racha → torneo → clasificación → continuidad
+
+Esto es especialmente importante para datos históricos, donde la definición de "partido oficial", "Selección Mayor" o "partido Clase A" no siempre puede inferirse simplemente desde una columna.
+
+7. Clasificación de partidos
+
+Durante el análisis se identificaron 19 torneos/categorías dentro del dataset.
+
+La clasificación de oficiales no se realizó arbitrariamente.
+
+Primero se obtuvo el récord general.
+
+Después se revisaron los partidos que componían esa racha.
+
+Finalmente se investigó el contexto del torneo para determinar si debía pertenecer al universo Mayor A y/o al universo Oficial.
+
+Esto permitió evitar una práctica peligrosa:
+
+asumir que el nombre del torneo determina automáticamente la naturaleza analítica del partido.
+
+Un buen ejemplo fueron los torneos históricos de la región y los Juegos Olímpicos.
+
+La decisión final quedó documentada como parte de la metodología del proyecto.
+
+8. Resultados
+
+El resultado final se resume en tres universos:
+
+Récord	Todo dataset	Mayor A	Oficiales
+Victorias consecutivas	13	11	9
+Derrotas consecutivas	6	6	6
+Sin ganar	10	10	—
+Anotando	15	15	17
+Recibiendo gol	13	13	12
+Clean sheets	7	7	—
+Sin anotar	4	4	3
+
+Los valores pendientes no deberían publicarse hasta cerrar y documentar esas dos comprobaciones.
+
+9. ¿Qué demuestra este proyecto?
+
+Desde una perspectiva de Data Analytics, el valor del ejercicio no está solamente en los récords deportivos.
+
+Demuestra varias competencias transferibles:
+
+SQL
+CTEs
+Window Functions
+LAG
+COUNTIF
+SUM
+ARRAY_AGG
+agrupaciones
+ordenamiento analítico
+Data Modeling
+
+El análisis trabaja sobre:
+
+gold.fact_mexico_matches
+
+en lugar de construir tablas específicas para cada récord.
+
+Esto mantiene la arquitectura:
+
+Raw
+ ↓
+Staging
+ ↓
+Gold
+ ↓
+Analytics / Dashboards
+Data Quality
+
+Se validaron:
+
+duplicados potenciales
+fechas
+continuidad
+goles
+torneos
+clasificación de partidos
+resultados históricos
+Analytical Thinking
+
+Cada métrica requiere definir:
+
+universo
+entidad
+granularidad
+condición de continuidad
+evento que rompe la racha
+Reproducibilidad
+
+Los récords pueden recalcularse ejecutando las consultas SQL.
+
+Eso es mucho más defendible que mantener los números manualmente.
+
+10. El aprendizaje principal
+
+El mayor aprendizaje de esta etapa no fue una función SQL.
+
+Fue entender que:
+
+una métrica depende de su definición.
+
+"Mayor racha histórica de México" parece una pregunta sencilla.
+
+Pero antes de calcularla hay que decidir:
+
+¿Qué partidos?
+¿Qué selección?
+¿Qué competiciones?
+¿Qué significa oficial?
+¿Qué rompe una racha?
+¿Cómo tratamos partidos históricos?
+¿Cómo validamos el resultado?
+
+Cambiar cualquiera de esas definiciones puede cambiar el récord.
+
+Por eso México2030 Analytics trata las métricas como definiciones analíticas, no solamente como números.
+
+11. Próximo paso
+
+Con las siete consultas terminadas, el siguiente paso no debería ser crear otras diez consultas inmediatamente.
+
+El valor ahora está en convertir este trabajo en un producto analítico presentable:
+
+SQL → validación → documentación → visualización → storytelling
+
+Los récords deberían convertirse en una sección del proyecto donde un usuario pueda explorar:
+
+récord
+universo
+periodo
+rivales
+competición
+partidos que forman la racha
+
+Así, México2030 Analytics pasa de ser una colección de queries a convertirse en un caso de estudio completo de Data Analytics.
+
+
