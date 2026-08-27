@@ -1,135 +1,93 @@
-# Proyecto Maestro
+Proyecto Maestro
+🇲🇽 México2030 Analytics
 
-# 🇲🇽 México2030 Analytics
+Última actualización: Agosto 2026
 
-**Última actualización:** Julio 2026
-
----
-
-# 1. Visión del Proyecto
+1. Visión del Proyecto
 
 Construir una plataforma de Sports Analytics enfocada en analizar el rendimiento histórico y futuro de la Selección Mexicana Mayor Masculina mediante técnicas de Data Engineering, Data Analytics, Business Intelligence y Storytelling.
 
 El proyecto busca convertirse en:
 
-- Portafolio profesional de Data Analytics.
-- Plataforma especializada de Sports Analytics.
-- Herramienta de análisis rumbo al Mundial 2030.
-- Base para futuros modelos predictivos y automatizaciones.
-
----
-
-# 2. Identidad del Proyecto
-
-## Nombre Oficial
+Portafolio profesional de Data Analytics.
+Plataforma especializada de Sports Analytics.
+Herramienta de análisis rumbo al Mundial 2030.
+Base para futuras automatizaciones y nuevas capas analíticas.
+2. Identidad del Proyecto
+Nombre Oficial
 
 México2030 Analytics
 
-## Marca Analítica
+Marca Analítica
 
 Tricolor Analytics
 
-## Serie Editorial
+Serie Editorial
 
 El Laboratorio del Tri
 
----
+3. Objetivos Estratégicos
+Objetivos Profesionales
+Conseguir oportunidades laborales como Data Analyst.
+Especializarse en Sports Analytics.
+Fortalecer la marca personal mediante LinkedIn.
+Construir un portafolio técnico diferenciador.
+Objetivos Técnicos
+Implementar una arquitectura moderna de datos.
+Construir dashboards especializados.
+Mantener una única fuente confiable de información.
+Desarrollar análisis históricos reproducibles.
+Evolucionar hacia una plataforma analítica rumbo al Mundial 2030.
+4. Alcance Actual
+Incluido
+Selección Mexicana Mayor Masculina.
+Resultados históricos disponibles en la fuente principal.
+Procesos ETL con Python.
+Arquitectura Bronze / Silver / Gold.
+Data Warehouse en Google BigQuery.
+SQL analítico en BigQuery.
+Dashboards interactivos en Tableau Public.
+Análisis de récords históricos.
+Publicaciones analíticas en LinkedIn.
+Documentación técnica y metodológica.
+Fuera del alcance
+Selección Femenil.
+Selecciones menores.
+APIs deportivas.
+Automatización del pipeline.
+Datos detallados de jugadores.
+Machine Learning.
+Modelos predictivos.
+5. Cobertura Histórica
+Fuente oficial
 
-# 3. Objetivos Estratégicos
-
-## Objetivos Profesionales
-
-- Conseguir oportunidades laborales como Data Analyst.
-- Especializarse en Sports Analytics.
-- Fortalecer la marca personal mediante LinkedIn.
-- Construir un portafolio técnico diferenciador.
-
-## Objetivos Técnicos
-
-- Implementar una arquitectura moderna de datos.
-- Construir dashboards especializados.
-- Mantener una única fuente confiable de información.
-- Evolucionar hacia una plataforma analítica rumbo al Mundial 2030.
-
----
-
-# 4. Alcance Actual
-
-## Incluido
-
-- Selección Mexicana Mayor Masculina.
-- Resultados históricos oficiales.
-- Procesos ETL con Python.
-- Arquitectura Bronze / Silver / Gold.
-- Data Warehouse en Google BigQuery.
-- Dashboards interactivos en Tableau Public.
-- Publicaciones analíticas en LinkedIn.
-
-## Fuera del alcance
-
-- Selección Femenil.
-- Selecciones menores.
-- APIs deportivas.
-- Automatización del pipeline.
-- Datos detallados de jugadores.
-- Machine Learning.
-- Modelos predictivos.
-
----
-
-# 5. Cobertura Histórica
-
-Fuente oficial:
-
-**International Football Results from 1872 to 2026**
+International Football Results from 1872 to 2026
 
 Autor:
 
 Mart Jürisoo (Kaggle)
 
-Cobertura validada para México:
-
-| Métrica | Valor |
-|----------|----------|
-| Primer partido | 1923-01-01 |
-| Último partido | 2026-07-05 |
-| Total partidos | 1008 |
-
----
-
-# 6. Stack Tecnológico
-
-## Data Engineering
-
-- Python
-- Pandas
-- Jupyter Notebook
-
-## Data Warehouse
-
-- Google BigQuery
-
-## SQL
-
-- BigQuery SQL
-
-## Visualización
-
-- Tableau Public
-
-## Control de Versiones
-
-- GitHub
-
-## Comunicación
-
-- LinkedIn
-
----
-
-# 7. Arquitectura Implementada
-
-```text
+Cobertura validada para México
+Métrica	Valor
+Primer partido	1923-01-01
+Último partido	2026-07-05
+Total partidos	1008
+6. Stack Tecnológico
+Data Engineering
+Python
+Pandas
+Jupyter Notebook
+Data Warehouse
+Google BigQuery
+SQL
+BigQuery SQL
+Visualización
+Tableau Public
+Control de Versiones
+GitHub
+Comunicación
+LinkedIn
+7. Arquitectura Implementada
 Dataset Kaggle
         ↓
 Python ETL
@@ -140,139 +98,175 @@ BigQuery Silver
         ↓
 BigQuery Gold
         ↓
-Dashboard Ejecutivo
+SQL Analytics
         ↓
-Dashboard Histórico Avanzado
+Dashboards / Récords Históricos
         ↓
-Tableau Public
-        ↓
-LinkedIn
-```
+Tableau Public / LinkedIn
 
----
+La arquitectura oficial mantiene tres capas de datos:
 
-# 8. Arquitectura de Datos
+Bronze → Silver → Gold
 
-## Proyecto BigQuery
+Los análisis y dashboards consumen principalmente:
 
-```
+gold.fact_mexico_matches
+8. Arquitectura de Datos
+Proyecto BigQuery
 mexico2030analytics
-```
+Datasets
+Bronze
+raw_matches
+Silver
+matches
+Gold
+fact_mexico_matches
+Granularidad oficial
 
-## Datasets
+1 fila = 1 partido de México.
 
-### Bronze
+9. Universos Analíticos
 
-- raw_matches
+La tabla gold.fact_mexico_matches constituye la fuente común para los análisis históricos.
 
-### Silver
+Los análisis de récords se realizan utilizando tres universos metodológicos:
 
-- matches
+1. Todo el dataset
 
-### Gold
+Incluye todos los partidos disponibles en la tabla Gold.
 
-- fact_mexico_matches
+2. Mayor A / Clase A
 
-Granularidad oficial:
+Incluye los partidos correspondientes a la Selección Mayor A / Clase A según la metodología definida para el proyecto.
 
-> 1 fila = 1 partido de México.
+Los amistosos permanecen incluidos cuando corresponden al universo Clase A.
 
----
+3. Oficiales
 
-# 9. Estado Oficial del Proyecto
+Incluye únicamente las competiciones clasificadas como oficiales según la metodología del proyecto.
 
-## Versión actual
+Los amistosos y competiciones excluidas de la metodología oficial no forman parte de este universo.
 
-**v1.1.0**
+La pertenencia a estos universos se determina mediante SQL y reglas metodológicas, sin duplicar la tabla Gold.
 
-## Estado
+10. Estado Oficial del Proyecto
+Versión actual
+
+v1.2.0
+
+Estado
 
 ✅ MVP COMPLETADO
+✅ Modelo histórico validado
+✅ Dashboards publicados
+✅ Primera biblioteca de récords históricos completada
 
-## Dashboards publicados
-
-- Dashboard Ejecutivo
-- Dashboard Histórico Avanzado
-
----
-
-# 10. Historial de Sprints
-
-| Sprint | Estado | Resultado |
-|---------|--------|-----------|
-| Sprint 1 | ✅ | Exploración del dataset |
-| Sprint 2 | ✅ | Bronze Layer |
-| Sprint 3 | ✅ | Silver Layer |
-| Sprint 4 | ✅ | Gold Layer |
-| Sprint 5 | ✅ | Dashboard Ejecutivo |
-| Sprint 6 | ✅ | Auditoría completa del modelo histórico |
-| Sprint 7 | ✅ | Dashboard Histórico Avanzado |
-
----
-
-# 11. Dashboards Oficiales
-
-## Dashboard Ejecutivo
+11. Dashboards Oficiales
+Dashboard Ejecutivo
 
 Incluye:
 
-- KPIs de resultados
-- Rendimiento histórico
-- Competiciones
-- Rivales
-- Localía
+KPIs de resultados
+Rendimiento histórico
+Competiciones
+Rivales
+Localía
 
 Estado:
 
 ✅ Publicado
 
----
-
-## Dashboard Histórico Avanzado
+Dashboard Histórico Avanzado
 
 Incluye:
 
-- KPIs ofensivos
-- KPIs defensivos
-- Evolución de goles
-- Top rivales por goles
-- Goles por competición
-- Rendimiento ofensivo y defensivo por localía
+KPIs ofensivos
+KPIs defensivos
+Evolución de goles
+Top rivales por goles
+Goles por competición
+Rendimiento ofensivo y defensivo por localía
 
 Estado:
 
 ✅ Publicado
 
----
+12. Auditoría del Modelo Histórico
 
-# 12. Auditoría del Modelo Histórico
+Durante el proceso de validación se realizó una auditoría integral sobre:
 
-Durante el Sprint 6 se realizó una auditoría integral sobre la tabla:
-
-```
 gold.fact_mexico_matches
-```
-
-## Competiciones auditadas
-
-- Friendly
-- FIFA World Cup Qualification
-- Gold Cup
-- FIFA World Cup
-- Copa América
-- CONCACAF Nations League
+Competiciones auditadas
+Friendly
+FIFA World Cup qualification
+Gold Cup
+FIFA World Cup
+Copa América
+CONCACAF Nations League
 
 Resultado:
 
-✅ 54 de 54 validaciones aprobadas.
+✅ 54 de 54 validaciones aprobadas
 
-El modelo histórico queda oficialmente validado para el desarrollo de dashboards especializados.
+El modelo histórico queda oficialmente validado como fuente para dashboards y análisis históricos.
 
----
+13. Biblioteca de Récords Históricos
 
-# 13. Decisiones Arquitectónicas
+Como nueva etapa analítica se desarrolló una biblioteca de 7 consultas históricas utilizando como fuente:
 
-## DA-001
+gold.fact_mexico_matches
+
+Cada récord fue calculado en tres universos:
+
+Todo el dataset
+Mayor A / Clase A
+Oficiales
+Consultas desarrolladas
+Consulta	Récord
+01	Mayor racha de victorias consecutivas
+02	Mayor racha invicta
+03	Mayor racha de derrotas consecutivas
+04	Mayor racha anotando en partidos consecutivos
+05	Mayor racha recibiendo gol en partidos consecutivos
+06	Mayor racha de clean sheets consecutivos
+07	Mayor racha de partidos sin anotar
+
+Los resultados fueron auditados mediante consultas de detalle sobre los partidos que conforman cada racha.
+
+Principio metodológico
+
+Cada récord distingue explícitamente entre:
+
+dato observado
+        ↓
+cálculo SQL
+        ↓
+resultado
+        ↓
+interpretación
+
+Esto evita presentar una interpretación histórica como si fuera directamente un dato de la fuente.
+
+14. Monitoreo de Récords
+
+Los récords históricos establecidos se consideran récords oficiales del proyecto y serán utilizados como referencia para futuras actualizaciones del dataset.
+
+El objetivo es poder determinar si nuevos partidos de México:
+
+igualan un récord existente;
+superan un récord existente;
+generan una nueva marca histórica.
+
+Los récords serán monitorizados en los tres universos:
+
+Todo el dataset
+Mayor A / Clase A
+Oficiales
+
+La metodología de cada universo deberá mantenerse estable para garantizar comparabilidad histórica.
+
+15. Decisiones Arquitectónicas
+DA-001
 
 Se limita el alcance a la Selección Mexicana Mayor Masculina.
 
@@ -280,47 +274,37 @@ Estado:
 
 ✅ Aprobado
 
----
+DA-002
 
-## DA-002
+Arquitectura oficial:
 
-Arquitectura oficial Bronze / Silver / Gold.
+Bronze / Silver / Gold
 
 Estado:
 
 ✅ Aprobado
 
----
-
-## DA-003
+DA-003
 
 La tabla oficial para consumo analítico será:
 
-```
 gold.fact_mexico_matches
-```
 
 Estado:
 
 ✅ Aprobado
 
----
-
-## DA-004
+DA-004
 
 Granularidad oficial:
 
-```
 1 fila = 1 partido de México.
-```
 
 Estado:
 
 ✅ Aprobado
 
----
-
-## DA-005
+DA-005
 
 Tableau Public será la plataforma oficial de visualización.
 
@@ -328,9 +312,7 @@ Estado:
 
 ✅ Aprobado
 
----
-
-## DA-006
+DA-006
 
 Toda nueva visualización deberá justificarse por valor analítico antes de construirse.
 
@@ -338,51 +320,39 @@ Estado:
 
 ✅ Aprobado
 
----
-
-## DA-007
+DA-007
 
 Se utilizarán filtros exactos sobre el campo:
 
-```
 tournament
-```
 
 Ejemplo:
 
-```sql
 WHERE tournament = 'FIFA World Cup'
-```
 
-No se utilizarán filtros tipo:
+No se utilizarán filtros amplios como:
 
-```sql
 LIKE '%World Cup%'
-```
+
+cuando el objetivo sea analizar una competición específica.
 
 Estado:
 
 ✅ Aprobado
 
----
+DA-008
 
-## DA-008
+Durante los dashboards y análisis históricos se mantendrá una única fuente analítica:
 
-Durante los dashboards especializados se mantendrá una única fuente de datos:
-
-```
 gold.fact_mexico_matches
-```
 
-No se crearán nuevas tablas hasta finalizar esta etapa.
+No se crearán nuevas tablas cuando el análisis pueda resolverse correctamente mediante SQL sobre la estructura existente.
 
 Estado:
 
 ✅ Aprobado
 
----
-
-## DA-009
+DA-009
 
 El análisis geográfico queda pospuesto hasta incorporar nuevas dimensiones en futuras versiones.
 
@@ -390,9 +360,7 @@ Estado:
 
 ✅ Aprobado
 
----
-
-## DA-010
+DA-010
 
 Todos los dashboards deberán mantener una identidad visual consistente para facilitar la navegación y comparación entre análisis.
 
@@ -400,77 +368,84 @@ Estado:
 
 ✅ Aprobado
 
----
+DA-011
 
-# 14. Roadmap
+Los récords históricos se calcularán separadamente para los tres universos metodológicos:
 
-## ✅ Fase 1 — MVP
+Todo el dataset
+Mayor A / Clase A
+Oficiales
 
-- Arquitectura BigQuery
-- ETL
-- Dashboard Ejecutivo
+Estado:
 
----
+✅ Aprobado
 
-## ✅ Fase 2 — Dashboard Histórico Avanzado
+DA-012
 
-- Métricas ofensivas
-- Métricas defensivas
-- Goles por competición
-- Goles por localía
-- Rivales por goles
+La definición de cada récord deberá ser reproducible mediante SQL y deberá poder auditarse mediante el listado de partidos que conforman la racha.
 
----
+Estado:
 
-## ⬜ Fase 3 — Dashboard Rivales
+✅ Aprobado
 
-- Historial por selección
-- Balance histórico
-- Diferencia de goles
-- Tendencias
+16. Historial de Sprints
+Sprint	Estado	Resultado
+Sprint 1	✅	Exploración del dataset
+Sprint 2	✅	Bronze Layer
+Sprint 3	✅	Silver Layer
+Sprint 4	✅	Gold Layer
+Sprint 5	✅	Dashboard Ejecutivo
+Sprint 6	✅	Auditoría completa del modelo histórico
+Sprint 7	✅	Dashboard Histórico Avanzado
+Sprint 8	✅	Biblioteca de 7 récords históricos
+17. Roadmap
+✅ Fase 1 — MVP
+Arquitectura BigQuery
+ETL
+Dashboard Ejecutivo
+✅ Fase 2 — Dashboard Histórico Avanzado
+Métricas ofensivas
+Métricas defensivas
+Goles por competición
+Goles por localía
+Rivales por goles
+✅ Fase 3 — Récords Históricos
+7 consultas analíticas
+Tres universos metodológicos
+Auditoría de resultados
+Registro de récords oficiales
+Metodología reproducible
+⬜ Fase 4 — Dashboard Rivales
+Historial por selección
+Balance histórico
+Diferencia de goles
+Tendencias
+⬜ Fase 5 — Dashboard Mundiales
+Participaciones
+Rendimiento por edición
+Eliminatorias
+Comparativos históricos
+⬜ Fase 6 — Nuevas Capas Analíticas
+Ranking FIFA
+Competiciones
+Scouting
+Nuevas tablas Gold
+⬜ Fase 7 — Automatización
+Integración con APIs
+Actualización automática
+Pipeline programado
+18. Principios del Proyecto
+Evitar el scope creep.
+Priorizar valor analítico sobre complejidad técnica.
+Mantener una única fuente de verdad.
+Documentar toda decisión importante.
+Construir dashboards con narrativa clara.
+Publicar de forma consistente.
+Mantener una arquitectura escalable.
+Priorizar análisis reproducibles y auditables.
+No crear nuevas tablas cuando el modelo existente resuelva correctamente la necesidad.
+Diferenciar siempre entre dato, cálculo, interpretación y conclusión.
+Regla Oficial del Proyecto
 
----
-
-## ⬜ Fase 4 — Dashboard Mundiales
-
-- Participaciones
-- Rendimiento por edición
-- Eliminatorias
-- Comparativos históricos
-
----
-
-## ⬜ Fase 5 — Nuevas Capas Analíticas
-
-- Ranking FIFA
-- Competiciones
-- Scouting
-- Nuevas tablas Gold
-
----
-
-## ⬜ Fase 6 — Automatización
-
-- Integración con APIs
-- Actualización automática
-- Pipeline programado
-
----
-
-# 15. Principios del Proyecto
-
-1. Evitar el scope creep.
-2. Priorizar valor analítico sobre complejidad técnica.
-3. Mantener una única fuente de verdad.
-4. Documentar toda decisión importante.
-5. Construir dashboards con narrativa clara.
-6. Publicar de forma consistente.
-7. Mantener una arquitectura escalable.
-
----
-
-# Regla Oficial del Proyecto
-
-> **"Un análisis publicado vale más que un análisis perfecto que nunca se publica."**
-
+"Un análisis publicado vale más que un análisis perfecto que nunca se publica."
 
