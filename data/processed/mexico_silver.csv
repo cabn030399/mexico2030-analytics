@@ -1,0 +1,1009 @@
+match_id,date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,match_key
+783,1923-01-01,Guatemala,Mexico,2.0,3.0,Friendly,Guatemala City,Guatemala,False,1923-01-01|Guatemala|Mexico|Friendly|2.0|3.0|Guatemala City
+785,1923-01-04,Guatemala,Mexico,3.0,1.0,Friendly,Guatemala City,Guatemala,False,1923-01-04|Guatemala|Mexico|Friendly|3.0|1.0|Guatemala City
+786,1923-01-07,Guatemala,Mexico,1.0,4.0,Friendly,Guatemala City,Guatemala,False,1923-01-07|Guatemala|Mexico|Friendly|1.0|4.0|Guatemala City
+873,1923-12-09,Mexico,Guatemala,2.0,1.0,Friendly,Mexico City,Mexico,False,1923-12-09|Mexico|Guatemala|Friendly|2.0|1.0|Mexico City
+874,1923-12-12,Mexico,Guatemala,2.0,0.0,Friendly,Mexico City,Mexico,False,1923-12-12|Mexico|Guatemala|Friendly|2.0|0.0|Mexico City
+875,1923-12-16,Mexico,Guatemala,3.0,3.0,Friendly,Mexico City,Mexico,False,1923-12-16|Mexico|Guatemala|Friendly|3.0|3.0|Mexico City
+1285,1928-05-30,Spain,Mexico,7.0,1.0,Olympic Games,Amsterdam,Netherlands,True,1928-05-30|Spain|Mexico|Olympic Games|7.0|1.0|Amsterdam
+1294,1928-06-05,Chile,Mexico,3.0,1.0,Olympic Games,Arnhem,Netherlands,True,1928-06-05|Chile|Mexico|Olympic Games|3.0|1.0|Arnhem
+1492,1930-07-13,France,Mexico,4.0,1.0,FIFA World Cup,Montevideo,Uruguay,True,1930-07-13|France|Mexico|FIFA World Cup|4.0|1.0|Montevideo
+1496,1930-07-16,Chile,Mexico,3.0,0.0,FIFA World Cup,Montevideo,Uruguay,True,1930-07-16|Chile|Mexico|FIFA World Cup|3.0|0.0|Montevideo
+1501,1930-07-19,Argentina,Mexico,6.0,3.0,FIFA World Cup,Montevideo,Uruguay,True,1930-07-19|Argentina|Mexico|FIFA World Cup|6.0|3.0|Montevideo
+1838,1934-03-04,Mexico,Cuba,3.0,2.0,FIFA World Cup qualification,Mexico City,Mexico,False,1934-03-04|Mexico|Cuba|FIFA World Cup qualification|3.0|2.0|Mexico City
+1841,1934-03-11,Mexico,Cuba,5.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1934-03-11|Mexico|Cuba|FIFA World Cup qualification|5.0|0.0|Mexico City
+1847,1934-03-18,Mexico,Cuba,4.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,1934-03-18|Mexico|Cuba|FIFA World Cup qualification|4.0|1.0|Mexico City
+1877,1934-05-24,Mexico,United States,2.0,4.0,FIFA World Cup qualification,Rome,Italy,True,1934-05-24|Mexico|United States|FIFA World Cup qualification|2.0|4.0|Rome
+1964,1935-03-27,El Salvador,Mexico,1.0,8.0,Central American and Caribbean Games,San Salvador,El Salvador,False,1935-03-27|El Salvador|Mexico|Central American and Caribbean Games|1.0|8.0|San Salvador
+1967,1935-03-28,Mexico,Guatemala,5.0,1.0,Central American and Caribbean Games,San Salvador,El Salvador,True,1935-03-28|Mexico|Guatemala|Central American and Caribbean Games|5.0|1.0|San Salvador
+1968,1935-03-30,Mexico,Cuba,6.0,1.0,Central American and Caribbean Games,San Salvador,El Salvador,True,1935-03-30|Mexico|Cuba|Central American and Caribbean Games|6.0|1.0|San Salvador
+1973,1935-04-01,Mexico,Honduras,8.0,2.0,Central American and Caribbean Games,San Salvador,El Salvador,True,1935-04-01|Mexico|Honduras|Central American and Caribbean Games|8.0|2.0|San Salvador
+1974,1935-04-02,Mexico,Costa Rica,2.0,0.0,Central American and Caribbean Games,San Salvador,El Salvador,True,1935-04-02|Mexico|Costa Rica|Central American and Caribbean Games|2.0|0.0|San Salvador
+2226,1937-09-12,Mexico,United States,7.0,2.0,Friendly,Mexico City,Mexico,False,1937-09-12|Mexico|United States|Friendly|7.0|2.0|Mexico City
+2231,1937-09-19,Mexico,United States,7.0,3.0,Friendly,Mexico City,Mexico,False,1937-09-19|Mexico|United States|Friendly|7.0|3.0|Mexico City
+2260,1937-11-28,Mexico,Basque Country,1.0,4.0,Friendly,Mexico City,Mexico,False,1937-11-28|Mexico|Basque Country|Friendly|1.0|4.0|Mexico City
+2263,1937-12-05,Mexico,Basque Country,1.0,2.0,Friendly,Mexico City,Mexico,False,1937-12-05|Mexico|Basque Country|Friendly|1.0|2.0|Mexico City
+2265,1937-12-12,Mexico,Basque Country,0.0,4.0,Friendly,Mexico City,Mexico,False,1937-12-12|Mexico|Basque Country|Friendly|0.0|4.0|Mexico City
+2268,1938-01-09,Mexico,Basque Country,3.0,1.0,Friendly,Mexico City,Mexico,False,1938-01-09|Mexico|Basque Country|Friendly|3.0|1.0|Mexico City
+2276,1938-02-10,Mexico,Colombia,3.0,1.0,Central American and Caribbean Games,Panama City,Panama,True,1938-02-10|Mexico|Colombia|Central American and Caribbean Games|3.0|1.0|Panama City
+2280,1938-02-14,Mexico,Venezuela,1.0,0.0,Central American and Caribbean Games,Panama City,Panama,True,1938-02-14|Mexico|Venezuela|Central American and Caribbean Games|1.0|0.0|Panama City
+2284,1938-02-18,Mexico,El Salvador,6.0,0.0,Central American and Caribbean Games,Panama City,Panama,True,1938-02-18|Mexico|El Salvador|Central American and Caribbean Games|6.0|0.0|Panama City
+2286,1938-02-20,Panama,Mexico,2.0,2.0,Central American and Caribbean Games,Panama City,Panama,False,1938-02-20|Panama|Mexico|Central American and Caribbean Games|2.0|2.0|Panama City
+2289,1938-02-22,Mexico,Costa Rica,2.0,1.0,Central American and Caribbean Games,Panama City,Panama,True,1938-02-22|Mexico|Costa Rica|Central American and Caribbean Games|2.0|1.0|Panama City
+2403,1938-10-16,Mexico,Basque Country,8.0,4.0,Friendly,Mexico City,Mexico,False,1938-10-16|Mexico|Basque Country|Friendly|8.0|4.0|Mexico City
+2407,1938-10-23,Mexico,Basque Country,2.0,6.0,Friendly,Mexico City,Mexico,False,1938-10-23|Mexico|Basque Country|Friendly|2.0|6.0|Mexico City
+2408,1938-10-30,Mexico,Basque Country,1.0,3.0,Friendly,Mexico City,Mexico,False,1938-10-30|Mexico|Basque Country|Friendly|1.0|3.0|Mexico City
+2975,1947-07-13,Mexico,United States,5.0,0.0,NAFC Championship,Havana,Cuba,True,1947-07-13|Mexico|United States|NAFC Championship|5.0|0.0|Havana
+2976,1947-07-17,Cuba,Mexico,1.0,3.0,NAFC Championship,Havana,Cuba,False,1947-07-17|Cuba|Mexico|NAFC Championship|1.0|3.0|Havana
+3285,1949-09-04,Mexico,United States,6.0,0.0,NAFC Championship,Mexico City,Mexico,False,1949-09-04|Mexico|United States|NAFC Championship|6.0|0.0|Mexico City
+3288,1949-09-11,Mexico,Cuba,2.0,0.0,NAFC Championship,Mexico City,Mexico,False,1949-09-11|Mexico|Cuba|NAFC Championship|2.0|0.0|Mexico City
+3293,1949-09-18,Mexico,United States,6.0,2.0,FIFA World Cup qualification,Mexico City,Mexico,False,1949-09-18|Mexico|United States|FIFA World Cup qualification|6.0|2.0|Mexico City
+3297,1949-09-25,Mexico,Cuba,3.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1949-09-25|Mexico|Cuba|FIFA World Cup qualification|3.0|0.0|Mexico City
+3392,1950-06-24,Brazil,Mexico,4.0,0.0,FIFA World Cup,Rio de Janeiro,Brazil,False,1950-06-24|Brazil|Mexico|FIFA World Cup|4.0|0.0|Rio de Janeiro
+3400,1950-06-28,Mexico,Yugoslavia,1.0,4.0,FIFA World Cup,Porto Alegre,Brazil,True,1950-06-28|Mexico|Yugoslavia|FIFA World Cup|1.0|4.0|Porto Alegre
+3410,1950-07-02,Mexico,Switzerland,1.0,2.0,FIFA World Cup,Porto Alegre,Brazil,True,1950-07-02|Mexico|Switzerland|FIFA World Cup|1.0|2.0|Porto Alegre
+3593,1952-03-23,Mexico,Uruguay,1.0,3.0,Pan American Championship,Santiago,Chile,True,1952-03-23|Mexico|Uruguay|Pan American Championship|1.0|3.0|Santiago
+3596,1952-03-26,Chile,Mexico,4.0,0.0,Pan American Championship,Santiago,Chile,False,1952-03-26|Chile|Mexico|Pan American Championship|4.0|0.0|Santiago
+3604,1952-04-06,Brazil,Mexico,2.0,0.0,Pan American Championship,Santiago,Chile,True,1952-04-06|Brazil|Mexico|Pan American Championship|2.0|0.0|Santiago
+3607,1952-04-10,Mexico,Panama,4.0,2.0,Pan American Championship,Santiago,Chile,True,1952-04-10|Mexico|Panama|Pan American Championship|4.0|2.0|Santiago
+3614,1952-04-20,Mexico,Peru,0.0,3.0,Pan American Championship,Santiago,Chile,True,1952-04-20|Mexico|Peru|Pan American Championship|0.0|3.0|Santiago
+3797,1953-07-19,Mexico,Haiti,8.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1953-07-19|Mexico|Haiti|FIFA World Cup qualification|8.0|0.0|Mexico City
+3876,1953-12-27,Haiti,Mexico,0.0,4.0,FIFA World Cup qualification,Port-au-Prince,Haiti,False,1953-12-27|Haiti|Mexico|FIFA World Cup qualification|0.0|4.0|Port-au-Prince
+3878,1954-01-10,Mexico,United States,4.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1954-01-10|Mexico|United States|FIFA World Cup qualification|4.0|0.0|Mexico City
+3879,1954-01-14,Mexico,United States,3.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,1954-01-14|Mexico|United States|FIFA World Cup qualification|3.0|1.0|Mexico City
+3958,1954-06-16,Brazil,Mexico,5.0,0.0,FIFA World Cup,Geneva,Switzerland,True,1954-06-16|Brazil|Mexico|FIFA World Cup|5.0|0.0|Geneva
+3967,1954-06-19,France,Mexico,3.0,2.0,FIFA World Cup,Geneva,Switzerland,True,1954-06-19|France|Mexico|FIFA World Cup|3.0|2.0|Geneva
+4219,1956-02-26,Mexico,Costa Rica,1.0,1.0,Pan American Championship,Mexico City,Mexico,False,1956-02-26|Mexico|Costa Rica|Pan American Championship|1.0|1.0|Mexico City
+4223,1956-03-04,Mexico,Peru,0.0,2.0,Pan American Championship,Mexico City,Mexico,False,1956-03-04|Mexico|Peru|Pan American Championship|0.0|2.0|Mexico City
+4228,1956-03-08,Mexico,Brazil,1.0,2.0,Pan American Championship,Mexico City,Mexico,False,1956-03-08|Mexico|Brazil|Pan American Championship|1.0|2.0|Mexico City
+4235,1956-03-13,Mexico,Argentina,0.0,0.0,Pan American Championship,Mexico City,Mexico,False,1956-03-13|Mexico|Argentina|Pan American Championship|0.0|0.0|Mexico City
+4439,1957-04-07,Mexico,United States,6.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1957-04-07|Mexico|United States|FIFA World Cup qualification|6.0|0.0|Mexico City
+4449,1957-04-28,United States,Mexico,2.0,7.0,FIFA World Cup qualification,Long Beach,United States,False,1957-04-28|United States|Mexico|FIFA World Cup qualification|2.0|7.0|Long Beach
+4503,1957-06-30,Mexico,Canada,3.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1957-06-30|Mexico|Canada|FIFA World Cup qualification|3.0|0.0|Mexico City
+4505,1957-07-03,Mexico,Canada,2.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1957-07-03|Mexico|Canada|FIFA World Cup qualification|2.0|0.0|Mexico City
+4585,1957-10-20,Mexico,Costa Rica,2.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1957-10-20|Mexico|Costa Rica|FIFA World Cup qualification|2.0|0.0|Mexico City
+4590,1957-10-27,Costa Rica,Mexico,1.0,1.0,FIFA World Cup qualification,San José,Costa Rica,False,1957-10-27|Costa Rica|Mexico|FIFA World Cup qualification|1.0|1.0|San José
+4704,1958-06-08,Sweden,Mexico,3.0,0.0,FIFA World Cup,Solna,Sweden,False,1958-06-08|Sweden|Mexico|FIFA World Cup|3.0|0.0|Solna
+4710,1958-06-11,Mexico,Wales,1.0,1.0,FIFA World Cup,Solna,Sweden,True,1958-06-11|Mexico|Wales|FIFA World Cup|1.0|1.0|Solna
+4718,1958-06-15,Hungary,Mexico,4.0,0.0,FIFA World Cup,Sandviken,Sweden,True,1958-06-15|Hungary|Mexico|FIFA World Cup|4.0|0.0|Sandviken
+4810,1959-03-01,Mexico,Costa Rica,3.0,1.0,Friendly,Mexico City,Mexico,False,1959-03-01|Mexico|Costa Rica|Friendly|3.0|1.0|Mexico City
+4816,1959-03-08,Costa Rica,Mexico,1.0,2.0,Friendly,San José,Costa Rica,False,1959-03-08|Costa Rica|Mexico|Friendly|1.0|2.0|San José
+4871,1959-05-24,Mexico,England,2.0,1.0,Friendly,Mexico City,Mexico,False,1959-05-24|Mexico|England|Friendly|2.0|1.0|Mexico City
+5004,1960-03-06,Brazil,Mexico,2.0,2.0,Pan American Championship,San José,Costa Rica,True,1960-03-06|Brazil|Mexico|Pan American Championship|2.0|2.0|San José
+5006,1960-03-10,Argentina,Mexico,3.0,2.0,Pan American Championship,San José,Costa Rica,True,1960-03-10|Argentina|Mexico|Pan American Championship|3.0|2.0|San José
+5010,1960-03-15,Brazil,Mexico,2.0,1.0,Pan American Championship,San José,Costa Rica,True,1960-03-15|Brazil|Mexico|Pan American Championship|2.0|1.0|San José
+5013,1960-03-17,Argentina,Mexico,2.0,0.0,Pan American Championship,San José,Costa Rica,True,1960-03-17|Argentina|Mexico|Pan American Championship|2.0|0.0|San José
+5077,1960-06-26,Mexico,Netherlands,3.0,1.0,Friendly,Mexico City,Mexico,False,1960-06-26|Mexico|Netherlands|Friendly|3.0|1.0|Mexico City
+5182,1960-11-03,United States,Mexico,3.0,3.0,FIFA World Cup qualification,Los Angeles,United States,False,1960-11-03|United States|Mexico|FIFA World Cup qualification|3.0|3.0|Los Angeles
+5185,1960-11-06,Mexico,United States,3.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1960-11-06|Mexico|United States|FIFA World Cup qualification|3.0|0.0|Mexico City
+5236,1961-03-22,Costa Rica,Mexico,1.0,0.0,FIFA World Cup qualification,San José,Costa Rica,False,1961-03-22|Costa Rica|Mexico|FIFA World Cup qualification|1.0|0.0|San José
+5245,1961-04-05,Mexico,Curaçao,7.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1961-04-05|Mexico|Curaçao|FIFA World Cup qualification|7.0|0.0|Mexico City
+5248,1961-04-12,Mexico,Costa Rica,4.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,1961-04-12|Mexico|Costa Rica|FIFA World Cup qualification|4.0|1.0|Mexico City
+5253,1961-04-19,Netherlands,Mexico,1.0,2.0,Friendly,Amsterdam,Netherlands,False,1961-04-19|Netherlands|Mexico|Friendly|1.0|2.0|Amsterdam
+5258,1961-04-29,Czechoslovakia,Mexico,2.0,1.0,Friendly,Ostrava,Czechoslovakia,False,1961-04-29|Czechoslovakia|Mexico|Friendly|2.0|1.0|Ostrava
+5271,1961-05-10,England,Mexico,8.0,0.0,Friendly,London,England,False,1961-05-10|England|Mexico|Friendly|8.0|0.0|London
+5277,1961-05-16,Norway,Mexico,1.0,1.0,Friendly,Bergen,Norway,False,1961-05-16|Norway|Mexico|Friendly|1.0|1.0|Bergen
+5281,1961-05-21,Curaçao,Mexico,0.0,0.0,FIFA World Cup qualification,Willemstad,Curaçao,False,1961-05-21|Curaçao|Mexico|FIFA World Cup qualification|0.0|0.0|Willemstad
+5375,1961-10-29,Mexico,Paraguay,1.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1961-10-29|Mexico|Paraguay|FIFA World Cup qualification|1.0|0.0|Mexico City
+5381,1961-11-05,Paraguay,Mexico,0.0,0.0,FIFA World Cup qualification,Asunción,Paraguay,False,1961-11-05|Paraguay|Mexico|FIFA World Cup qualification|0.0|0.0|Asunción
+5455,1962-03-28,Argentina,Mexico,1.0,0.0,Friendly,Buenos Aires,Argentina,False,1962-03-28|Argentina|Mexico|Friendly|1.0|0.0|Buenos Aires
+5458,1962-04-01,Colombia,Mexico,0.0,1.0,Friendly,Bogotá,Colombia,False,1962-04-01|Colombia|Mexico|Friendly|0.0|1.0|Bogotá
+5459,1962-04-04,Colombia,Mexico,2.0,2.0,Friendly,Cali,Colombia,False,1962-04-04|Colombia|Mexico|Friendly|2.0|2.0|Cali
+5475,1962-04-25,Mexico,Colombia,1.0,0.0,Friendly,Mexico City,Mexico,False,1962-04-25|Mexico|Colombia|Friendly|1.0|0.0|Mexico City
+5498,1962-05-22,Mexico,Wales,2.0,1.0,Friendly,Mexico City,Mexico,False,1962-05-22|Mexico|Wales|Friendly|2.0|1.0|Mexico City
+5503,1962-05-30,Brazil,Mexico,2.0,0.0,FIFA World Cup,Viña del Mar,Chile,True,1962-05-30|Brazil|Mexico|FIFA World Cup|2.0|0.0|Viña del Mar
+5518,1962-06-03,Mexico,Spain,0.0,1.0,FIFA World Cup,Viña del Mar,Chile,True,1962-06-03|Mexico|Spain|FIFA World Cup|0.0|1.0|Viña del Mar
+5527,1962-06-07,Czechoslovakia,Mexico,1.0,3.0,FIFA World Cup,Viña del Mar,Chile,True,1962-06-07|Czechoslovakia|Mexico|FIFA World Cup|1.0|3.0|Viña del Mar
+5740,1963-03-24,Mexico,Curaçao,1.0,2.0,CONCACAF Championship,Santa Ana,El Salvador,True,1963-03-24|Mexico|Curaçao|CONCACAF Championship|1.0|2.0|Santa Ana
+5751,1963-03-28,Jamaica,Mexico,0.0,8.0,CONCACAF Championship,Santa Ana,El Salvador,True,1963-03-28|Jamaica|Mexico|CONCACAF Championship|0.0|8.0|Santa Ana
+5754,1963-03-30,Costa Rica,Mexico,0.0,0.0,CONCACAF Championship,Santa Ana,El Salvador,True,1963-03-30|Costa Rica|Mexico|CONCACAF Championship|0.0|0.0|Santa Ana
+6209,1965-02-28,Honduras,Mexico,0.0,1.0,FIFA World Cup qualification,San Pedro Sula,Honduras,False,1965-02-28|Honduras|Mexico|FIFA World Cup qualification|0.0|1.0|San Pedro Sula
+6212,1965-03-04,Mexico,Honduras,3.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1965-03-04|Mexico|Honduras|FIFA World Cup qualification|3.0|0.0|Mexico City
+6215,1965-03-07,United States,Mexico,2.0,2.0,FIFA World Cup qualification,Los Angeles,United States,False,1965-03-07|United States|Mexico|FIFA World Cup qualification|2.0|2.0|Los Angeles
+6221,1965-03-12,Mexico,United States,2.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1965-03-12|Mexico|United States|FIFA World Cup qualification|2.0|0.0|Mexico City
+6244,1965-03-28,El Salvador,Mexico,0.0,2.0,CONCACAF Championship,Guatemala City,Guatemala,True,1965-03-28|El Salvador|Mexico|CONCACAF Championship|0.0|2.0|Guatemala City
+6250,1965-04-01,Mexico,Curaçao,5.0,0.0,CONCACAF Championship,Guatemala City,Guatemala,True,1965-04-01|Mexico|Curaçao|CONCACAF Championship|5.0|0.0|Guatemala City
+6254,1965-04-04,Haiti,Mexico,0.0,3.0,CONCACAF Championship,Guatemala City,Guatemala,True,1965-04-04|Haiti|Mexico|CONCACAF Championship|0.0|3.0|Guatemala City
+6255,1965-04-06,Costa Rica,Mexico,1.0,1.0,CONCACAF Championship,Guatemala City,Guatemala,True,1965-04-06|Costa Rica|Mexico|CONCACAF Championship|1.0|1.0|Guatemala City
+6264,1965-04-11,Guatemala,Mexico,1.0,2.0,CONCACAF Championship,Guatemala City,Guatemala,False,1965-04-11|Guatemala|Mexico|CONCACAF Championship|1.0|2.0|Guatemala City
+6276,1965-04-25,Costa Rica,Mexico,0.0,0.0,FIFA World Cup qualification,San José,Costa Rica,False,1965-04-25|Costa Rica|Mexico|FIFA World Cup qualification|0.0|0.0|San José
+6287,1965-05-03,Jamaica,Mexico,2.0,3.0,FIFA World Cup qualification,Kingston,Jamaica,False,1965-05-03|Jamaica|Mexico|FIFA World Cup qualification|2.0|3.0|Kingston
+6294,1965-05-07,Mexico,Jamaica,8.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1965-05-07|Mexico|Jamaica|FIFA World Cup qualification|8.0|0.0|Mexico City
+6303,1965-05-16,Mexico,Costa Rica,1.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1965-05-16|Mexico|Costa Rica|FIFA World Cup qualification|1.0|0.0|Mexico City
+6607,1966-04-24,Mexico,Paraguay,7.0,0.0,Friendly,Mexico City,Mexico,False,1966-04-24|Mexico|Paraguay|Friendly|7.0|0.0|Mexico City
+6618,1966-05-11,Mexico,Chile,1.0,0.0,Friendly,Mexico City,Mexico,False,1966-05-11|Mexico|Chile|Friendly|1.0|0.0|Mexico City
+6634,1966-05-29,Chile,Mexico,0.0,1.0,Friendly,Santiago,Chile,False,1966-05-29|Chile|Mexico|Friendly|0.0|1.0|Santiago
+6666,1966-06-19,Switzerland,Mexico,1.0,1.0,Friendly,Lausanne,Switzerland,False,1966-06-19|Switzerland|Mexico|Friendly|1.0|1.0|Lausanne
+6672,1966-06-22,Northern Ireland,Mexico,4.0,1.0,Friendly,Belfast,Northern Ireland,False,1966-06-22|Northern Ireland|Mexico|Friendly|4.0|1.0|Belfast
+6681,1966-06-29,Italy,Mexico,5.0,0.0,Friendly,Florence,Italy,False,1966-06-29|Italy|Mexico|Friendly|5.0|0.0|Florence
+6703,1966-07-13,France,Mexico,1.0,1.0,FIFA World Cup,London,England,True,1966-07-13|France|Mexico|FIFA World Cup|1.0|1.0|London
+6711,1966-07-16,England,Mexico,2.0,0.0,FIFA World Cup,London,England,False,1966-07-16|England|Mexico|FIFA World Cup|2.0|0.0|London
+6717,1966-07-19,Mexico,Uruguay,0.0,0.0,FIFA World Cup,London,England,True,1966-07-19|Mexico|Uruguay|FIFA World Cup|0.0|0.0|London
+6905,1967-01-05,Mexico,Switzerland,3.0,0.0,Friendly,Mexico City,Mexico,False,1967-01-05|Mexico|Switzerland|Friendly|3.0|0.0|Mexico City
+6906,1967-01-08,Mexico,Switzerland,0.0,2.0,Friendly,Guadalajara,Mexico,False,1967-01-08|Mexico|Switzerland|Friendly|0.0|2.0|Guadalajara
+6977,1967-03-06,Mexico,Nicaragua,4.0,0.0,CONCACAF Championship,Tegucigalpa,Honduras,True,1967-03-06|Mexico|Nicaragua|CONCACAF Championship|4.0|0.0|Tegucigalpa
+6982,1967-03-10,Guatemala,Mexico,1.0,0.0,CONCACAF Championship,Tegucigalpa,Honduras,True,1967-03-10|Guatemala|Mexico|CONCACAF Championship|1.0|0.0|Tegucigalpa
+6988,1967-03-12,Mexico,Trinidad and Tobago,4.0,0.0,CONCACAF Championship,Tegucigalpa,Honduras,True,1967-03-12|Mexico|Trinidad and Tobago|CONCACAF Championship|4.0|0.0|Tegucigalpa
+6991,1967-03-14,Haiti,Mexico,0.0,1.0,CONCACAF Championship,Tegucigalpa,Honduras,True,1967-03-14|Haiti|Mexico|CONCACAF Championship|0.0|1.0|Tegucigalpa
+6997,1967-03-19,Honduras,Mexico,0.0,1.0,CONCACAF Championship,Tegucigalpa,Honduras,False,1967-03-19|Honduras|Mexico|CONCACAF Championship|0.0|1.0|Tegucigalpa
+7050,1967-05-28,Russia,Mexico,2.0,0.0,Friendly,Leningrad,Soviet Union,False,1967-05-28|Russia|Mexico|Friendly|2.0|0.0|Leningrad
+7055,1967-06-04,Belarus,Mexico,2.0,1.0,Friendly,Minsk,Soviet Union,False,1967-06-04|Belarus|Mexico|Friendly|2.0|1.0|Minsk
+7126,1967-08-22,Mexico,Argentina,2.0,1.0,Friendly,Mexico City,Mexico,False,1967-08-22|Mexico|Argentina|Friendly|2.0|1.0|Mexico City
+7252,1967-12-06,Mexico,Hungary,2.0,1.0,Friendly,Mexico City,Mexico,False,1967-12-06|Mexico|Hungary|Friendly|2.0|1.0|Mexico City
+7253,1967-12-08,Mexico,Hungary,0.0,2.0,Friendly,Mexico City,Mexico,False,1967-12-08|Mexico|Hungary|Friendly|0.0|2.0|Mexico City
+7298,1968-03-03,Mexico,Russia,0.0,0.0,Friendly,Mexico City,Mexico,False,1968-03-03|Mexico|Russia|Friendly|0.0|0.0|Mexico City
+7301,1968-03-07,Mexico,Russia,1.0,1.0,Friendly,León,Mexico,False,1968-03-07|Mexico|Russia|Friendly|1.0|1.0|León
+7302,1968-03-10,Mexico,Russia,0.0,0.0,Friendly,Mexico City,Mexico,False,1968-03-10|Mexico|Russia|Friendly|0.0|0.0|Mexico City
+7305,1968-03-26,Mexico,Japan,4.0,0.0,Friendly,Mexico City,Mexico,False,1968-03-26|Mexico|Japan|Friendly|4.0|0.0|Mexico City
+7353,1968-05-21,Mexico,Uruguay,3.0,3.0,Friendly,Mexico City,Mexico,False,1968-05-21|Mexico|Uruguay|Friendly|3.0|3.0|Mexico City
+7355,1968-05-28,Mexico,Uruguay,2.0,2.0,Friendly,Mexico City,Mexico,False,1968-05-28|Mexico|Uruguay|Friendly|2.0|2.0|Mexico City
+7385,1968-07-07,Mexico,Brazil,0.0,2.0,Friendly,Mexico City,Mexico,False,1968-07-07|Mexico|Brazil|Friendly|0.0|2.0|Mexico City
+7386,1968-07-10,Mexico,Brazil,2.0,1.0,Friendly,Mexico City,Mexico,False,1968-07-10|Mexico|Brazil|Friendly|2.0|1.0|Mexico City
+7458,1968-09-29,Mexico,Ethiopia,3.0,0.0,Friendly,León,Mexico,False,1968-09-29|Mexico|Ethiopia|Friendly|3.0|0.0|León
+7479,1968-10-16,Colombia,Mexico,0.0,1.0,Friendly,Bogotá,Colombia,False,1968-10-16|Colombia|Mexico|Friendly|0.0|1.0|Bogotá
+7485,1968-10-20,Peru,Mexico,3.0,3.0,Friendly,Lima,Peru,False,1968-10-20|Peru|Mexico|Friendly|3.0|3.0|Lima
+7489,1968-10-23,Chile,Mexico,3.0,1.0,Friendly,Santiago,Chile,False,1968-10-23|Chile|Mexico|Friendly|3.0|1.0|Santiago
+7494,1968-10-26,Uruguay,Mexico,0.0,2.0,Friendly,Montevideo,Uruguay,False,1968-10-26|Uruguay|Mexico|Friendly|0.0|2.0|Montevideo
+7502,1968-10-31,Brazil,Mexico,1.0,2.0,Friendly,Rio de Janeiro,Brazil,False,1968-10-31|Brazil|Mexico|Friendly|1.0|2.0|Rio de Janeiro
+7504,1968-11-03,Brazil,Mexico,2.0,1.0,Friendly,Belo Horizonte,Brazil,False,1968-11-03|Brazil|Mexico|Friendly|2.0|1.0|Belo Horizonte
+7577,1968-12-22,Mexico,Germany,0.0,0.0,Friendly,Mexico City,Mexico,False,1968-12-22|Mexico|Germany|Friendly|0.0|0.0|Mexico City
+7581,1969-01-01,Mexico,Italy,2.0,3.0,Friendly,Mexico City,Mexico,False,1969-01-01|Mexico|Italy|Friendly|2.0|3.0|Mexico City
+7583,1969-01-05,Mexico,Italy,1.0,1.0,Friendly,Mexico City,Mexico,False,1969-01-05|Mexico|Italy|Friendly|1.0|1.0|Mexico City
+7597,1969-01-22,Mexico,Denmark,3.0,0.0,Friendly,Mexico City,Mexico,False,1969-01-22|Mexico|Denmark|Friendly|3.0|0.0|Mexico City
+7606,1969-02-04,Mexico,Colombia,1.0,0.0,Friendly,León,Mexico,False,1969-02-04|Mexico|Colombia|Friendly|1.0|0.0|León
+7635,1969-04-06,Portugal,Mexico,0.0,0.0,Friendly,Oeiras,Portugal,False,1969-04-06|Portugal|Mexico|Friendly|0.0|0.0|Oeiras
+7639,1969-04-10,Luxembourg,Mexico,2.0,1.0,Friendly,Luxembourg,Luxembourg,False,1969-04-10|Luxembourg|Mexico|Friendly|2.0|1.0|Luxembourg
+7640,1969-04-16,Belgium,Mexico,2.0,0.0,Friendly,Brussels,Belgium,False,1969-04-16|Belgium|Mexico|Friendly|2.0|0.0|Brussels
+7651,1969-04-23,Spain,Mexico,0.0,0.0,Friendly,Seville,Spain,False,1969-04-23|Spain|Mexico|Friendly|0.0|0.0|Seville
+7658,1969-05-01,Sweden,Mexico,1.0,0.0,Friendly,Malmö,Sweden,False,1969-05-01|Sweden|Mexico|Friendly|1.0|0.0|Malmö
+7664,1969-05-06,Denmark,Mexico,3.0,1.0,Friendly,Copenhagen,Denmark,False,1969-05-06|Denmark|Mexico|Friendly|3.0|1.0|Copenhagen
+7669,1969-05-08,Norway,Mexico,0.0,2.0,Friendly,Oslo,Norway,False,1969-05-08|Norway|Mexico|Friendly|0.0|2.0|Oslo
+7682,1969-05-20,Mexico,Peru,0.0,1.0,Friendly,Mexico City,Mexico,False,1969-05-20|Mexico|Peru|Friendly|0.0|1.0|Mexico City
+7685,1969-05-22,Mexico,Peru,3.0,0.0,Friendly,León,Mexico,False,1969-05-22|Mexico|Peru|Friendly|3.0|0.0|León
+7693,1969-06-01,Mexico,England,0.0,0.0,Friendly,Mexico City,Mexico,False,1969-06-01|Mexico|England|Friendly|0.0|0.0|Mexico City
+7695,1969-06-03,Mexico,England,0.0,4.0,Friendly,Guadalajara,Mexico,False,1969-06-03|Mexico|England|Friendly|0.0|4.0|Guadalajara
+7847,1969-10-21,Mexico,Bermuda,3.0,0.0,CONCACAF Championship qualification,Mexico City,Mexico,False,1969-10-21|Mexico|Bermuda|CONCACAF Championship qualification|3.0|0.0|Mexico City
+7865,1969-11-02,Bermuda,Mexico,2.0,1.0,CONCACAF Championship qualification,Hamilton,Bermuda,False,1969-11-02|Bermuda|Mexico|CONCACAF Championship qualification|2.0|1.0|Hamilton
+7878,1969-11-05,Mexico,Belgium,1.0,0.0,Friendly,Mexico City,Mexico,False,1969-11-05|Mexico|Belgium|Friendly|1.0|0.0|Mexico City
+7896,1969-11-11,Mexico,Norway,4.0,0.0,Friendly,Mexico City,Mexico,False,1969-11-11|Mexico|Norway|Friendly|4.0|0.0|Mexico City
+7927,1969-11-27,Mexico,Jamaica,2.0,0.0,CONCACAF Championship,San José,Costa Rica,True,1969-11-27|Mexico|Jamaica|CONCACAF Championship|2.0|0.0|San José
+7934,1969-11-30,Costa Rica,Mexico,2.0,0.0,CONCACAF Championship,San José,Costa Rica,False,1969-11-30|Costa Rica|Mexico|CONCACAF Championship|2.0|0.0|San José
+7937,1969-12-02,Mexico,Guatemala,0.0,1.0,CONCACAF Championship,San José,Costa Rica,True,1969-12-02|Mexico|Guatemala|CONCACAF Championship|0.0|1.0|San José
+7942,1969-12-04,Mexico,Curaçao,2.0,2.0,CONCACAF Championship,San José,Costa Rica,True,1969-12-04|Mexico|Curaçao|CONCACAF Championship|2.0|2.0|San José
+7946,1969-12-07,Mexico,Trinidad and Tobago,0.0,0.0,CONCACAF Championship,San José,Costa Rica,True,1969-12-07|Mexico|Trinidad and Tobago|CONCACAF Championship|0.0|0.0|San José
+7983,1970-02-15,Mexico,Bulgaria,1.0,1.0,Friendly,Mexico City,Mexico,False,1970-02-15|Mexico|Bulgaria|Friendly|1.0|1.0|Mexico City
+7986,1970-02-18,Mexico,Bulgaria,2.0,0.0,Friendly,León,Mexico,False,1970-02-18|Mexico|Bulgaria|Friendly|2.0|0.0|León
+7991,1970-02-22,Mexico,Sweden,0.0,0.0,Friendly,Mexico City,Mexico,False,1970-02-22|Mexico|Sweden|Friendly|0.0|0.0|Mexico City
+7995,1970-02-26,Mexico,Russia,0.0,0.0,Friendly,Mexico City,Mexico,False,1970-02-26|Mexico|Russia|Friendly|0.0|0.0|Mexico City
+7996,1970-03-01,Mexico,Sweden,0.0,1.0,Friendly,Puebla,Mexico,False,1970-03-01|Mexico|Sweden|Friendly|0.0|1.0|Puebla
+7998,1970-03-05,Peru,Mexico,0.0,1.0,Friendly,Lima,Peru,False,1970-03-05|Peru|Mexico|Friendly|0.0|1.0|Lima
+8000,1970-03-08,Peru,Mexico,1.0,0.0,Friendly,Lima,Peru,False,1970-03-08|Peru|Mexico|Friendly|1.0|0.0|Lima
+8001,1970-03-15,Mexico,Peru,3.0,1.0,Friendly,Mexico City,Mexico,False,1970-03-15|Mexico|Peru|Friendly|3.0|1.0|Mexico City
+8002,1970-03-18,Mexico,Peru,3.0,3.0,Friendly,León,Mexico,False,1970-03-18|Mexico|Peru|Friendly|3.0|3.0|León
+8038,1970-04-29,Mexico,Ecuador,4.0,2.0,Friendly,León,Mexico,False,1970-04-29|Mexico|Ecuador|Friendly|4.0|2.0|León
+8058,1970-05-31,Mexico,Russia,0.0,0.0,FIFA World Cup,Mexico City,Mexico,False,1970-05-31|Mexico|Russia|FIFA World Cup|0.0|0.0|Mexico City
+8075,1970-06-07,Mexico,El Salvador,4.0,0.0,FIFA World Cup,Mexico City,Mexico,False,1970-06-07|Mexico|El Salvador|FIFA World Cup|4.0|0.0|Mexico City
+8083,1970-06-11,Mexico,Belgium,1.0,0.0,FIFA World Cup,Mexico City,Mexico,False,1970-06-11|Mexico|Belgium|FIFA World Cup|1.0|0.0|Mexico City
+8087,1970-06-14,Mexico,Italy,1.0,4.0,FIFA World Cup,Toluca,Mexico,False,1970-06-14|Mexico|Italy|FIFA World Cup|1.0|4.0|Toluca
+8177,1970-09-30,Brazil,Mexico,2.0,1.0,Friendly,Rio de Janeiro,Brazil,False,1970-09-30|Brazil|Mexico|Friendly|2.0|1.0|Rio de Janeiro
+8326,1971-02-17,Mexico,Russia,0.0,0.0,Friendly,Guadalajara,Mexico,False,1971-02-17|Mexico|Russia|Friendly|0.0|0.0|Guadalajara
+8328,1971-02-20,Mexico,Russia,0.0,0.0,Friendly,Mexico City,Mexico,False,1971-02-20|Mexico|Russia|Friendly|0.0|0.0|Mexico City
+8458,1971-07-06,Mexico,Greece,1.0,1.0,Friendly,Mexico City,Mexico,False,1971-07-06|Mexico|Greece|Friendly|1.0|1.0|Mexico City
+8523,1971-08-18,Mexico,German DR,0.0,1.0,Friendly,Guadalajara,Mexico,False,1971-08-18|Mexico|German DR|Friendly|0.0|1.0|Guadalajara
+8541,1971-09-08,Germany,Mexico,5.0,0.0,Friendly,Hanover,Germany,False,1971-09-08|Germany|Mexico|Friendly|5.0|0.0|Hanover
+8558,1971-09-18,German DR,Mexico,1.0,1.0,Friendly,Leipzig,German DR,False,1971-09-18|German DR|Mexico|Friendly|1.0|1.0|Leipzig
+8566,1971-09-22,Yugoslavia,Mexico,4.0,0.0,Friendly,Sarajevo,Yugoslavia,False,1971-09-22|Yugoslavia|Mexico|Friendly|4.0|0.0|Sarajevo
+8569,1971-09-25,Italy,Mexico,2.0,0.0,Friendly,Genoa,Italy,False,1971-09-25|Italy|Mexico|Friendly|2.0|0.0|Genoa
+8575,1971-09-30,Greece,Mexico,0.0,1.0,Friendly,Salonica,Greece,False,1971-09-30|Greece|Mexico|Friendly|0.0|1.0|Salonica
+8581,1971-10-06,Bermuda,Mexico,0.0,2.0,CONCACAF Championship qualification,Hamilton,Bermuda,False,1971-10-06|Bermuda|Mexico|CONCACAF Championship qualification|0.0|2.0|Hamilton
+8582,1971-10-06,Mexico,Bermuda,4.0,0.0,CONCACAF Championship qualification,Mexico City,Mexico,False,1971-10-06|Mexico|Bermuda|CONCACAF Championship qualification|4.0|0.0|Mexico City
+8647,1971-11-21,Haiti,Mexico,0.0,0.0,CONCACAF Championship,San Fernando,Trinidad and Tobago,True,1971-11-21|Haiti|Mexico|CONCACAF Championship|0.0|0.0|San Fernando
+8655,1971-11-26,Trinidad and Tobago,Mexico,0.0,2.0,CONCACAF Championship,Port of Spain,Trinidad and Tobago,False,1971-11-26|Trinidad and Tobago|Mexico|CONCACAF Championship|0.0|2.0|Port of Spain
+8659,1971-11-28,Cuba,Mexico,0.0,1.0,CONCACAF Championship,San Fernando,Trinidad and Tobago,True,1971-11-28|Cuba|Mexico|CONCACAF Championship|0.0|1.0|San Fernando
+8671,1971-12-02,Costa Rica,Mexico,0.0,1.0,CONCACAF Championship,Port of Spain,Trinidad and Tobago,True,1971-12-02|Costa Rica|Mexico|CONCACAF Championship|0.0|1.0|Port of Spain
+8675,1971-12-04,Honduras,Mexico,1.0,2.0,CONCACAF Championship,Port of Spain,Trinidad and Tobago,True,1971-12-04|Honduras|Mexico|CONCACAF Championship|1.0|2.0|Port of Spain
+8745,1972-01-27,Mexico,Chile,2.0,0.0,Friendly,Guadalajara,Mexico,False,1972-01-27|Mexico|Chile|Friendly|2.0|0.0|Guadalajara
+8795,1972-04-05,Mexico,Peru,2.0,1.0,Friendly,Mexico City,Mexico,False,1972-04-05|Mexico|Peru|Friendly|2.0|1.0|Mexico City
+8977,1972-08-06,Costa Rica,Mexico,1.0,0.0,Friendly,San José,Costa Rica,False,1972-08-06|Costa Rica|Mexico|Friendly|1.0|0.0|San José
+8982,1972-08-09,Peru,Mexico,3.0,2.0,Friendly,Lima,Peru,False,1972-08-09|Peru|Mexico|Friendly|3.0|2.0|Lima
+8985,1972-08-16,Chile,Mexico,0.0,2.0,Friendly,Santiago,Chile,False,1972-08-16|Chile|Mexico|Friendly|0.0|2.0|Santiago
+8987,1972-08-24,Canada,Mexico,0.0,1.0,CONCACAF Championship qualification,Toronto,Canada,False,1972-08-24|Canada|Mexico|CONCACAF Championship qualification|0.0|1.0|Toronto
+8992,1972-09-03,Mexico,United States,3.0,1.0,CONCACAF Championship qualification,Mexico City,Mexico,False,1972-09-03|Mexico|United States|CONCACAF Championship qualification|3.0|1.0|Mexico City
+8995,1972-09-06,Mexico,Canada,2.0,1.0,CONCACAF Championship qualification,Mexico City,Mexico,False,1972-09-06|Mexico|Canada|CONCACAF Championship qualification|2.0|1.0|Mexico City
+8996,1972-09-10,United States,Mexico,1.0,2.0,CONCACAF Championship qualification,Los Angeles,United States,False,1972-09-10|United States|Mexico|CONCACAF Championship qualification|1.0|2.0|Los Angeles
+9038,1972-10-12,Mexico,Costa Rica,3.0,1.0,Friendly,Mexico City,Mexico,False,1972-10-12|Mexico|Costa Rica|Friendly|3.0|1.0|Mexico City
+9167,1973-02-06,Mexico,Argentina,2.0,0.0,Friendly,Mexico City,Mexico,False,1973-02-06|Mexico|Argentina|Friendly|2.0|0.0|Mexico City
+9418,1973-08-05,Mexico,Poland,0.0,1.0,Friendly,Los Angeles,United States,True,1973-08-05|Mexico|Poland|Friendly|0.0|1.0|Los Angeles
+9425,1973-08-08,Mexico,Poland,1.0,2.0,Friendly,Monterrey,Mexico,False,1973-08-08|Mexico|Poland|Friendly|1.0|2.0|Monterrey
+9488,1973-09-20,Mexico,Chile,1.0,2.0,Friendly,Mexico City,Mexico,False,1973-09-20|Mexico|Chile|Friendly|1.0|2.0|Mexico City
+9531,1973-10-16,Mexico,United States,2.0,0.0,Friendly,Mexico City,Mexico,False,1973-10-16|Mexico|United States|Friendly|2.0|0.0|Mexico City
+9589,1973-11-30,Guatemala,Mexico,0.0,0.0,CONCACAF Championship,Port-au-Prince,Haiti,True,1973-11-30|Guatemala|Mexico|CONCACAF Championship|0.0|0.0|Port-au-Prince
+9593,1973-12-03,Honduras,Mexico,1.0,1.0,CONCACAF Championship,Port-au-Prince,Haiti,True,1973-12-03|Honduras|Mexico|CONCACAF Championship|1.0|1.0|Port-au-Prince
+9598,1973-12-08,Mexico,Curaçao,8.0,0.0,CONCACAF Championship,Port-au-Prince,Haiti,True,1973-12-08|Mexico|Curaçao|CONCACAF Championship|8.0|0.0|Port-au-Prince
+9605,1973-12-14,Mexico,Trinidad and Tobago,0.0,4.0,CONCACAF Championship,Port-au-Prince,Haiti,True,1973-12-14|Mexico|Trinidad and Tobago|CONCACAF Championship|0.0|4.0|Port-au-Prince
+9613,1973-12-18,Haiti,Mexico,0.0,1.0,CONCACAF Championship,Port-au-Prince,Haiti,False,1973-12-18|Haiti|Mexico|CONCACAF Championship|0.0|1.0|Port-au-Prince
+9699,1974-03-31,Brazil,Mexico,1.0,1.0,Friendly,Rio de Janeiro,Brazil,False,1974-03-31|Brazil|Mexico|Friendly|1.0|1.0|Rio de Janeiro
+9857,1974-09-05,Mexico,United States,3.0,1.0,Friendly,Monterrey,Mexico,False,1974-09-05|Mexico|United States|Friendly|3.0|1.0|Monterrey
+9872,1974-09-08,United States,Mexico,0.0,1.0,Friendly,Dallas,United States,False,1974-09-08|United States|Mexico|Friendly|0.0|1.0|Dallas
+10227,1975-08-01,Mexico,German DR,2.0,3.0,Friendly,San Francisco,United States,True,1975-08-01|Mexico|German DR|Friendly|2.0|3.0|San Francisco
+10236,1975-08-03,Mexico,German DR,0.0,1.0,Friendly,Los Angeles,United States,True,1975-08-03|Mexico|German DR|Friendly|0.0|1.0|Los Angeles
+10250,1975-08-06,Mexico,German DR,1.0,0.0,Friendly,Monterrey,Mexico,False,1975-08-06|Mexico|German DR|Friendly|1.0|0.0|Monterrey
+10283,1975-08-17,Mexico,Costa Rica,7.0,0.0,Friendly,Mexico City,Mexico,False,1975-08-17|Mexico|Costa Rica|Friendly|7.0|0.0|Mexico City
+10289,1975-08-24,Mexico,United States,2.0,0.0,Friendly,Mexico City,Mexico,False,1975-08-24|Mexico|United States|Friendly|2.0|0.0|Mexico City
+10291,1975-08-31,Mexico,Argentina,1.0,1.0,Friendly,Mexico City,Mexico,False,1975-08-31|Mexico|Argentina|Friendly|1.0|1.0|Mexico City
+10333,1975-10-20,Israel,Mexico,1.0,0.0,Friendly,Jaffa,Israel,False,1975-10-20|Israel|Mexico|Friendly|1.0|0.0|Jaffa
+10564,1976-06-04,Mexico,Brazil,0.0,3.0,Friendly,Guadalajara,Mexico,False,1976-06-04|Mexico|Brazil|Friendly|0.0|3.0|Guadalajara
+10691,1976-10-03,United States,Mexico,0.0,0.0,CONCACAF Championship qualification,Los Angeles,United States,False,1976-10-03|United States|Mexico|CONCACAF Championship qualification|0.0|0.0|Los Angeles
+10700,1976-10-10,Canada,Mexico,1.0,0.0,CONCACAF Championship qualification,Vancouver,Canada,False,1976-10-10|Canada|Mexico|CONCACAF Championship qualification|1.0|0.0|Vancouver
+10714,1976-10-15,Mexico,United States,3.0,0.0,CONCACAF Championship qualification,Puebla,Mexico,False,1976-10-15|Mexico|United States|CONCACAF Championship qualification|3.0|0.0|Puebla
+10731,1976-10-27,Mexico,Canada,0.0,0.0,CONCACAF Championship qualification,Toluca,Mexico,False,1976-10-27|Mexico|Canada|CONCACAF Championship qualification|0.0|0.0|Toluca
+10829,1977-02-01,Mexico,Yugoslavia,5.0,1.0,Friendly,León,Mexico,False,1977-02-01|Mexico|Yugoslavia|Friendly|5.0|1.0|León
+10838,1977-02-08,Mexico,Yugoslavia,0.0,1.0,Friendly,Monterrey,Mexico,False,1977-02-08|Mexico|Yugoslavia|Friendly|0.0|1.0|Monterrey
+10862,1977-02-22,Mexico,Hungary,1.0,1.0,Friendly,Puebla,Mexico,False,1977-02-22|Mexico|Hungary|Friendly|1.0|1.0|Puebla
+10978,1977-05-17,Mexico,Peru,1.0,1.0,Friendly,Mexico City,Mexico,False,1977-05-17|Mexico|Peru|Friendly|1.0|1.0|Mexico City
+10980,1977-05-24,Mexico,Peru,2.0,1.0,Friendly,Monterrey,Mexico,False,1977-05-24|Mexico|Peru|Friendly|2.0|1.0|Monterrey
+11021,1977-06-14,Mexico,Germany,2.0,2.0,Friendly,Mexico City,Mexico,False,1977-06-14|Mexico|Germany|Friendly|2.0|2.0|Mexico City
+11131,1977-09-27,Mexico,United States,3.0,0.0,Friendly,Monterrey,Mexico,False,1977-09-27|Mexico|United States|Friendly|3.0|0.0|Monterrey
+11151,1977-10-09,Mexico,Haiti,4.0,1.0,CONCACAF Championship,Mexico City,Mexico,False,1977-10-09|Mexico|Haiti|CONCACAF Championship|4.0|1.0|Mexico City
+11160,1977-10-12,Mexico,El Salvador,3.0,1.0,CONCACAF Championship,Mexico City,Mexico,False,1977-10-12|Mexico|El Salvador|CONCACAF Championship|3.0|1.0|Mexico City
+11164,1977-10-15,Mexico,Suriname,8.0,1.0,CONCACAF Championship,Monterrey,Mexico,False,1977-10-15|Mexico|Suriname|CONCACAF Championship|8.0|1.0|Monterrey
+11170,1977-10-19,Mexico,Guatemala,2.0,1.0,CONCACAF Championship,Mexico City,Mexico,False,1977-10-19|Mexico|Guatemala|CONCACAF Championship|2.0|1.0|Mexico City
+11175,1977-10-22,Mexico,Canada,3.0,1.0,CONCACAF Championship,Monterrey,Mexico,False,1977-10-22|Mexico|Canada|CONCACAF Championship|3.0|1.0|Monterrey
+11272,1978-02-15,El Salvador,Mexico,1.0,5.0,Friendly,San Salvador,El Salvador,False,1978-02-15|El Salvador|Mexico|Friendly|1.0|5.0|San Salvador
+11329,1978-04-11,Mexico,Peru,0.0,1.0,Friendly,Los Angeles,United States,True,1978-04-11|Mexico|Peru|Friendly|0.0|1.0|Los Angeles
+11344,1978-04-26,Spain,Mexico,2.0,0.0,Friendly,Granada,Spain,False,1978-04-26|Spain|Mexico|Friendly|2.0|0.0|Granada
+11350,1978-05-03,Finland,Mexico,0.0,1.0,Friendly,Helsinki,Finland,False,1978-05-03|Finland|Mexico|Friendly|0.0|1.0|Helsinki
+11385,1978-06-02,Mexico,Tunisia,1.0,3.0,FIFA World Cup,Rosario,Argentina,True,1978-06-02|Mexico|Tunisia|FIFA World Cup|1.0|3.0|Rosario
+11391,1978-06-06,Germany,Mexico,6.0,0.0,FIFA World Cup,Córdoba,Argentina,True,1978-06-06|Germany|Mexico|FIFA World Cup|6.0|0.0|Córdoba
+11401,1978-06-10,Mexico,Poland,1.0,3.0,FIFA World Cup,Rosario,Argentina,True,1978-06-10|Mexico|Poland|FIFA World Cup|1.0|3.0|Rosario
+11516,1978-09-10,Lebanon,Mexico,1.0,7.0,Korea Cup,Seoul,South Korea,True,1978-09-10|Lebanon|Mexico|Korea Cup|1.0|7.0|Seoul
+12035,1979-11-01,Mexico,Peru,1.0,0.0,Friendly,Monterrey,Mexico,False,1979-11-01|Mexico|Peru|Friendly|1.0|0.0|Monterrey
+12085,1979-12-04,El Salvador,Mexico,0.0,2.0,Friendly,San Salvador,El Salvador,False,1979-12-04|El Salvador|Mexico|Friendly|0.0|2.0|San Salvador
+12089,1979-12-18,Mexico,El Salvador,1.0,1.0,Friendly,Texcoco,Mexico,False,1979-12-18|Mexico|El Salvador|Friendly|1.0|1.0|Texcoco
+12133,1980-02-26,Mexico,South Korea,0.0,1.0,Friendly,Los Angeles,United States,True,1980-02-26|Mexico|South Korea|Friendly|0.0|1.0|Los Angeles
+12168,1980-03-18,Honduras,Mexico,0.0,1.0,Friendly,Tegucigalpa,Honduras,False,1980-03-18|Honduras|Mexico|Friendly|0.0|1.0|Tegucigalpa
+12193,1980-04-08,Mexico,Honduras,5.0,0.0,Friendly,Toluca,Mexico,False,1980-04-08|Mexico|Honduras|Friendly|5.0|0.0|Toluca
+12195,1980-04-15,Guatemala,Mexico,2.0,4.0,Friendly,Guatemala City,Guatemala,False,1980-04-15|Guatemala|Mexico|Friendly|2.0|4.0|Guatemala City
+12206,1980-04-29,Mexico,Guatemala,2.0,2.0,Friendly,Toluca,Mexico,False,1980-04-29|Mexico|Guatemala|Friendly|2.0|2.0|Toluca
+12255,1980-06-08,Brazil,Mexico,2.0,0.0,Friendly,Rio de Janeiro,Brazil,False,1980-06-08|Brazil|Mexico|Friendly|2.0|0.0|Rio de Janeiro
+12339,1980-08-20,New Zealand,Mexico,4.0,0.0,Friendly,Auckland,New Zealand,False,1980-08-20|New Zealand|Mexico|Friendly|4.0|0.0|Auckland
+12344,1980-08-24,Australia,Mexico,2.0,2.0,Friendly,Sydney,Australia,False,1980-08-24|Australia|Mexico|Friendly|2.0|2.0|Sydney
+12349,1980-08-26,Australia,Mexico,1.0,1.0,Friendly,Melbourne,Australia,False,1980-08-26|Australia|Mexico|Friendly|1.0|1.0|Melbourne
+12360,1980-08-30,Fiji,Mexico,0.0,2.0,Friendly,Suva,Fiji,False,1980-08-30|Fiji|Mexico|Friendly|0.0|2.0|Suva
+12366,1980-09-02,Tahiti,Mexico,0.0,1.0,Friendly,Pirae,Tahiti,False,1980-09-02|Tahiti|Mexico|Friendly|0.0|1.0|Pirae
+12454,1980-10-18,Canada,Mexico,1.0,1.0,CONCACAF Championship qualification,Toronto,Canada,False,1980-10-18|Canada|Mexico|CONCACAF Championship qualification|1.0|1.0|Toronto
+12499,1980-11-09,Mexico,United States,5.0,1.0,CONCACAF Championship qualification,Mexico City,Mexico,False,1980-11-09|Mexico|United States|CONCACAF Championship qualification|5.0|1.0|Mexico City
+12518,1980-11-16,Mexico,Canada,1.0,1.0,CONCACAF Championship qualification,Mexico City,Mexico,False,1980-11-16|Mexico|Canada|CONCACAF Championship qualification|1.0|1.0|Mexico City
+12541,1980-11-23,United States,Mexico,2.0,1.0,CONCACAF Championship qualification,Fort Lauderdale,United States,False,1980-11-23|United States|Mexico|CONCACAF Championship qualification|2.0|1.0|Fort Lauderdale
+12613,1981-01-20,Mexico,Bulgaria,1.0,1.0,Friendly,Mexico City,Mexico,False,1981-01-20|Mexico|Bulgaria|Friendly|1.0|1.0|Mexico City
+12635,1981-02-11,Mexico,South Korea,4.0,0.0,Friendly,Mexico City,Mexico,False,1981-02-11|Mexico|South Korea|Friendly|4.0|0.0|Mexico City
+13020,1981-11-01,Mexico,Cuba,4.0,0.0,CONCACAF Championship,Tegucigalpa,Honduras,True,1981-11-01|Mexico|Cuba|CONCACAF Championship|4.0|0.0|Tegucigalpa
+13028,1981-11-06,Mexico,El Salvador,0.0,1.0,CONCACAF Championship,Tegucigalpa,Honduras,True,1981-11-06|Mexico|El Salvador|CONCACAF Championship|0.0|1.0|Tegucigalpa
+13037,1981-11-11,Haiti,Mexico,1.0,1.0,CONCACAF Championship,Tegucigalpa,Honduras,True,1981-11-11|Haiti|Mexico|CONCACAF Championship|1.0|1.0|Tegucigalpa
+13047,1981-11-15,Mexico,Canada,1.0,1.0,CONCACAF Championship,Tegucigalpa,Honduras,True,1981-11-15|Mexico|Canada|CONCACAF Championship|1.0|1.0|Tegucigalpa
+13075,1981-11-22,Honduras,Mexico,0.0,0.0,CONCACAF Championship,Tegucigalpa,Honduras,False,1981-11-22|Honduras|Mexico|CONCACAF Championship|0.0|0.0|Tegucigalpa
+13565,1983-03-15,Costa Rica,Mexico,0.0,1.0,Friendly,San José,Costa Rica,False,1983-03-15|Costa Rica|Mexico|Friendly|0.0|1.0|San José
+13571,1983-03-22,Mexico,Costa Rica,1.0,0.0,Friendly,Mexico City,Mexico,False,1983-03-22|Mexico|Costa Rica|Friendly|1.0|0.0|Mexico City
+13593,1983-04-05,Guatemala,Mexico,0.0,2.0,Friendly,Los Angeles,United States,True,1983-04-05|Guatemala|Mexico|Friendly|0.0|2.0|Los Angeles
+13905,1983-10-25,El Salvador,Mexico,0.0,5.0,Friendly,Los Angeles,United States,True,1983-10-25|El Salvador|Mexico|Friendly|0.0|5.0|Los Angeles
+13953,1983-11-22,Mexico,Sweden,2.0,0.0,Friendly,Morelia,Mexico,False,1983-11-22|Mexico|Sweden|Friendly|2.0|0.0|Morelia
+13958,1983-11-29,Martinique,Mexico,4.0,4.0,Friendly,Fort-de-France,Martinique,False,1983-11-29|Martinique|Mexico|Friendly|4.0|4.0|Fort-de-France
+13966,1983-12-06,Mexico,Canada,5.0,0.0,Friendly,Irapuato,Mexico,False,1983-12-06|Mexico|Canada|Friendly|5.0|0.0|Irapuato
+14015,1984-02-04,Italy,Mexico,5.0,0.0,Friendly,Rome,Italy,False,1984-02-04|Italy|Mexico|Friendly|5.0|0.0|Rome
+14241,1984-08-08,Republic of Ireland,Mexico,0.0,0.0,Friendly,Dublin,Republic of Ireland,False,1984-08-08|Republic of Ireland|Mexico|Friendly|0.0|0.0|Dublin
+14246,1984-08-11,German DR,Mexico,1.0,1.0,Friendly,Berlin,German DR,False,1984-08-11|German DR|Mexico|Friendly|1.0|1.0|Berlin
+14258,1984-08-16,Finland,Mexico,0.0,3.0,Friendly,Helsinki,Finland,False,1984-08-16|Finland|Mexico|Friendly|0.0|3.0|Helsinki
+14262,1984-08-19,Russia,Mexico,3.0,0.0,Friendly,Leningrad,Soviet Union,False,1984-08-19|Russia|Mexico|Friendly|3.0|0.0|Leningrad
+14264,1984-08-22,Sweden,Mexico,1.0,1.0,Friendly,Malmö,Sweden,False,1984-08-22|Sweden|Mexico|Friendly|1.0|1.0|Malmö
+14266,1984-08-25,Hungary,Mexico,0.0,2.0,Friendly,Budapest,Hungary,False,1984-08-25|Hungary|Mexico|Friendly|0.0|2.0|Budapest
+14304,1984-09-18,Mexico,Argentina,1.0,1.0,Friendly,Monterrey,Mexico,False,1984-09-18|Mexico|Argentina|Friendly|1.0|1.0|Monterrey
+14335,1984-10-09,Mexico,Colombia,1.0,0.0,Friendly,Los Angeles,United States,True,1984-10-09|Mexico|Colombia|Friendly|1.0|0.0|Los Angeles
+14341,1984-10-11,El Salvador,Mexico,0.0,1.0,Friendly,Los Angeles,United States,True,1984-10-11|El Salvador|Mexico|Friendly|0.0|1.0|Los Angeles
+14364,1984-10-17,Mexico,United States,2.0,1.0,Friendly,Nezahualcóyotl,Mexico,False,1984-10-17|Mexico|United States|Friendly|2.0|1.0|Nezahualcóyotl
+14386,1984-10-25,Argentina,Mexico,1.0,1.0,Friendly,Buenos Aires,Argentina,False,1984-10-25|Argentina|Mexico|Friendly|1.0|1.0|Buenos Aires
+14391,1984-10-28,Chile,Mexico,1.0,0.0,Friendly,Santiago,Chile,False,1984-10-28|Chile|Mexico|Friendly|1.0|0.0|Santiago
+14398,1984-10-31,Uruguay,Mexico,1.0,1.0,Friendly,Montevideo,Uruguay,False,1984-10-31|Uruguay|Mexico|Friendly|1.0|1.0|Montevideo
+14412,1984-11-11,Trinidad and Tobago,Mexico,0.0,2.0,Friendly,Port of Spain,Trinidad and Tobago,False,1984-11-11|Trinidad and Tobago|Mexico|Friendly|0.0|2.0|Port of Spain
+14465,1984-12-04,Mexico,Ecuador,3.0,2.0,Friendly,Los Angeles,United States,True,1984-12-04|Mexico|Ecuador|Friendly|3.0|2.0|Los Angeles
+14561,1985-02-05,Mexico,Poland,5.0,0.0,Friendly,Querétaro,Mexico,False,1985-02-05|Mexico|Poland|Friendly|5.0|0.0|Querétaro
+14568,1985-02-06,Mexico,Switzerland,1.0,2.0,Friendly,Querétaro,Mexico,False,1985-02-06|Mexico|Switzerland|Friendly|1.0|2.0|Querétaro
+14615,1985-02-26,Mexico,Finland,2.0,1.0,Friendly,Acapulco,Mexico,False,1985-02-26|Mexico|Finland|Friendly|2.0|1.0|Acapulco
+14843,1985-06-02,Mexico,Italy,1.0,1.0,Friendly,Mexico City,Mexico,False,1985-06-02|Mexico|Italy|Friendly|1.0|1.0|Mexico City
+14859,1985-06-09,Mexico,England,1.0,0.0,Friendly,Mexico City,Mexico,False,1985-06-09|Mexico|England|Friendly|1.0|0.0|Mexico City
+14865,1985-06-15,Mexico,Germany,2.0,0.0,Friendly,Mexico City,Mexico,False,1985-06-15|Mexico|Germany|Friendly|2.0|0.0|Mexico City
+14945,1985-08-27,Mexico,Bulgaria,1.0,1.0,Friendly,Los Angeles,United States,True,1985-08-27|Mexico|Bulgaria|Friendly|1.0|1.0|Los Angeles
+14979,1985-09-20,Mexico,Peru,0.0,0.0,Friendly,Los Angeles,United States,True,1985-09-20|Mexico|Peru|Friendly|0.0|0.0|Los Angeles
+14984,1985-09-22,Mexico,Peru,1.0,0.0,Friendly,San Jose,United States,True,1985-09-22|Mexico|Peru|Friendly|1.0|0.0|San Jose
+15009,1985-10-11,Libya,Mexico,3.0,1.0,Friendly,Benghazi,Libya,False,1985-10-11|Libya|Mexico|Friendly|3.0|1.0|Benghazi
+15016,1985-10-15,Yemen,Mexico,0.0,2.0,Friendly,Sana'a,Yemen AR,True,1985-10-15|Yemen|Mexico|Friendly|0.0|2.0|Sana'a
+15031,1985-10-18,Jordan,Mexico,0.0,0.0,Friendly,Amman,Jordan,False,1985-10-18|Jordan|Mexico|Friendly|0.0|0.0|Amman
+15034,1985-10-20,Egypt,Mexico,2.0,1.0,Friendly,Cairo,Egypt,False,1985-10-20|Egypt|Mexico|Friendly|2.0|1.0|Cairo
+15038,1985-10-25,Kuwait,Mexico,0.0,0.0,Friendly,Kuwait City,Kuwait,False,1985-10-25|Kuwait|Mexico|Friendly|0.0|0.0|Kuwait City
+15063,1985-11-14,Mexico,Argentina,1.0,1.0,Friendly,Los Angeles,United States,True,1985-11-14|Mexico|Argentina|Friendly|1.0|1.0|Los Angeles
+15071,1985-11-17,Mexico,Argentina,1.0,1.0,Friendly,Puebla,Mexico,False,1985-11-17|Mexico|Argentina|Friendly|1.0|1.0|Puebla
+15088,1985-12-03,Mexico,South Korea,2.0,1.0,Friendly,Los Angeles,United States,True,1985-12-03|Mexico|South Korea|Friendly|2.0|1.0|Los Angeles
+15091,1985-12-07,Mexico,Algeria,2.0,0.0,Friendly,Mexico City,Mexico,False,1985-12-07|Mexico|Algeria|Friendly|2.0|0.0|Mexico City
+15099,1985-12-10,Mexico,South Korea,2.0,1.0,Friendly,Guadalajara,Mexico,False,1985-12-10|Mexico|South Korea|Friendly|2.0|1.0|Guadalajara
+15110,1985-12-14,Mexico,Hungary,2.0,0.0,Friendly,Toluca,Mexico,False,1985-12-14|Mexico|Hungary|Friendly|2.0|0.0|Toluca
+15163,1986-02-15,Mexico,German DR,1.0,2.0,Friendly,San Jose,United States,True,1986-02-15|Mexico|German DR|Friendly|1.0|2.0|San Jose
+15171,1986-02-19,Mexico,Russia,1.0,0.0,Friendly,Mexico City,Mexico,False,1986-02-19|Mexico|Russia|Friendly|1.0|0.0|Mexico City
+15208,1986-03-06,Mexico,Denmark,1.0,1.0,Friendly,Los Angeles,United States,True,1986-03-06|Mexico|Denmark|Friendly|1.0|1.0|Los Angeles
+15271,1986-04-13,Mexico,Uruguay,1.0,0.0,Friendly,Los Angeles,United States,True,1986-04-13|Mexico|Uruguay|Friendly|1.0|0.0|Los Angeles
+15284,1986-04-27,Mexico,Canada,3.0,0.0,Friendly,Mexico City,Mexico,False,1986-04-27|Mexico|Canada|Friendly|3.0|0.0|Mexico City
+15310,1986-05-17,Mexico,England,0.0,3.0,Friendly,Los Angeles,United States,True,1986-05-17|Mexico|England|Friendly|0.0|3.0|Los Angeles
+15328,1986-06-03,Mexico,Belgium,2.0,1.0,FIFA World Cup,Mexico City,Mexico,False,1986-06-03|Mexico|Belgium|FIFA World Cup|2.0|1.0|Mexico City
+15342,1986-06-07,Mexico,Paraguay,1.0,1.0,FIFA World Cup,Mexico City,Mexico,False,1986-06-07|Mexico|Paraguay|FIFA World Cup|1.0|1.0|Mexico City
+15355,1986-06-11,Mexico,Iraq,1.0,0.0,FIFA World Cup,Mexico City,Mexico,False,1986-06-11|Mexico|Iraq|FIFA World Cup|1.0|0.0|Mexico City
+15363,1986-06-15,Mexico,Bulgaria,2.0,0.0,FIFA World Cup,Mexico City,Mexico,False,1986-06-15|Mexico|Bulgaria|FIFA World Cup|2.0|0.0|Mexico City
+15373,1986-06-21,Mexico,Germany,0.0,0.0,FIFA World Cup,Monterrey,Mexico,False,1986-06-21|Mexico|Germany|FIFA World Cup|0.0|0.0|Monterrey
+15562,1987-01-13,El Salvador,Mexico,1.0,3.0,Friendly,Los Angeles,United States,True,1987-01-13|El Salvador|Mexico|Friendly|1.0|3.0|Los Angeles
+15617,1987-03-17,Mexico,China,3.0,2.0,Friendly,León,Mexico,False,1987-03-17|Mexico|China|Friendly|3.0|2.0|León
+15831,1987-10-06,Mexico,Canada,4.0,0.0,Friendly,Toluca,Mexico,False,1987-10-06|Mexico|Canada|Friendly|4.0|0.0|Toluca
+15964,1988-01-13,Honduras,Mexico,0.0,1.0,Friendly,San Pedro Sula,Honduras,False,1988-01-13|Honduras|Mexico|Friendly|0.0|1.0|San Pedro Sula
+16076,1988-03-29,Mexico,El Salvador,8.0,0.0,Friendly,Mexico City,Mexico,False,1988-03-29|Mexico|El Salvador|Friendly|8.0|0.0|Mexico City
+16102,1988-04-26,Mexico,Honduras,4.0,1.0,Friendly,Ciudad Victoria,Mexico,False,1988-04-26|Mexico|Honduras|Friendly|4.0|1.0|Ciudad Victoria
+16564,1989-02-14,Mexico,Poland,3.0,1.0,Friendly,Puebla,Mexico,False,1989-02-14|Mexico|Poland|Friendly|3.0|1.0|Puebla
+16569,1989-02-21,Guatemala,Mexico,1.0,2.0,Friendly,Los Angeles,United States,True,1989-02-21|Guatemala|Mexico|Friendly|1.0|2.0|Los Angeles
+16574,1989-02-23,El Salvador,Mexico,0.0,2.0,Friendly,Los Angeles,United States,True,1989-02-23|El Salvador|Mexico|Friendly|0.0|2.0|Los Angeles
+16903,1989-08-10,Mexico,South Korea,4.0,2.0,Marlboro Cup,Los Angeles,United States,True,1989-08-10|Mexico|South Korea|Marlboro Cup|4.0|2.0|Los Angeles
+17122,1990-01-17,Mexico,Argentina,2.0,0.0,Friendly,Los Angeles,United States,True,1990-01-17|Mexico|Argentina|Friendly|2.0|0.0|Los Angeles
+17208,1990-03-20,Mexico,Uruguay,2.0,1.0,Friendly,Los Angeles,United States,True,1990-03-20|Mexico|Uruguay|Friendly|2.0|1.0|Los Angeles
+17240,1990-04-17,Mexico,Colombia,2.0,0.0,Friendly,Los Angeles,United States,True,1990-04-17|Mexico|Colombia|Friendly|2.0|0.0|Los Angeles
+17267,1990-05-13,Canada,Mexico,2.0,1.0,NAFU Championship,Burnaby,Canada,False,1990-05-13|Canada|Mexico|NAFU Championship|2.0|1.0|Burnaby
+17314,1990-06-02,Belgium,Mexico,3.0,0.0,Friendly,Brussels,Belgium,False,1990-06-02|Belgium|Mexico|Friendly|3.0|0.0|Brussels
+17577,1990-12-12,Mexico,Brazil,0.0,0.0,Friendly,Los Angeles,United States,True,1990-12-12|Mexico|Brazil|Friendly|0.0|0.0|Los Angeles
+17621,1991-01-29,Mexico,Colombia,0.0,0.0,Friendly,León,Mexico,False,1991-01-29|Mexico|Colombia|Friendly|0.0|0.0|León
+17652,1991-03-12,United States,Mexico,2.0,2.0,NAFU Championship,Los Angeles,United States,False,1991-03-12|United States|Mexico|NAFU Championship|2.0|2.0|Los Angeles
+17653,1991-03-13,Argentina,Mexico,0.0,0.0,Friendly,Buenos Aires,Argentina,False,1991-03-13|Argentina|Mexico|Friendly|0.0|0.0|Buenos Aires
+17656,1991-03-14,Canada,Mexico,0.0,3.0,NAFU Championship,Los Angeles,United States,True,1991-03-14|Canada|Mexico|NAFU Championship|0.0|3.0|Los Angeles
+17678,1991-04-09,Mexico,Chile,1.0,0.0,Friendly,Veracruz,Mexico,False,1991-04-09|Mexico|Chile|Friendly|1.0|0.0|Veracruz
+17693,1991-04-17,Costa Rica,Mexico,0.0,0.0,Friendly,San José,Costa Rica,False,1991-04-17|Costa Rica|Mexico|Friendly|0.0|0.0|San José
+17730,1991-05-07,Mexico,Uruguay,0.0,2.0,Friendly,Los Angeles,United States,True,1991-05-07|Mexico|Uruguay|Friendly|0.0|2.0|Los Angeles
+17842,1991-06-28,Mexico,Jamaica,4.0,1.0,Gold Cup,Los Angeles,United States,True,1991-06-28|Mexico|Jamaica|Gold Cup|4.0|1.0|Los Angeles
+17849,1991-06-30,Canada,Mexico,1.0,3.0,Gold Cup,Los Angeles,United States,True,1991-06-30|Canada|Mexico|Gold Cup|1.0|3.0|Los Angeles
+17856,1991-07-02,Mexico,Honduras,1.0,1.0,Gold Cup,Los Angeles,United States,True,1991-07-02|Mexico|Honduras|Gold Cup|1.0|1.0|Los Angeles
+17860,1991-07-05,United States,Mexico,2.0,0.0,Gold Cup,Los Angeles,United States,False,1991-07-05|United States|Mexico|Gold Cup|2.0|0.0|Los Angeles
+17867,1991-07-07,Mexico,Costa Rica,2.0,0.0,Gold Cup,Los Angeles,United States,True,1991-07-07|Mexico|Costa Rica|Gold Cup|2.0|0.0|Los Angeles
+18039,1991-11-20,Mexico,Uruguay,1.0,1.0,Friendly,Veracruz,Mexico,False,1991-11-20|Mexico|Uruguay|Friendly|1.0|1.0|Veracruz
+18055,1991-11-27,Costa Rica,Mexico,1.0,1.0,Friendly,Los Angeles,United States,True,1991-11-27|Costa Rica|Mexico|Friendly|1.0|1.0|Los Angeles
+18080,1991-12-04,Mexico,Hungary,3.0,0.0,Friendly,León,Mexico,False,1991-12-04|Mexico|Hungary|Friendly|3.0|0.0|León
+18164,1992-03-08,Mexico,Russia,4.0,0.0,Friendly,Mexico City,Mexico,False,1992-03-08|Mexico|Russia|Friendly|4.0|0.0|Mexico City
+18165,1992-03-11,Mexico,Russia,1.0,1.0,Friendly,Ciudad Madero,Mexico,False,1992-03-11|Mexico|Russia|Friendly|1.0|1.0|Ciudad Madero
+18375,1992-07-26,El Salvador,Mexico,1.0,2.0,Friendly,San Salvador,El Salvador,False,1992-07-26|El Salvador|Mexico|Friendly|1.0|2.0|San Salvador
+18383,1992-07-31,Brazil,Mexico,5.0,0.0,Friendly,Los Angeles,United States,True,1992-07-31|Brazil|Mexico|Friendly|5.0|0.0|Los Angeles
+18388,1992-08-02,Mexico,Colombia,0.0,0.0,Friendly,Los Angeles,United States,True,1992-08-02|Mexico|Colombia|Friendly|0.0|0.0|Los Angeles
+18421,1992-08-19,Bulgaria,Mexico,1.0,1.0,Friendly,Sofia,Bulgaria,False,1992-08-19|Bulgaria|Mexico|Friendly|1.0|1.0|Sofia
+18444,1992-08-26,Romania,Mexico,2.0,0.0,Friendly,Bucharest,Romania,False,1992-08-26|Romania|Mexico|Friendly|2.0|0.0|Bucharest
+18523,1992-10-07,El Salvador,Mexico,0.0,2.0,Friendly,Los Angeles,United States,True,1992-10-07|El Salvador|Mexico|Friendly|0.0|2.0|Los Angeles
+18548,1992-10-14,Germany,Mexico,1.0,1.0,Friendly,Dresden,Germany,False,1992-10-14|Germany|Mexico|Friendly|1.0|1.0|Dresden
+18567,1992-10-22,Croatia,Mexico,3.0,0.0,Friendly,Zagreb,Croatia,False,1992-10-22|Croatia|Mexico|Friendly|3.0|0.0|Zagreb
+18608,1992-11-08,Saint Vincent and the Grenadines,Mexico,0.0,4.0,FIFA World Cup qualification,Kingstown,Saint Vincent and the Grenadines,False,1992-11-08|Saint Vincent and the Grenadines|Mexico|FIFA World Cup qualification|0.0|4.0|Kingstown
+18627,1992-11-15,Mexico,Honduras,2.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1992-11-15|Mexico|Honduras|FIFA World Cup qualification|2.0|0.0|Mexico City
+18652,1992-11-22,Mexico,Costa Rica,4.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1992-11-22|Mexico|Costa Rica|FIFA World Cup qualification|4.0|0.0|Mexico City
+18665,1992-11-29,Costa Rica,Mexico,2.0,0.0,FIFA World Cup qualification,San José,Costa Rica,False,1992-11-29|Costa Rica|Mexico|FIFA World Cup qualification|2.0|0.0|San José
+18678,1992-12-06,Mexico,Saint Vincent and the Grenadines,11.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1992-12-06|Mexico|Saint Vincent and the Grenadines|FIFA World Cup qualification|11.0|0.0|Mexico City
+18689,1992-12-13,Honduras,Mexico,1.0,1.0,FIFA World Cup qualification,Tegucigalpa,Honduras,False,1992-12-13|Honduras|Mexico|FIFA World Cup qualification|1.0|1.0|Tegucigalpa
+18735,1993-01-20,Italy,Mexico,2.0,0.0,Friendly,Florence,Italy,False,1993-01-20|Italy|Mexico|Friendly|2.0|0.0|Florence
+18748,1993-01-27,Spain,Mexico,1.0,1.0,Friendly,Las Palmas,Spain,False,1993-01-27|Spain|Mexico|Friendly|1.0|1.0|Las Palmas
+18772,1993-02-10,Mexico,Romania,0.0,2.0,Friendly,Monterrey,Mexico,False,1993-02-10|Mexico|Romania|Friendly|0.0|2.0|Monterrey
+18869,1993-04-04,El Salvador,Mexico,2.0,1.0,FIFA World Cup qualification,San Salvador,El Salvador,False,1993-04-04|El Salvador|Mexico|FIFA World Cup qualification|2.0|1.0|San Salvador
+18894,1993-04-11,Mexico,Honduras,3.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1993-04-11|Mexico|Honduras|FIFA World Cup qualification|3.0|0.0|Mexico City
+18928,1993-04-18,Mexico,El Salvador,3.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,1993-04-18|Mexico|El Salvador|FIFA World Cup qualification|3.0|1.0|Mexico City
+18953,1993-04-25,Mexico,Canada,4.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1993-04-25|Mexico|Canada|FIFA World Cup qualification|4.0|0.0|Mexico City
+18988,1993-05-02,Honduras,Mexico,1.0,4.0,FIFA World Cup qualification,Tegucigalpa,Honduras,False,1993-05-02|Honduras|Mexico|FIFA World Cup qualification|1.0|4.0|Tegucigalpa
+19007,1993-05-09,Canada,Mexico,1.0,2.0,FIFA World Cup qualification,Toronto,Canada,False,1993-05-09|Canada|Mexico|FIFA World Cup qualification|1.0|2.0|Toronto
+19120,1993-06-10,Mexico,Paraguay,3.0,1.0,Friendly,Mexico City,Mexico,False,1993-06-10|Mexico|Paraguay|Friendly|3.0|1.0|Mexico City
+19148,1993-06-16,Colombia,Mexico,2.0,1.0,Copa América,Machala,Ecuador,True,1993-06-16|Colombia|Mexico|Copa América|2.0|1.0|Machala
+19168,1993-06-20,Argentina,Mexico,1.0,1.0,Copa América,Guayaquil,Ecuador,True,1993-06-20|Argentina|Mexico|Copa América|1.0|1.0|Guayaquil
+19182,1993-06-23,Mexico,Bolivia,0.0,0.0,Copa América,Portoviejo,Ecuador,True,1993-06-23|Mexico|Bolivia|Copa América|0.0|0.0|Portoviejo
+19193,1993-06-27,Peru,Mexico,2.0,4.0,Copa América,Quito,Ecuador,True,1993-06-27|Peru|Mexico|Copa América|2.0|4.0|Quito
+19195,1993-06-29,Costa Rica,Mexico,0.0,2.0,Friendly,San José,Costa Rica,False,1993-06-29|Costa Rica|Mexico|Friendly|0.0|2.0|San José
+19196,1993-06-30,Ecuador,Mexico,0.0,2.0,Copa América,Quito,Ecuador,False,1993-06-30|Ecuador|Mexico|Copa América|0.0|2.0|Quito
+19205,1993-07-04,Argentina,Mexico,2.0,1.0,Copa América,Guayaquil,Ecuador,True,1993-07-04|Argentina|Mexico|Copa América|2.0|1.0|Guayaquil
+19245,1993-07-11,Mexico,Martinique,9.0,0.0,Gold Cup,Mexico City,Mexico,False,1993-07-11|Mexico|Martinique|Gold Cup|9.0|0.0|Mexico City
+19254,1993-07-15,Mexico,Costa Rica,1.0,1.0,Gold Cup,Mexico City,Mexico,False,1993-07-15|Mexico|Costa Rica|Gold Cup|1.0|1.0|Mexico City
+19264,1993-07-18,Mexico,Canada,8.0,0.0,Gold Cup,Mexico City,Mexico,False,1993-07-18|Mexico|Canada|Gold Cup|8.0|0.0|Mexico City
+19267,1993-07-22,Mexico,Jamaica,6.0,1.0,Gold Cup,Mexico City,Mexico,False,1993-07-22|Mexico|Jamaica|Gold Cup|6.0|1.0|Mexico City
+19281,1993-07-25,Mexico,United States,4.0,0.0,Gold Cup,Mexico City,Mexico,False,1993-07-25|Mexico|United States|Gold Cup|4.0|0.0|Mexico City
+19293,1993-08-08,Brazil,Mexico,1.0,1.0,Friendly,Maceió,Brazil,False,1993-08-08|Brazil|Mexico|Friendly|1.0|1.0|Maceió
+19358,1993-09-22,Mexico,Cameroon,1.0,0.0,Friendly,Los Angeles,United States,True,1993-09-22|Mexico|Cameroon|Friendly|1.0|0.0|Los Angeles
+19370,1993-09-29,Mexico,Poland,0.0,0.0,Friendly,Oakland,United States,True,1993-09-29|Mexico|Poland|Friendly|0.0|0.0|Oakland
+19375,1993-10-06,Mexico,South Africa,4.0,0.0,Friendly,Los Angeles,United States,True,1993-10-06|Mexico|South Africa|Friendly|4.0|0.0|Los Angeles
+19393,1993-10-13,United States,Mexico,1.0,1.0,Friendly,"Washington, D.C.",United States,False,"1993-10-13|United States|Mexico|Friendly|1.0|1.0|Washington, D.C."
+19403,1993-10-20,Mexico,Ukraine,2.0,1.0,Friendly,San Diego,United States,True,1993-10-20|Mexico|Ukraine|Friendly|2.0|1.0|San Diego
+19423,1993-11-03,Mexico,China,3.0,0.0,Friendly,San Diego,United States,True,1993-11-03|Mexico|China|Friendly|3.0|0.0|San Diego
+19487,1993-12-16,Mexico,Brazil,0.0,1.0,Friendly,Guadalajara,Mexico,False,1993-12-16|Mexico|Brazil|Friendly|0.0|1.0|Guadalajara
+19494,1993-12-22,Mexico,Germany,0.0,0.0,Friendly,Mexico City,Mexico,False,1993-12-22|Mexico|Germany|Friendly|0.0|0.0|Mexico City
+19512,1994-01-19,Mexico,Bulgaria,1.0,1.0,Friendly,San Diego,United States,True,1994-01-19|Mexico|Bulgaria|Friendly|1.0|1.0|San Diego
+19524,1994-01-26,Mexico,Switzerland,1.0,5.0,Friendly,Oakland,United States,True,1994-01-26|Mexico|Switzerland|Friendly|1.0|5.0|Oakland
+19538,1994-02-02,Mexico,Russia,1.0,4.0,Friendly,Oakland,United States,True,1994-02-02|Mexico|Russia|Friendly|1.0|4.0|Oakland
+19571,1994-02-24,Mexico,Sweden,2.0,1.0,Friendly,Fresno,United States,True,1994-02-24|Mexico|Sweden|Friendly|2.0|1.0|Fresno
+19579,1994-03-02,Mexico,Colombia,0.0,0.0,Friendly,Mexico City,Mexico,False,1994-03-02|Mexico|Colombia|Friendly|0.0|0.0|Mexico City
+19744,1994-06-04,United States,Mexico,1.0,0.0,Friendly,Pasadena,United States,False,1994-06-04|United States|Mexico|Friendly|1.0|0.0|Pasadena
+19760,1994-06-11,Mexico,Northern Ireland,3.0,0.0,Friendly,Miami,United States,True,1994-06-11|Mexico|Northern Ireland|Friendly|3.0|0.0|Miami
+19773,1994-06-19,Norway,Mexico,1.0,0.0,FIFA World Cup,"Washington, D.C.",United States,True,"1994-06-19|Norway|Mexico|FIFA World Cup|1.0|0.0|Washington, D.C."
+19784,1994-06-24,Mexico,Republic of Ireland,2.0,1.0,FIFA World Cup,Orlando,United States,True,1994-06-24|Mexico|Republic of Ireland|FIFA World Cup|2.0|1.0|Orlando
+19797,1994-06-28,Italy,Mexico,1.0,1.0,FIFA World Cup,"Washington, D.C.",United States,True,"1994-06-28|Italy|Mexico|FIFA World Cup|1.0|1.0|Washington, D.C."
+19812,1994-07-05,Mexico,Bulgaria,1.0,1.0,FIFA World Cup,East Rutherford,United States,True,1994-07-05|Mexico|Bulgaria|FIFA World Cup|1.0|1.0|East Rutherford
+20092,1994-12-14,Mexico,Hungary,5.0,1.0,Friendly,Mexico City,Mexico,False,1994-12-14|Mexico|Hungary|Friendly|5.0|1.0|Mexico City
+20118,1995-01-06,Saudi Arabia,Mexico,0.0,2.0,Confederations Cup,Riyadh,Saudi Arabia,False,1995-01-06|Saudi Arabia|Mexico|Confederations Cup|0.0|2.0|Riyadh
+20131,1995-01-10,Denmark,Mexico,1.0,1.0,Confederations Cup,Riyadh,Saudi Arabia,True,1995-01-10|Denmark|Mexico|Confederations Cup|1.0|1.0|Riyadh
+20134,1995-01-13,Mexico,Nigeria,1.0,1.0,Confederations Cup,Riyadh,Saudi Arabia,True,1995-01-13|Mexico|Nigeria|Confederations Cup|1.0|1.0|Riyadh
+20151,1995-02-01,Mexico,Uruguay,1.0,0.0,Friendly,San Diego,United States,True,1995-02-01|Mexico|Uruguay|Friendly|1.0|0.0|San Diego
+20224,1995-03-29,Mexico,Chile,1.0,2.0,Friendly,Los Angeles,United States,True,1995-03-29|Mexico|Chile|Friendly|1.0|2.0|Los Angeles
+20401,1995-06-18,United States,Mexico,4.0,0.0,USA Cup,"Washington, D.C.",United States,False,"1995-06-18|United States|Mexico|USA Cup|4.0|0.0|Washington, D.C."
+20408,1995-06-21,Mexico,Colombia,0.0,0.0,USA Cup,"Washington, D.C.",United States,True,"1995-06-21|Mexico|Colombia|USA Cup|0.0|0.0|Washington, D.C."
+20413,1995-06-24,Mexico,Nigeria,2.0,1.0,USA Cup,Dallas,United States,True,1995-06-24|Mexico|Nigeria|USA Cup|2.0|1.0|Dallas
+20426,1995-07-06,Mexico,Paraguay,1.0,2.0,Copa América,Maldonado,Uruguay,True,1995-07-06|Mexico|Paraguay|Copa América|1.0|2.0|Maldonado
+20431,1995-07-09,Mexico,Venezuela,3.0,1.0,Copa América,Maldonado,Uruguay,True,1995-07-09|Mexico|Venezuela|Copa América|3.0|1.0|Maldonado
+20441,1995-07-13,Uruguay,Mexico,1.0,1.0,Copa América,Montevideo,Uruguay,False,1995-07-13|Uruguay|Mexico|Copa América|1.0|1.0|Montevideo
+20461,1995-07-17,United States,Mexico,0.0,0.0,Copa América,Paysandú,Uruguay,True,1995-07-17|United States|Mexico|Copa América|0.0|0.0|Paysandú
+20605,1995-10-11,Mexico,Saudi Arabia,2.0,1.0,Friendly,Los Angeles,United States,True,1995-10-11|Mexico|Saudi Arabia|Friendly|2.0|1.0|Los Angeles
+20667,1995-11-16,Mexico,Serbia,1.0,4.0,Friendly,Monterrey,Mexico,False,1995-11-16|Mexico|Serbia|Friendly|1.0|4.0|Monterrey
+20704,1995-11-29,Mexico,Colombia,2.0,2.0,Friendly,Los Angeles,United States,True,1995-11-29|Mexico|Colombia|Friendly|2.0|2.0|Los Angeles
+20729,1995-12-06,Mexico,Slovenia,1.0,2.0,Friendly,Hermosillo,Mexico,False,1995-12-06|Mexico|Slovenia|Friendly|1.0|2.0|Hermosillo
+20765,1995-12-20,Jamaica,Mexico,2.0,1.0,Friendly,Kingston,Jamaica,False,1995-12-20|Jamaica|Mexico|Friendly|2.0|1.0|Kingston
+20793,1996-01-11,Mexico,Saint Vincent and the Grenadines,5.0,0.0,Gold Cup,San Diego,United States,True,1996-01-11|Mexico|Saint Vincent and the Grenadines|Gold Cup|5.0|0.0|San Diego
+20798,1996-01-14,Guatemala,Mexico,0.0,1.0,Gold Cup,San Diego,United States,True,1996-01-14|Guatemala|Mexico|Gold Cup|0.0|1.0|San Diego
+20816,1996-01-19,Mexico,Guatemala,1.0,0.0,Gold Cup,San Diego,United States,True,1996-01-19|Mexico|Guatemala|Gold Cup|1.0|0.0|San Diego
+20819,1996-01-21,Mexico,Brazil,2.0,0.0,Gold Cup,Los Angeles,United States,True,1996-01-21|Mexico|Brazil|Gold Cup|2.0|0.0|Los Angeles
+20853,1996-02-07,Chile,Mexico,2.0,1.0,Friendly,Viña del Mar,Chile,False,1996-02-07|Chile|Mexico|Friendly|2.0|1.0|Viña del Mar
+21018,1996-05-18,Mexico,Slovakia,5.0,2.0,Friendly,Chicago,United States,True,1996-05-18|Mexico|Slovakia|Friendly|5.0|2.0|Chicago
+21028,1996-05-23,Mexico,Serbia,0.0,0.0,Kirin Cup,Shizuoka,Japan,True,1996-05-23|Mexico|Serbia|Kirin Cup|0.0|0.0|Shizuoka
+21058,1996-05-29,Japan,Mexico,3.0,2.0,Kirin Cup,Fukuoka,Japan,False,1996-05-29|Japan|Mexico|Kirin Cup|3.0|2.0|Fukuoka
+21109,1996-06-08,Mexico,Bolivia,1.0,0.0,USA Cup,Dallas,United States,True,1996-06-08|Mexico|Bolivia|USA Cup|1.0|0.0|Dallas
+21126,1996-06-12,Mexico,Republic of Ireland,2.0,2.0,USA Cup,East Rutherford,United States,True,1996-06-12|Mexico|Republic of Ireland|USA Cup|2.0|2.0|East Rutherford
+21156,1996-06-16,United States,Mexico,2.0,2.0,USA Cup,Pasadena,United States,False,1996-06-16|United States|Mexico|USA Cup|2.0|2.0|Pasadena
+21291,1996-08-31,France,Mexico,2.0,0.0,Friendly,Paris,France,False,1996-08-31|France|Mexico|Friendly|2.0|0.0|Paris
+21342,1996-09-15,Saint Vincent and the Grenadines,Mexico,0.0,3.0,FIFA World Cup qualification,Kingstown,Saint Vincent and the Grenadines,False,1996-09-15|Saint Vincent and the Grenadines|Mexico|FIFA World Cup qualification|0.0|3.0|Kingstown
+21358,1996-09-21,Honduras,Mexico,2.0,1.0,FIFA World Cup qualification,San Pedro Sula,Honduras,False,1996-09-21|Honduras|Mexico|FIFA World Cup qualification|2.0|1.0|San Pedro Sula
+21441,1996-10-16,Mexico,Jamaica,2.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,1996-10-16|Mexico|Jamaica|FIFA World Cup qualification|2.0|1.0|Mexico City
+21452,1996-10-23,Mexico,Ecuador,0.0,1.0,Friendly,Oakland,United States,True,1996-10-23|Mexico|Ecuador|Friendly|0.0|1.0|Oakland
+21463,1996-10-30,Mexico,Saint Vincent and the Grenadines,5.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,1996-10-30|Mexico|Saint Vincent and the Grenadines|FIFA World Cup qualification|5.0|1.0|Mexico City
+21473,1996-11-06,Mexico,Honduras,3.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,1996-11-06|Mexico|Honduras|FIFA World Cup qualification|3.0|1.0|Mexico City
+21527,1996-11-17,Jamaica,Mexico,1.0,0.0,FIFA World Cup qualification,Kingston,Jamaica,False,1996-11-17|Jamaica|Mexico|FIFA World Cup qualification|1.0|0.0|Kingston
+21533,1996-11-20,El Salvador,Mexico,1.0,3.0,Friendly,Los Angeles,United States,True,1996-11-20|El Salvador|Mexico|Friendly|1.0|3.0|Los Angeles
+21645,1997-01-19,United States,Mexico,0.0,2.0,USA Cup,Pasadena,United States,False,1997-01-19|United States|Mexico|USA Cup|0.0|2.0|Pasadena
+21649,1997-01-22,Mexico,Peru,0.0,0.0,USA Cup,Pasadena,United States,True,1997-01-22|Mexico|Peru|USA Cup|0.0|0.0|Pasadena
+21671,1997-02-05,Mexico,Ecuador,3.0,1.0,Friendly,Mexico City,Mexico,False,1997-02-05|Mexico|Ecuador|Friendly|3.0|1.0|Mexico City
+21745,1997-03-02,Mexico,Canada,4.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1997-03-02|Mexico|Canada|FIFA World Cup qualification|4.0|0.0|Mexico City
+21765,1997-03-16,Costa Rica,Mexico,0.0,0.0,FIFA World Cup qualification,San José,Costa Rica,False,1997-03-16|Costa Rica|Mexico|FIFA World Cup qualification|0.0|0.0|San José
+21794,1997-03-29,England,Mexico,2.0,0.0,Friendly,London,England,False,1997-03-29|England|Mexico|Friendly|2.0|0.0|London
+21871,1997-04-13,Mexico,Jamaica,6.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1997-04-13|Mexico|Jamaica|FIFA World Cup qualification|6.0|0.0|Mexico City
+21884,1997-04-20,United States,Mexico,2.0,2.0,FIFA World Cup qualification,Foxborough,United States,False,1997-04-20|United States|Mexico|FIFA World Cup qualification|2.0|2.0|Foxborough
+21919,1997-04-30,Brazil,Mexico,4.0,0.0,Friendly,Miami,United States,True,1997-04-30|Brazil|Mexico|Friendly|4.0|0.0|Miami
+22030,1997-06-08,El Salvador,Mexico,0.0,1.0,FIFA World Cup qualification,San Salvador,El Salvador,False,1997-06-08|El Salvador|Mexico|FIFA World Cup qualification|0.0|1.0|San Salvador
+22069,1997-06-13,Mexico,Colombia,2.0,1.0,Copa América,Santa Cruz,Bolivia,True,1997-06-13|Mexico|Colombia|Copa América|2.0|1.0|Santa Cruz
+22082,1997-06-16,Brazil,Mexico,3.0,2.0,Copa América,Santa Cruz,Bolivia,True,1997-06-16|Brazil|Mexico|Copa América|3.0|2.0|Santa Cruz
+22095,1997-06-19,Mexico,Costa Rica,1.0,1.0,Copa América,Santa Cruz,Bolivia,True,1997-06-19|Mexico|Costa Rica|Copa América|1.0|1.0|Santa Cruz
+22110,1997-06-22,Ecuador,Mexico,1.0,1.0,Copa América,Cochabamba,Bolivia,True,1997-06-22|Ecuador|Mexico|Copa América|1.0|1.0|Cochabamba
+22122,1997-06-25,Bolivia,Mexico,3.0,1.0,Copa América,La Paz,Bolivia,False,1997-06-25|Bolivia|Mexico|Copa América|3.0|1.0|La Paz
+22130,1997-06-28,Mexico,Peru,1.0,0.0,Copa América,Oruro,Bolivia,True,1997-06-28|Mexico|Peru|Copa América|1.0|0.0|Oruro
+22355,1997-10-05,Mexico,El Salvador,5.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1997-10-05|Mexico|El Salvador|FIFA World Cup qualification|5.0|0.0|Mexico City
+22399,1997-10-12,Canada,Mexico,2.0,2.0,FIFA World Cup qualification,Edmonton,Canada,False,1997-10-12|Canada|Mexico|FIFA World Cup qualification|2.0|2.0|Edmonton
+22439,1997-11-02,Mexico,United States,0.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,1997-11-02|Mexico|United States|FIFA World Cup qualification|0.0|0.0|Mexico City
+22449,1997-11-09,Mexico,Costa Rica,3.0,3.0,FIFA World Cup qualification,Mexico City,Mexico,False,1997-11-09|Mexico|Costa Rica|FIFA World Cup qualification|3.0|3.0|Mexico City
+22465,1997-11-16,Jamaica,Mexico,0.0,0.0,FIFA World Cup qualification,Kingston,Jamaica,False,1997-11-16|Jamaica|Mexico|FIFA World Cup qualification|0.0|0.0|Kingston
+22495,1997-12-12,Mexico,Australia,1.0,3.0,Confederations Cup,Riyadh,Saudi Arabia,True,1997-12-12|Mexico|Australia|Confederations Cup|1.0|3.0|Riyadh
+22500,1997-12-14,Saudi Arabia,Mexico,0.0,5.0,Confederations Cup,Riyadh,Saudi Arabia,False,1997-12-14|Saudi Arabia|Mexico|Confederations Cup|0.0|5.0|Riyadh
+22503,1997-12-16,Brazil,Mexico,3.0,2.0,Confederations Cup,Riyadh,Saudi Arabia,True,1997-12-16|Brazil|Mexico|Confederations Cup|3.0|2.0|Riyadh
+22575,1998-02-04,Trinidad and Tobago,Mexico,2.0,4.0,Gold Cup,Oakland,United States,True,1998-02-04|Trinidad and Tobago|Mexico|Gold Cup|2.0|4.0|Oakland
+22586,1998-02-07,Mexico,Honduras,2.0,0.0,Gold Cup,Oakland,United States,True,1998-02-07|Mexico|Honduras|Gold Cup|2.0|0.0|Oakland
+22614,1998-02-12,Jamaica,Mexico,0.0,1.0,Gold Cup,Los Angeles,United States,True,1998-02-12|Jamaica|Mexico|Gold Cup|0.0|1.0|Los Angeles
+22622,1998-02-15,United States,Mexico,0.0,1.0,Gold Cup,Los Angeles,United States,False,1998-02-15|United States|Mexico|Gold Cup|0.0|1.0|Los Angeles
+22641,1998-02-24,Mexico,Netherlands,2.0,3.0,Friendly,Miami Gardens,United States,True,1998-02-24|Mexico|Netherlands|Friendly|2.0|3.0|Miami Gardens
+22674,1998-03-18,Mexico,Paraguay,1.0,1.0,Friendly,Mexico City,Mexico,False,1998-03-18|Mexico|Paraguay|Friendly|1.0|1.0|Mexico City
+22712,1998-04-15,Mexico,Peru,1.0,0.0,Friendly,Los Angeles,United States,True,1998-04-15|Mexico|Peru|Friendly|1.0|0.0|Los Angeles
+22748,1998-05-09,Estonia,Mexico,0.0,6.0,Friendly,Montecatini Terme,Italy,True,1998-05-09|Estonia|Mexico|Friendly|0.0|6.0|Montecatini Terme
+22765,1998-05-20,Norway,Mexico,5.0,2.0,Friendly,Oslo,Norway,False,1998-05-20|Norway|Mexico|Friendly|5.0|2.0|Oslo
+22770,1998-05-23,Republic of Ireland,Mexico,0.0,0.0,Friendly,Dublin,Republic of Ireland,False,1998-05-23|Republic of Ireland|Mexico|Friendly|0.0|0.0|Dublin
+22795,1998-05-31,Japan,Mexico,1.0,2.0,Friendly,Lausanne,Switzerland,True,1998-05-31|Japan|Mexico|Friendly|1.0|2.0|Lausanne
+22806,1998-06-03,Saudi Arabia,Mexico,0.0,0.0,Friendly,Créteil,France,True,1998-06-03|Saudi Arabia|Mexico|Friendly|0.0|0.0|Créteil
+22832,1998-06-13,South Korea,Mexico,1.0,3.0,FIFA World Cup,Lyon,France,True,1998-06-13|South Korea|Mexico|FIFA World Cup|1.0|3.0|Lyon
+22850,1998-06-20,Belgium,Mexico,2.0,2.0,FIFA World Cup,Bordeaux,France,True,1998-06-20|Belgium|Mexico|FIFA World Cup|2.0|2.0|Bordeaux
+22871,1998-06-25,Netherlands,Mexico,2.0,2.0,FIFA World Cup,Saint-Étienne,France,True,1998-06-25|Netherlands|Mexico|FIFA World Cup|2.0|2.0|Saint-Étienne
+22885,1998-06-29,Germany,Mexico,2.0,1.0,FIFA World Cup,Montpellier,France,True,1998-06-29|Germany|Mexico|FIFA World Cup|2.0|1.0|Montpellier
+23197,1998-11-17,El Salvador,Mexico,0.0,2.0,Friendly,Los Angeles,United States,True,1998-11-17|El Salvador|Mexico|Friendly|0.0|2.0|Los Angeles
+23206,1998-11-18,Guatemala,Mexico,2.0,2.0,Friendly,Los Angeles,United States,True,1998-11-18|Guatemala|Mexico|Friendly|2.0|2.0|Los Angeles
+23341,1999-02-10,Mexico,Argentina,0.0,1.0,Friendly,Los Angeles,United States,True,1999-02-10|Mexico|Argentina|Friendly|0.0|1.0|Los Angeles
+23351,1999-02-19,Egypt,Mexico,0.0,3.0,Lunar New Year Cup,So Kon Po,Hong Kong,True,1999-02-19|Egypt|Mexico|Lunar New Year Cup|0.0|3.0|So Kon Po
+23394,1999-03-11,Mexico,Bolivia,2.0,1.0,USA Cup,Los Angeles,United States,True,1999-03-11|Mexico|Bolivia|USA Cup|2.0|1.0|Los Angeles
+23399,1999-03-13,United States,Mexico,1.0,2.0,USA Cup,San Diego,United States,False,1999-03-13|United States|Mexico|USA Cup|1.0|2.0|San Diego
+23478,1999-04-14,Mexico,Ecuador,0.0,0.0,Friendly,Monterrey,Mexico,False,1999-04-14|Mexico|Ecuador|Friendly|0.0|0.0|Monterrey
+23507,1999-04-28,Paraguay,Mexico,2.0,1.0,Friendly,Pedro Juan Caballero,Paraguay,False,1999-04-28|Paraguay|Mexico|Friendly|2.0|1.0|Pedro Juan Caballero
+23614,1999-06-09,Mexico,Argentina,2.0,2.0,Friendly,Chicago,United States,True,1999-06-09|Mexico|Argentina|Friendly|2.0|2.0|Chicago
+23624,1999-06-12,South Korea,Mexico,1.0,1.0,Korea Cup,Seoul,South Korea,False,1999-06-12|South Korea|Mexico|Korea Cup|1.0|1.0|Seoul
+23630,1999-06-16,Croatia,Mexico,2.0,1.0,Korea Cup,Seoul,South Korea,True,1999-06-16|Croatia|Mexico|Korea Cup|2.0|1.0|Seoul
+23636,1999-06-18,Egypt,Mexico,0.0,2.0,Korea Cup,Seoul,South Korea,True,1999-06-18|Egypt|Mexico|Korea Cup|0.0|2.0|Seoul
+23685,1999-06-30,Chile,Mexico,0.0,1.0,Copa América,Ciudad del Este,Paraguay,True,1999-06-30|Chile|Mexico|Copa América|0.0|1.0|Ciudad del Este
+23706,1999-07-03,Brazil,Mexico,2.0,1.0,Copa América,Ciudad del Este,Paraguay,True,1999-07-03|Brazil|Mexico|Copa América|2.0|1.0|Ciudad del Este
+23716,1999-07-06,Mexico,Venezuela,3.0,1.0,Copa América,Ciudad del Este,Paraguay,True,1999-07-06|Mexico|Venezuela|Copa América|3.0|1.0|Ciudad del Este
+23721,1999-07-10,Mexico,Peru,3.0,3.0,Copa América,Asunción,Paraguay,True,1999-07-10|Mexico|Peru|Copa América|3.0|3.0|Asunción
+23729,1999-07-14,Mexico,Brazil,0.0,2.0,Copa América,Ciudad del Este,Paraguay,True,1999-07-14|Mexico|Brazil|Copa América|0.0|2.0|Ciudad del Este
+23733,1999-07-17,Chile,Mexico,1.0,2.0,Copa América,Asunción,Paraguay,True,1999-07-17|Chile|Mexico|Copa América|1.0|2.0|Asunción
+23747,1999-07-25,Mexico,Saudi Arabia,5.0,1.0,Confederations Cup,Mexico City,Mexico,False,1999-07-25|Mexico|Saudi Arabia|Confederations Cup|5.0|1.0|Mexico City
+23751,1999-07-27,Mexico,Egypt,2.0,2.0,Confederations Cup,Mexico City,Mexico,False,1999-07-27|Mexico|Egypt|Confederations Cup|2.0|2.0|Mexico City
+23759,1999-07-29,Mexico,Bolivia,1.0,0.0,Confederations Cup,Mexico City,Mexico,False,1999-07-29|Mexico|Bolivia|Confederations Cup|1.0|0.0|Mexico City
+23773,1999-08-01,Mexico,United States,1.0,0.0,Confederations Cup,Mexico City,Mexico,False,1999-08-01|Mexico|United States|Confederations Cup|1.0|0.0|Mexico City
+23784,1999-08-04,Mexico,Brazil,4.0,3.0,Confederations Cup,Mexico City,Mexico,False,1999-08-04|Mexico|Brazil|Confederations Cup|4.0|3.0|Mexico City
+23951,1999-10-13,Mexico,Paraguay,0.0,1.0,Friendly,Chicago,United States,True,1999-10-13|Mexico|Paraguay|Friendly|0.0|1.0|Chicago
+23955,1999-10-20,Mexico,Colombia,0.0,0.0,Friendly,San Diego,United States,True,1999-10-20|Mexico|Colombia|Friendly|0.0|0.0|San Diego
+23958,1999-10-27,Mexico,Ecuador,0.0,0.0,Friendly,Houston,United States,True,1999-10-27|Mexico|Ecuador|Friendly|0.0|0.0|Houston
+24069,2000-01-09,Mexico,Iran,2.0,1.0,Friendly,Oakland,United States,True,2000-01-09|Mexico|Iran|Friendly|2.0|1.0|Oakland
+24139,2000-02-05,Japan,Mexico,0.0,1.0,Lunar New Year Cup,So Kon Po,Hong Kong,True,2000-02-05|Japan|Mexico|Lunar New Year Cup|0.0|1.0|So Kon Po
+24153,2000-02-08,Mexico,Czech Republic,1.0,2.0,Lunar New Year Cup,So Kon Po,Hong Kong,True,2000-02-08|Mexico|Czech Republic|Lunar New Year Cup|1.0|2.0|So Kon Po
+24176,2000-02-13,Mexico,Trinidad and Tobago,4.0,0.0,Gold Cup,San Diego,United States,True,2000-02-13|Mexico|Trinidad and Tobago|Gold Cup|4.0|0.0|San Diego
+24200,2000-02-17,Mexico,Guatemala,1.0,1.0,Gold Cup,Los Angeles,United States,True,2000-02-17|Mexico|Guatemala|Gold Cup|1.0|1.0|Los Angeles
+24211,2000-02-20,Mexico,Canada,1.0,2.0,Gold Cup,San Diego,United States,True,2000-02-20|Mexico|Canada|Gold Cup|1.0|2.0|San Diego
+24582,2000-06-04,Mexico,Republic of Ireland,2.0,2.0,USA Cup,Chicago,United States,True,2000-06-04|Mexico|Republic of Ireland|USA Cup|2.0|2.0|Chicago
+24599,2000-06-07,Mexico,South Africa,4.0,2.0,USA Cup,Dallas,United States,True,2000-06-07|Mexico|South Africa|USA Cup|4.0|2.0|Dallas
+24617,2000-06-11,United States,Mexico,3.0,0.0,USA Cup,East Rutherford,United States,False,2000-06-11|United States|Mexico|USA Cup|3.0|0.0|East Rutherford
+24695,2000-07-01,El Salvador,Mexico,0.0,3.0,Friendly,San Francisco,United States,True,2000-07-01|El Salvador|Mexico|Friendly|0.0|3.0|San Francisco
+24717,2000-07-05,Mexico,Venezuela,2.0,1.0,Friendly,Monterrey,Mexico,False,2000-07-05|Mexico|Venezuela|Friendly|2.0|1.0|Monterrey
+24753,2000-07-16,Panama,Mexico,0.0,1.0,FIFA World Cup qualification,Panama City,Panama,False,2000-07-16|Panama|Mexico|FIFA World Cup qualification|0.0|1.0|Panama City
+24765,2000-07-23,Trinidad and Tobago,Mexico,1.0,0.0,FIFA World Cup qualification,Port of Spain,Trinidad and Tobago,False,2000-07-23|Trinidad and Tobago|Mexico|FIFA World Cup qualification|1.0|0.0|Port of Spain
+24795,2000-08-15,Mexico,Canada,2.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2000-08-15|Mexico|Canada|FIFA World Cup qualification|2.0|0.0|Mexico City
+24878,2000-09-03,Mexico,Panama,7.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,2000-09-03|Mexico|Panama|FIFA World Cup qualification|7.0|1.0|Mexico City
+24891,2000-09-20,Mexico,Ecuador,2.0,0.0,Friendly,San Diego,United States,True,2000-09-20|Mexico|Ecuador|Friendly|2.0|0.0|San Diego
+24898,2000-09-27,Mexico,Bolivia,1.0,0.0,Friendly,San Diego,United States,True,2000-09-27|Mexico|Bolivia|Friendly|1.0|0.0|San Diego
+24953,2000-10-08,Mexico,Trinidad and Tobago,7.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2000-10-08|Mexico|Trinidad and Tobago|FIFA World Cup qualification|7.0|0.0|Mexico City
+25012,2000-10-25,United States,Mexico,2.0,0.0,Friendly,Los Angeles,United States,False,2000-10-25|United States|Mexico|Friendly|2.0|0.0|Los Angeles
+25048,2000-11-15,Canada,Mexico,0.0,0.0,FIFA World Cup qualification,Toronto,Canada,False,2000-11-15|Canada|Mexico|FIFA World Cup qualification|0.0|0.0|Toronto
+25099,2000-12-20,Mexico,Argentina,0.0,2.0,Friendly,Los Angeles,United States,True,2000-12-20|Mexico|Argentina|Friendly|0.0|2.0|Los Angeles
+25149,2001-01-24,Mexico,Bulgaria,0.0,2.0,Friendly,Morelia,Mexico,False,2001-01-24|Mexico|Bulgaria|Friendly|0.0|2.0|Morelia
+25175,2001-01-31,Mexico,Colombia,2.0,3.0,Friendly,Los Angeles,United States,True,2001-01-31|Mexico|Colombia|Friendly|2.0|3.0|Los Angeles
+25274,2001-02-28,United States,Mexico,2.0,0.0,FIFA World Cup qualification,Columbus,United States,False,2001-02-28|United States|Mexico|FIFA World Cup qualification|2.0|0.0|Columbus
+25285,2001-03-07,Mexico,Brazil,3.0,3.0,Friendly,Guadalajara,Mexico,False,2001-03-07|Mexico|Brazil|Friendly|3.0|3.0|Guadalajara
+25359,2001-03-25,Mexico,Jamaica,4.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2001-03-25|Mexico|Jamaica|FIFA World Cup qualification|4.0|0.0|Mexico City
+25427,2001-04-11,Mexico,Chile,1.0,0.0,Friendly,Monterrey,Mexico,False,2001-04-11|Mexico|Chile|Friendly|1.0|0.0|Monterrey
+25497,2001-04-25,Trinidad and Tobago,Mexico,1.0,1.0,FIFA World Cup qualification,Port of Spain,Trinidad and Tobago,False,2001-04-25|Trinidad and Tobago|Mexico|FIFA World Cup qualification|1.0|1.0|Port of Spain
+25583,2001-05-25,England,Mexico,4.0,0.0,Friendly,Derby,England,False,2001-05-25|England|Mexico|Friendly|4.0|0.0|Derby
+25601,2001-05-30,Mexico,Australia,0.0,2.0,Confederations Cup,Suwon,South Korea,True,2001-05-30|Mexico|Australia|Confederations Cup|0.0|2.0|Suwon
+25611,2001-06-01,South Korea,Mexico,2.0,1.0,Confederations Cup,Ulsan,South Korea,False,2001-06-01|South Korea|Mexico|Confederations Cup|2.0|1.0|Ulsan
+25649,2001-06-03,France,Mexico,4.0,0.0,Confederations Cup,Ulsan,South Korea,True,2001-06-03|France|Mexico|Confederations Cup|4.0|0.0|Ulsan
+25703,2001-06-16,Mexico,Costa Rica,1.0,2.0,FIFA World Cup qualification,Mexico City,Mexico,False,2001-06-16|Mexico|Costa Rica|FIFA World Cup qualification|1.0|2.0|Mexico City
+25717,2001-06-20,Honduras,Mexico,3.0,1.0,FIFA World Cup qualification,San Pedro Sula,Honduras,False,2001-06-20|Honduras|Mexico|FIFA World Cup qualification|3.0|1.0|San Pedro Sula
+25746,2001-07-01,Mexico,United States,1.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2001-07-01|Mexico|United States|FIFA World Cup qualification|1.0|0.0|Mexico City
+25772,2001-07-12,Brazil,Mexico,0.0,1.0,Copa América,Cali,Colombia,True,2001-07-12|Brazil|Mexico|Copa América|0.0|1.0|Cali
+25800,2001-07-15,Paraguay,Mexico,0.0,0.0,Copa América,Cali,Colombia,True,2001-07-15|Paraguay|Mexico|Copa América|0.0|0.0|Cali
+25808,2001-07-18,Peru,Mexico,1.0,0.0,Copa América,Cali,Colombia,True,2001-07-18|Peru|Mexico|Copa América|1.0|0.0|Cali
+25817,2001-07-22,Chile,Mexico,0.0,2.0,Copa América,Pereira,Colombia,True,2001-07-22|Chile|Mexico|Copa América|0.0|2.0|Pereira
+25823,2001-07-25,Mexico,Uruguay,2.0,1.0,Copa América,Pereira,Colombia,True,2001-07-25|Mexico|Uruguay|Copa América|2.0|1.0|Pereira
+25831,2001-07-29,Colombia,Mexico,1.0,0.0,Copa América,Bogotá,Colombia,False,2001-07-29|Colombia|Mexico|Copa América|1.0|0.0|Bogotá
+25889,2001-08-23,Mexico,Liberia,5.0,4.0,Friendly,Veracruz,Mexico,False,2001-08-23|Mexico|Liberia|Friendly|5.0|4.0|Veracruz
+25922,2001-09-02,Jamaica,Mexico,1.0,2.0,FIFA World Cup qualification,Kingston,Jamaica,False,2001-09-02|Jamaica|Mexico|FIFA World Cup qualification|1.0|2.0|Kingston
+25944,2001-09-05,Mexico,Trinidad and Tobago,3.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2001-09-05|Mexico|Trinidad and Tobago|FIFA World Cup qualification|3.0|0.0|Mexico City
+26007,2001-10-07,Costa Rica,Mexico,0.0,0.0,FIFA World Cup qualification,San José,Costa Rica,False,2001-10-07|Costa Rica|Mexico|FIFA World Cup qualification|0.0|0.0|San José
+26034,2001-10-31,Mexico,El Salvador,4.0,1.0,Friendly,Puebla,Mexico,False,2001-10-31|Mexico|El Salvador|Friendly|4.0|1.0|Puebla
+26064,2001-11-11,Mexico,Honduras,3.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2001-11-11|Mexico|Honduras|FIFA World Cup qualification|3.0|0.0|Mexico City
+26082,2001-11-14,Spain,Mexico,1.0,0.0,Friendly,Huelva,Spain,False,2001-11-14|Spain|Mexico|Friendly|1.0|0.0|Huelva
+26169,2002-01-19,El Salvador,Mexico,0.0,1.0,Gold Cup,Pasadena,United States,True,2002-01-19|El Salvador|Mexico|Gold Cup|0.0|1.0|Pasadena
+26183,2002-01-21,Mexico,Guatemala,3.0,1.0,Gold Cup,Pasadena,United States,True,2002-01-21|Mexico|Guatemala|Gold Cup|3.0|1.0|Pasadena
+26206,2002-01-27,Mexico,South Korea,0.0,0.0,Gold Cup,Pasadena,United States,True,2002-01-27|Mexico|South Korea|Gold Cup|0.0|0.0|Pasadena
+26262,2002-02-13,Mexico,Serbia,1.0,2.0,Friendly,Phoenix,United States,True,2002-02-13|Mexico|Serbia|Friendly|1.0|2.0|Phoenix
+26288,2002-03-13,Mexico,Albania,4.0,0.0,Friendly,San Diego,United States,True,2002-03-13|Mexico|Albania|Friendly|4.0|0.0|San Diego
+26362,2002-04-17,Mexico,Bulgaria,1.0,0.0,Friendly,East Rutherford,United States,True,2002-04-17|Mexico|Bulgaria|Friendly|1.0|0.0|East Rutherford
+26387,2002-05-12,Mexico,Colombia,2.0,1.0,Friendly,Mexico City,Mexico,False,2002-05-12|Mexico|Colombia|Friendly|2.0|1.0|Mexico City
+26400,2002-05-16,Mexico,Bolivia,1.0,0.0,Friendly,San Francisco,United States,True,2002-05-16|Mexico|Bolivia|Friendly|1.0|0.0|San Francisco
+26446,2002-06-03,Croatia,Mexico,0.0,1.0,FIFA World Cup,Niigata,Japan,True,2002-06-03|Croatia|Mexico|FIFA World Cup|0.0|1.0|Niigata
+26469,2002-06-09,Mexico,Ecuador,2.0,1.0,FIFA World Cup,Rifu,Japan,True,2002-06-09|Mexico|Ecuador|FIFA World Cup|2.0|1.0|Rifu
+26483,2002-06-13,Mexico,Italy,1.0,1.0,FIFA World Cup,Ōita,Japan,True,2002-06-13|Mexico|Italy|FIFA World Cup|1.0|1.0|Ōita
+26494,2002-06-17,Mexico,United States,0.0,2.0,FIFA World Cup,Jeonju,South Korea,True,2002-06-17|Mexico|United States|FIFA World Cup|0.0|2.0|Jeonju
+26931,2003-02-04,Mexico,Argentina,0.0,1.0,Friendly,Los Angeles,United States,True,2003-02-04|Mexico|Argentina|Friendly|0.0|1.0|Los Angeles
+26960,2003-02-12,Mexico,Colombia,0.0,0.0,Friendly,Phoenix,United States,True,2003-02-12|Mexico|Colombia|Friendly|0.0|0.0|Phoenix
+27029,2003-03-19,Mexico,Bolivia,2.0,0.0,Friendly,Dallas,United States,True,2003-03-19|Mexico|Bolivia|Friendly|2.0|0.0|Dallas
+27054,2003-03-26,Mexico,Paraguay,1.0,1.0,Friendly,San Diego,United States,True,2003-03-26|Mexico|Paraguay|Friendly|1.0|1.0|San Diego
+27172,2003-04-30,Mexico,Brazil,0.0,0.0,Friendly,Guadalajara,Mexico,False,2003-04-30|Mexico|Brazil|Friendly|0.0|0.0|Guadalajara
+27188,2003-05-08,United States,Mexico,0.0,0.0,Friendly,Houston,United States,False,2003-05-08|United States|Mexico|Friendly|0.0|0.0|Houston
+27398,2003-07-06,El Salvador,Mexico,2.0,1.0,Friendly,Carson,United States,True,2003-07-06|El Salvador|Mexico|Friendly|2.0|1.0|Carson
+27421,2003-07-13,Mexico,Brazil,1.0,0.0,Gold Cup,Mexico City,Mexico,False,2003-07-13|Mexico|Brazil|Gold Cup|1.0|0.0|Mexico City
+27431,2003-07-17,Mexico,Honduras,0.0,0.0,Gold Cup,Mexico City,Mexico,False,2003-07-17|Mexico|Honduras|Gold Cup|0.0|0.0|Mexico City
+27436,2003-07-20,Mexico,Jamaica,5.0,0.0,Gold Cup,Mexico City,Mexico,False,2003-07-20|Mexico|Jamaica|Gold Cup|5.0|0.0|Mexico City
+27438,2003-07-24,Mexico,Costa Rica,2.0,0.0,Gold Cup,Mexico City,Mexico,False,2003-07-24|Mexico|Costa Rica|Gold Cup|2.0|0.0|Mexico City
+27443,2003-07-27,Mexico,Brazil,1.0,0.0,Gold Cup,Mexico City,Mexico,False,2003-07-27|Mexico|Brazil|Gold Cup|1.0|0.0|Mexico City
+27473,2003-08-20,Mexico,Peru,1.0,3.0,Friendly,East Rutherford,United States,True,2003-08-20|Mexico|Peru|Friendly|1.0|3.0|East Rutherford
+27666,2003-10-15,Mexico,Uruguay,0.0,2.0,Friendly,Chicago,United States,True,2003-10-15|Mexico|Uruguay|Friendly|0.0|2.0|Chicago
+27773,2003-11-19,Mexico,Iceland,0.0,0.0,Friendly,San Francisco,United States,True,2003-11-19|Mexico|Iceland|Friendly|0.0|0.0|San Francisco
+27966,2004-02-18,Mexico,Chile,1.0,1.0,Friendly,Carson,United States,True,2004-02-18|Mexico|Chile|Friendly|1.0|1.0|Carson
+28002,2004-03-10,Mexico,Ecuador,2.0,1.0,Friendly,Tuxtla Gutiérrez,Mexico,False,2004-03-10|Mexico|Ecuador|Friendly|2.0|1.0|Tuxtla Gutiérrez
+28055,2004-03-31,Mexico,Costa Rica,2.0,0.0,Friendly,Carson,United States,True,2004-03-31|Mexico|Costa Rica|Friendly|2.0|0.0|Carson
+28127,2004-04-28,United States,Mexico,1.0,0.0,Friendly,Dallas,United States,False,2004-04-28|United States|Mexico|Friendly|1.0|0.0|Dallas
+28332,2004-06-19,Dominica,Mexico,0.0,10.0,FIFA World Cup qualification,San Antonio,United States,True,2004-06-19|Dominica|Mexico|FIFA World Cup qualification|0.0|10.0|San Antonio
+28377,2004-06-27,Mexico,Dominica,8.0,0.0,FIFA World Cup qualification,Aguascalientes,Mexico,False,2004-06-27|Mexico|Dominica|FIFA World Cup qualification|8.0|0.0|Aguascalientes
+28403,2004-07-07,Mexico,Uruguay,2.0,2.0,Copa América,Chiclayo,Peru,True,2004-07-07|Mexico|Uruguay|Copa América|2.0|2.0|Chiclayo
+28411,2004-07-10,Argentina,Mexico,0.0,1.0,Copa América,Chiclayo,Peru,True,2004-07-10|Argentina|Mexico|Copa América|0.0|1.0|Chiclayo
+28425,2004-07-13,Mexico,Ecuador,2.0,1.0,Copa América,Piura,Peru,True,2004-07-13|Mexico|Ecuador|Copa América|2.0|1.0|Piura
+28435,2004-07-18,Mexico,Brazil,0.0,4.0,Copa América,Piura,Peru,True,2004-07-18|Mexico|Brazil|Copa América|0.0|4.0|Piura
+28618,2004-09-08,Trinidad and Tobago,Mexico,1.0,3.0,FIFA World Cup qualification,Port of Spain,Trinidad and Tobago,False,2004-09-08|Trinidad and Tobago|Mexico|FIFA World Cup qualification|1.0|3.0|Port of Spain
+28634,2004-10-06,Mexico,Saint Vincent and the Grenadines,7.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2004-10-06|Mexico|Saint Vincent and the Grenadines|FIFA World Cup qualification|7.0|0.0|Mexico City
+28690,2004-10-10,Saint Vincent and the Grenadines,Mexico,0.0,1.0,FIFA World Cup qualification,Kingstown,Saint Vincent and the Grenadines,False,2004-10-10|Saint Vincent and the Grenadines|Mexico|FIFA World Cup qualification|0.0|1.0|Kingstown
+28719,2004-10-13,Mexico,Trinidad and Tobago,3.0,0.0,FIFA World Cup qualification,Puebla,Mexico,False,2004-10-13|Mexico|Trinidad and Tobago|FIFA World Cup qualification|3.0|0.0|Puebla
+28746,2004-10-27,Mexico,Ecuador,2.0,1.0,Friendly,East Rutherford,United States,True,2004-10-27|Mexico|Ecuador|Friendly|2.0|1.0|East Rutherford
+28757,2004-11-10,Mexico,Guatemala,2.0,0.0,Friendly,San Antonio,United States,True,2004-11-10|Mexico|Guatemala|Friendly|2.0|0.0|San Antonio
+28762,2004-11-13,Saint Kitts and Nevis,Mexico,0.0,5.0,FIFA World Cup qualification,Miami,United States,True,2004-11-13|Saint Kitts and Nevis|Mexico|FIFA World Cup qualification|0.0|5.0|Miami
+28797,2004-11-17,Mexico,Saint Kitts and Nevis,8.0,0.0,FIFA World Cup qualification,Monterrey,Mexico,False,2004-11-17|Mexico|Saint Kitts and Nevis|FIFA World Cup qualification|8.0|0.0|Monterrey
+28954,2005-01-26,Mexico,Sweden,0.0,0.0,Friendly,San Diego,United States,True,2005-01-26|Mexico|Sweden|Friendly|0.0|0.0|San Diego
+28980,2005-02-09,Costa Rica,Mexico,1.0,2.0,FIFA World Cup qualification,San José,Costa Rica,False,2005-02-09|Costa Rica|Mexico|FIFA World Cup qualification|1.0|2.0|San José
+29026,2005-02-23,Mexico,Colombia,1.0,1.0,Friendly,Culiacán,Mexico,False,2005-02-23|Mexico|Colombia|Friendly|1.0|1.0|Culiacán
+29043,2005-03-09,Mexico,Argentina,1.0,1.0,Friendly,Los Angeles,United States,True,2005-03-09|Mexico|Argentina|Friendly|1.0|1.0|Los Angeles
+29108,2005-03-27,Mexico,United States,2.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,2005-03-27|Mexico|United States|FIFA World Cup qualification|2.0|1.0|Mexico City
+29133,2005-03-30,Panama,Mexico,1.0,1.0,FIFA World Cup qualification,Panama City,Panama,False,2005-03-30|Panama|Mexico|FIFA World Cup qualification|1.0|1.0|Panama City
+29152,2005-04-27,Mexico,Poland,1.0,1.0,Friendly,Chicago,United States,True,2005-04-27|Mexico|Poland|Friendly|1.0|1.0|Chicago
+29202,2005-06-04,Guatemala,Mexico,0.0,2.0,FIFA World Cup qualification,Guatemala City,Guatemala,False,2005-06-04|Guatemala|Mexico|FIFA World Cup qualification|0.0|2.0|Guatemala City
+29257,2005-06-08,Mexico,Trinidad and Tobago,2.0,0.0,FIFA World Cup qualification,Monterrey,Mexico,False,2005-06-08|Mexico|Trinidad and Tobago|FIFA World Cup qualification|2.0|0.0|Monterrey
+29279,2005-06-16,Japan,Mexico,1.0,2.0,Confederations Cup,Hanover,Germany,True,2005-06-16|Japan|Mexico|Confederations Cup|1.0|2.0|Hanover
+29299,2005-06-19,Mexico,Brazil,1.0,0.0,Confederations Cup,Hanover,Germany,True,2005-06-19|Mexico|Brazil|Confederations Cup|1.0|0.0|Hanover
+29303,2005-06-22,Greece,Mexico,0.0,0.0,Confederations Cup,Frankfurt,Germany,True,2005-06-22|Greece|Mexico|Confederations Cup|0.0|0.0|Frankfurt
+29307,2005-06-26,Mexico,Argentina,1.0,1.0,Confederations Cup,Hanover,Germany,True,2005-06-26|Mexico|Argentina|Confederations Cup|1.0|1.0|Hanover
+29310,2005-06-29,Germany,Mexico,4.0,3.0,Confederations Cup,Leipzig,Germany,False,2005-06-29|Germany|Mexico|Confederations Cup|4.0|3.0|Leipzig
+29318,2005-07-08,South Africa,Mexico,2.0,1.0,Gold Cup,Carson,United States,True,2005-07-08|South Africa|Mexico|Gold Cup|2.0|1.0|Carson
+29323,2005-07-10,Mexico,Guatemala,4.0,0.0,Gold Cup,Los Angeles,United States,True,2005-07-10|Mexico|Guatemala|Gold Cup|4.0|0.0|Los Angeles
+29342,2005-07-13,Mexico,Jamaica,1.0,0.0,Gold Cup,Houston,United States,True,2005-07-13|Mexico|Jamaica|Gold Cup|1.0|0.0|Houston
+29358,2005-07-17,Mexico,Colombia,1.0,2.0,Gold Cup,Houston,United States,True,2005-07-17|Mexico|Colombia|Gold Cup|1.0|2.0|Houston
+29411,2005-08-17,Mexico,Costa Rica,2.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2005-08-17|Mexico|Costa Rica|FIFA World Cup qualification|2.0|0.0|Mexico City
+29464,2005-09-03,United States,Mexico,2.0,0.0,FIFA World Cup qualification,Columbus,United States,False,2005-09-03|United States|Mexico|FIFA World Cup qualification|2.0|0.0|Columbus
+29500,2005-09-07,Mexico,Panama,5.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2005-09-07|Mexico|Panama|FIFA World Cup qualification|5.0|0.0|Mexico City
+29542,2005-10-08,Mexico,Guatemala,5.0,2.0,FIFA World Cup qualification,San Luis Potosí,Mexico,False,2005-10-08|Mexico|Guatemala|FIFA World Cup qualification|5.0|2.0|San Luis Potosí
+29599,2005-10-12,Trinidad and Tobago,Mexico,2.0,1.0,FIFA World Cup qualification,Port of Spain,Trinidad and Tobago,False,2005-10-12|Trinidad and Tobago|Mexico|FIFA World Cup qualification|2.0|1.0|Port of Spain
+29607,2005-10-26,Mexico,Uruguay,3.0,1.0,Friendly,Guadalajara,Mexico,False,2005-10-26|Mexico|Uruguay|Friendly|3.0|1.0|Guadalajara
+29652,2005-11-16,Mexico,Bulgaria,0.0,3.0,Friendly,Houston,United States,True,2005-11-16|Mexico|Bulgaria|Friendly|0.0|3.0|Houston
+29711,2005-12-14,Mexico,Hungary,2.0,0.0,Friendly,Phoenix,United States,True,2005-12-14|Mexico|Hungary|Friendly|2.0|0.0|Phoenix
+29765,2006-01-25,Mexico,Norway,2.0,1.0,Friendly,San Francisco,United States,True,2006-01-25|Mexico|Norway|Friendly|2.0|1.0|San Francisco
+29805,2006-02-15,Mexico,South Korea,0.0,1.0,Friendly,Los Angeles,United States,True,2006-02-15|Mexico|South Korea|Friendly|0.0|1.0|Los Angeles
+29859,2006-03-01,Mexico,Ghana,1.0,0.0,Friendly,Frisco,United States,True,2006-03-01|Mexico|Ghana|Friendly|1.0|0.0|Frisco
+29884,2006-03-29,Mexico,Paraguay,2.0,1.0,Friendly,Chicago,United States,True,2006-03-29|Mexico|Paraguay|Friendly|2.0|1.0|Chicago
+29927,2006-05-05,Mexico,Venezuela,1.0,0.0,Friendly,Pasadena,United States,True,2006-05-05|Mexico|Venezuela|Friendly|1.0|0.0|Pasadena
+29933,2006-05-12,Mexico,DR Congo,2.0,1.0,Friendly,Mexico City,Mexico,False,2006-05-12|Mexico|DR Congo|Friendly|2.0|1.0|Mexico City
+29965,2006-05-27,France,Mexico,1.0,0.0,Friendly,Saint-Denis,France,False,2006-05-27|France|Mexico|Friendly|1.0|0.0|Saint-Denis
+30004,2006-06-01,Netherlands,Mexico,2.0,1.0,Friendly,Eindhoven,Netherlands,False,2006-06-01|Netherlands|Mexico|Friendly|2.0|1.0|Eindhoven
+30044,2006-06-11,Mexico,Iran,3.0,1.0,FIFA World Cup,Nuremberg,Germany,True,2006-06-11|Mexico|Iran|FIFA World Cup|3.0|1.0|Nuremberg
+30059,2006-06-16,Mexico,Angola,0.0,0.0,FIFA World Cup,Hanover,Germany,True,2006-06-16|Mexico|Angola|FIFA World Cup|0.0|0.0|Hanover
+30077,2006-06-21,Portugal,Mexico,2.0,1.0,FIFA World Cup,Gelsenkirchen,Germany,True,2006-06-21|Portugal|Mexico|FIFA World Cup|2.0|1.0|Gelsenkirchen
+30086,2006-06-24,Argentina,Mexico,2.0,1.0,FIFA World Cup,Leipzig,Germany,True,2006-06-24|Argentina|Mexico|FIFA World Cup|2.0|1.0|Leipzig
+30675,2007-02-07,United States,Mexico,2.0,0.0,Friendly,Glendale,United States,False,2007-02-07|United States|Mexico|Friendly|2.0|0.0|Glendale
+30694,2007-02-28,Mexico,Venezuela,3.0,1.0,Friendly,San Diego,United States,True,2007-02-28|Mexico|Venezuela|Friendly|3.0|1.0|San Diego
+30762,2007-03-25,Mexico,Paraguay,2.0,1.0,Friendly,Monterrey,Mexico,False,2007-03-25|Mexico|Paraguay|Friendly|2.0|1.0|Monterrey
+30785,2007-03-28,Mexico,Ecuador,4.0,2.0,Friendly,Oakland,United States,True,2007-03-28|Mexico|Ecuador|Friendly|4.0|2.0|Oakland
+30868,2007-06-02,Mexico,Iran,4.0,0.0,Friendly,San Luis Potosí,Mexico,False,2007-06-02|Mexico|Iran|Friendly|4.0|0.0|San Luis Potosí
+30900,2007-06-05,Mexico,Paraguay,0.0,1.0,Friendly,Mexico City,Mexico,False,2007-06-05|Mexico|Paraguay|Friendly|0.0|1.0|Mexico City
+30929,2007-06-08,Mexico,Cuba,2.0,1.0,Gold Cup,East Rutherford,United States,True,2007-06-08|Mexico|Cuba|Gold Cup|2.0|1.0|East Rutherford
+30937,2007-06-10,Honduras,Mexico,2.0,1.0,Gold Cup,East Rutherford,United States,True,2007-06-10|Honduras|Mexico|Gold Cup|2.0|1.0|East Rutherford
+30950,2007-06-13,Mexico,Panama,1.0,0.0,Gold Cup,Houston,United States,True,2007-06-13|Mexico|Panama|Gold Cup|1.0|0.0|Houston
+30976,2007-06-17,Mexico,Costa Rica,1.0,0.0,Gold Cup,Houston,United States,True,2007-06-17|Mexico|Costa Rica|Gold Cup|1.0|0.0|Houston
+30993,2007-06-21,Mexico,Guadeloupe,1.0,0.0,Gold Cup,Chicago,United States,True,2007-06-21|Mexico|Guadeloupe|Gold Cup|1.0|0.0|Chicago
+31003,2007-06-24,United States,Mexico,2.0,1.0,Gold Cup,Chicago,United States,False,2007-06-24|United States|Mexico|Gold Cup|2.0|1.0|Chicago
+31008,2007-06-27,Brazil,Mexico,0.0,2.0,Copa América,Puerto Ordaz,Venezuela,True,2007-06-27|Brazil|Mexico|Copa América|0.0|2.0|Puerto Ordaz
+31026,2007-07-01,Mexico,Ecuador,2.0,1.0,Copa América,Maturín,Venezuela,True,2007-07-01|Mexico|Ecuador|Copa América|2.0|1.0|Maturín
+31045,2007-07-04,Mexico,Chile,0.0,0.0,Copa América,Puerto la Cruz,Venezuela,True,2007-07-04|Mexico|Chile|Copa América|0.0|0.0|Puerto la Cruz
+31066,2007-07-08,Mexico,Paraguay,6.0,0.0,Copa América,Maturín,Venezuela,True,2007-07-08|Mexico|Paraguay|Copa América|6.0|0.0|Maturín
+31074,2007-07-11,Mexico,Argentina,0.0,3.0,Copa América,Puerto Ordaz,Venezuela,True,2007-07-11|Mexico|Argentina|Copa América|0.0|3.0|Puerto Ordaz
+31082,2007-07-14,Mexico,Uruguay,3.0,1.0,Copa América,Caracas,Venezuela,True,2007-07-14|Mexico|Uruguay|Copa América|3.0|1.0|Caracas
+31159,2007-08-22,Mexico,Colombia,0.0,1.0,Friendly,Commerce City,United States,True,2007-08-22|Mexico|Colombia|Friendly|0.0|1.0|Commerce City
+31256,2007-09-09,Mexico,Panama,1.0,0.0,Friendly,Puebla,Mexico,False,2007-09-09|Mexico|Panama|Friendly|1.0|0.0|Puebla
+31286,2007-09-12,Mexico,Brazil,1.0,3.0,Friendly,Foxborough,United States,True,2007-09-12|Mexico|Brazil|Friendly|1.0|3.0|Foxborough
+31350,2007-10-14,Mexico,Nigeria,2.0,2.0,Friendly,Ciudad Juárez,Mexico,False,2007-10-14|Mexico|Nigeria|Friendly|2.0|2.0|Ciudad Juárez
+31383,2007-10-17,Mexico,Guatemala,2.0,3.0,Friendly,Los Angeles,United States,True,2007-10-17|Mexico|Guatemala|Friendly|2.0|3.0|Los Angeles
+31687,2008-02-06,United States,Mexico,2.0,2.0,Friendly,Houston,United States,False,2008-02-06|United States|Mexico|Friendly|2.0|2.0|Houston
+31749,2008-03-26,Ghana,Mexico,1.0,2.0,Friendly,London,England,True,2008-03-26|Ghana|Mexico|Friendly|1.0|2.0|London
+31797,2008-04-16,Mexico,China,1.0,0.0,Friendly,Seattle,United States,True,2008-04-16|Mexico|China|Friendly|1.0|0.0|Seattle
+31943,2008-06-04,Mexico,Argentina,1.0,4.0,Friendly,San Diego,United States,True,2008-06-04|Mexico|Argentina|Friendly|1.0|4.0|San Diego
+31994,2008-06-08,Mexico,Peru,4.0,0.0,Friendly,Chicago,United States,True,2008-06-08|Mexico|Peru|Friendly|4.0|0.0|Chicago
+32053,2008-06-15,Belize,Mexico,0.0,2.0,FIFA World Cup qualification,Houston,United States,True,2008-06-15|Belize|Mexico|FIFA World Cup qualification|0.0|2.0|Houston
+32093,2008-06-21,Mexico,Belize,7.0,0.0,FIFA World Cup qualification,Monterrey,Mexico,False,2008-06-21|Mexico|Belize|FIFA World Cup qualification|7.0|0.0|Monterrey
+32236,2008-08-20,Mexico,Honduras,2.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,2008-08-20|Mexico|Honduras|FIFA World Cup qualification|2.0|1.0|Mexico City
+32333,2008-09-06,Mexico,Jamaica,3.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2008-09-06|Mexico|Jamaica|FIFA World Cup qualification|3.0|0.0|Mexico City
+32366,2008-09-10,Mexico,Canada,2.0,1.0,FIFA World Cup qualification,Tuxtla Gutiérrez,Mexico,False,2008-09-10|Mexico|Canada|FIFA World Cup qualification|2.0|1.0|Tuxtla Gutiérrez
+32391,2008-09-24,Mexico,Chile,0.0,1.0,Friendly,Los Angeles,United States,True,2008-09-24|Mexico|Chile|Friendly|0.0|1.0|Los Angeles
+32437,2008-10-11,Jamaica,Mexico,1.0,0.0,FIFA World Cup qualification,Kingston,Jamaica,False,2008-10-11|Jamaica|Mexico|FIFA World Cup qualification|1.0|0.0|Kingston
+32485,2008-10-15,Canada,Mexico,2.0,2.0,FIFA World Cup qualification,Edmonton,Canada,False,2008-10-15|Canada|Mexico|FIFA World Cup qualification|2.0|2.0|Edmonton
+32556,2008-11-12,Mexico,Ecuador,2.0,1.0,Friendly,Phoenix,United States,True,2008-11-12|Mexico|Ecuador|Friendly|2.0|1.0|Phoenix
+32580,2008-11-19,Honduras,Mexico,1.0,0.0,FIFA World Cup qualification,San Pedro Sula,Honduras,False,2008-11-19|Honduras|Mexico|FIFA World Cup qualification|1.0|0.0|San Pedro Sula
+32735,2009-01-28,Mexico,Sweden,0.0,1.0,Friendly,Oakland,United States,True,2009-01-28|Mexico|Sweden|Friendly|0.0|1.0|Oakland
+32797,2009-02-11,United States,Mexico,2.0,0.0,FIFA World Cup qualification,Columbus,United States,False,2009-02-11|United States|Mexico|FIFA World Cup qualification|2.0|0.0|Columbus
+32805,2009-03-11,Mexico,Bolivia,5.0,1.0,Friendly,Commerce City,United States,True,2009-03-11|Mexico|Bolivia|Friendly|5.0|1.0|Commerce City
+32846,2009-03-28,Mexico,Costa Rica,2.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2009-03-28|Mexico|Costa Rica|FIFA World Cup qualification|2.0|0.0|Mexico City
+32894,2009-04-01,Honduras,Mexico,3.0,1.0,FIFA World Cup qualification,San Pedro Sula,Honduras,False,2009-04-01|Honduras|Mexico|FIFA World Cup qualification|3.0|1.0|San Pedro Sula
+32985,2009-06-06,El Salvador,Mexico,2.0,1.0,FIFA World Cup qualification,San Salvador,El Salvador,False,2009-06-06|El Salvador|Mexico|FIFA World Cup qualification|2.0|1.0|San Salvador
+33041,2009-06-10,Mexico,Trinidad and Tobago,2.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,2009-06-10|Mexico|Trinidad and Tobago|FIFA World Cup qualification|2.0|1.0|Mexico City
+33082,2009-06-24,Mexico,Venezuela,4.0,0.0,Friendly,Atlanta,United States,True,2009-06-24|Mexico|Venezuela|Friendly|4.0|0.0|Atlanta
+33096,2009-06-28,Mexico,Guatemala,0.0,0.0,Friendly,San Diego,United States,True,2009-06-28|Mexico|Guatemala|Friendly|0.0|0.0|San Diego
+33141,2009-07-05,Nicaragua,Mexico,0.0,2.0,Gold Cup,Oakland,United States,True,2009-07-05|Nicaragua|Mexico|Gold Cup|0.0|2.0|Oakland
+33149,2009-07-09,Mexico,Panama,1.0,1.0,Gold Cup,Houston,United States,True,2009-07-09|Mexico|Panama|Gold Cup|1.0|1.0|Houston
+33156,2009-07-12,Mexico,Guadeloupe,2.0,0.0,Gold Cup,Glendale,United States,True,2009-07-12|Mexico|Guadeloupe|Gold Cup|2.0|0.0|Glendale
+33164,2009-07-19,Mexico,Haiti,4.0,0.0,Gold Cup,Arlington,United States,True,2009-07-19|Mexico|Haiti|Gold Cup|4.0|0.0|Arlington
+33165,2009-07-23,Costa Rica,Mexico,1.0,1.0,Gold Cup,Chicago,United States,True,2009-07-23|Costa Rica|Mexico|Gold Cup|1.0|1.0|Chicago
+33168,2009-07-26,United States,Mexico,0.0,5.0,Gold Cup,East Rutherford,United States,False,2009-07-26|United States|Mexico|Gold Cup|0.0|5.0|East Rutherford
+33199,2009-08-12,Mexico,United States,2.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,2009-08-12|Mexico|United States|FIFA World Cup qualification|2.0|1.0|Mexico City
+33249,2009-09-05,Costa Rica,Mexico,0.0,3.0,FIFA World Cup qualification,San José,Costa Rica,False,2009-09-05|Costa Rica|Mexico|FIFA World Cup qualification|0.0|3.0|San José
+33312,2009-09-09,Mexico,Honduras,1.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2009-09-09|Mexico|Honduras|FIFA World Cup qualification|1.0|0.0|Mexico City
+33335,2009-09-30,Mexico,Colombia,1.0,2.0,Friendly,Dallas,United States,True,2009-09-30|Mexico|Colombia|Friendly|1.0|2.0|Dallas
+33368,2009-10-10,Mexico,El Salvador,4.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,2009-10-10|Mexico|El Salvador|FIFA World Cup qualification|4.0|1.0|Mexico City
+33422,2009-10-14,Trinidad and Tobago,Mexico,2.0,2.0,FIFA World Cup qualification,Port of Spain,Trinidad and Tobago,False,2009-10-14|Trinidad and Tobago|Mexico|FIFA World Cup qualification|2.0|2.0|Port of Spain
+33675,2010-02-24,Mexico,Bolivia,5.0,0.0,Friendly,San Francisco,United States,True,2010-02-24|Mexico|Bolivia|Friendly|5.0|0.0|San Francisco
+33712,2010-03-03,Mexico,New Zealand,2.0,0.0,Friendly,Pasadena,United States,True,2010-03-03|Mexico|New Zealand|Friendly|2.0|0.0|Pasadena
+33735,2010-03-17,Mexico,North Korea,2.0,1.0,Friendly,Torreón,Mexico,False,2010-03-17|Mexico|North Korea|Friendly|2.0|1.0|Torreón
+33740,2010-03-24,Mexico,Iceland,0.0,0.0,Friendly,Charlotte,United States,True,2010-03-24|Mexico|Iceland|Friendly|0.0|0.0|Charlotte
+33751,2010-05-07,Mexico,Ecuador,0.0,0.0,Friendly,East Rutherford,United States,True,2010-05-07|Mexico|Ecuador|Friendly|0.0|0.0|East Rutherford
+33753,2010-05-10,Mexico,Senegal,1.0,0.0,Friendly,Chicago,United States,True,2010-05-10|Mexico|Senegal|Friendly|1.0|0.0|Chicago
+33756,2010-05-13,Mexico,Angola,1.0,0.0,Friendly,Houston,United States,True,2010-05-13|Mexico|Angola|Friendly|1.0|0.0|Houston
+33759,2010-05-16,Mexico,Chile,1.0,0.0,Friendly,Mexico City,Mexico,False,2010-05-16|Mexico|Chile|Friendly|1.0|0.0|Mexico City
+33775,2010-05-24,England,Mexico,3.0,1.0,Friendly,London,England,False,2010-05-24|England|Mexico|Friendly|3.0|1.0|London
+33791,2010-05-26,Netherlands,Mexico,2.0,1.0,Friendly,Freiburg,Germany,True,2010-05-26|Netherlands|Mexico|Friendly|2.0|1.0|Freiburg
+33816,2010-05-30,Mexico,Gambia,5.0,1.0,Friendly,Bayreuth,Germany,True,2010-05-30|Mexico|Gambia|Friendly|5.0|1.0|Bayreuth
+33840,2010-06-03,Italy,Mexico,1.0,2.0,Friendly,Brussels,Belgium,True,2010-06-03|Italy|Mexico|Friendly|1.0|2.0|Brussels
+33865,2010-06-11,South Africa,Mexico,1.0,1.0,FIFA World Cup,Johannesburg,South Africa,False,2010-06-11|South Africa|Mexico|FIFA World Cup|1.0|1.0|Johannesburg
+33883,2010-06-17,France,Mexico,0.0,2.0,FIFA World Cup,Polokwane,South Africa,True,2010-06-17|France|Mexico|FIFA World Cup|0.0|2.0|Polokwane
+33904,2010-06-22,Mexico,Uruguay,0.0,1.0,FIFA World Cup,Rustenburg,South Africa,True,2010-06-22|Mexico|Uruguay|FIFA World Cup|0.0|1.0|Rustenburg
+33922,2010-06-27,Argentina,Mexico,3.0,1.0,FIFA World Cup,Johannesburg,South Africa,True,2010-06-27|Argentina|Mexico|FIFA World Cup|3.0|1.0|Johannesburg
+33973,2010-08-11,Mexico,Spain,1.0,1.0,Friendly,Mexico City,Mexico,False,2010-08-11|Mexico|Spain|Friendly|1.0|1.0|Mexico City
+34045,2010-09-04,Mexico,Ecuador,1.0,2.0,Friendly,Zapopan,Mexico,False,2010-09-04|Mexico|Ecuador|Friendly|1.0|2.0|Zapopan
+34088,2010-09-07,Mexico,Colombia,1.0,0.0,Friendly,Monterrey,Mexico,False,2010-09-07|Mexico|Colombia|Friendly|1.0|0.0|Monterrey
+34251,2010-10-12,Mexico,Venezuela,2.0,2.0,Friendly,Ciudad Juárez,Mexico,False,2010-10-12|Mexico|Venezuela|Friendly|2.0|2.0|Ciudad Juárez
+34556,2011-02-09,Mexico,Bosnia and Herzegovina,2.0,0.0,Friendly,Atlanta,United States,True,2011-02-09|Mexico|Bosnia and Herzegovina|Friendly|2.0|0.0|Atlanta
+34639,2011-03-26,Mexico,Paraguay,3.0,1.0,Friendly,Oakland,United States,True,2011-03-26|Mexico|Paraguay|Friendly|3.0|1.0|Oakland
+34683,2011-03-29,Mexico,Venezuela,1.0,1.0,Friendly,San Diego,United States,True,2011-03-29|Mexico|Venezuela|Friendly|1.0|1.0|San Diego
+34724,2011-05-28,Mexico,Ecuador,1.0,1.0,Friendly,Seattle,United States,True,2011-05-28|Mexico|Ecuador|Friendly|1.0|1.0|Seattle
+34738,2011-06-01,Mexico,New Zealand,3.0,0.0,Friendly,Denver,United States,True,2011-06-01|Mexico|New Zealand|Friendly|3.0|0.0|Denver
+34790,2011-06-05,Mexico,El Salvador,5.0,0.0,Gold Cup,Arlington,United States,True,2011-06-05|Mexico|El Salvador|Gold Cup|5.0|0.0|Arlington
+34821,2011-06-09,Cuba,Mexico,0.0,5.0,Gold Cup,Charlotte,United States,True,2011-06-09|Cuba|Mexico|Gold Cup|0.0|5.0|Charlotte
+34826,2011-06-11,Mexico,Venezuela,0.0,3.0,Friendly,Las Vegas,United States,True,2011-06-11|Mexico|Venezuela|Friendly|0.0|3.0|Las Vegas
+34830,2011-06-12,Mexico,Costa Rica,4.0,1.0,Gold Cup,Chicago,United States,True,2011-06-12|Mexico|Costa Rica|Gold Cup|4.0|1.0|Chicago
+34839,2011-06-18,Mexico,Guatemala,2.0,1.0,Gold Cup,East Rutherford,United States,True,2011-06-18|Mexico|Guatemala|Gold Cup|2.0|1.0|East Rutherford
+34845,2011-06-22,Honduras,Mexico,0.0,2.0,Gold Cup,Houston,United States,True,2011-06-22|Honduras|Mexico|Gold Cup|0.0|2.0|Houston
+34851,2011-06-25,United States,Mexico,2.0,4.0,Gold Cup,Pasadena,United States,False,2011-06-25|United States|Mexico|Gold Cup|2.0|4.0|Pasadena
+34859,2011-06-27,Bolivia,Mexico,0.0,1.0,Friendly,Buenos Aires,Argentina,True,2011-06-27|Bolivia|Mexico|Friendly|0.0|1.0|Buenos Aires
+34907,2011-07-04,Chile,Mexico,2.0,1.0,Copa América,San Juan,Argentina,True,2011-07-04|Chile|Mexico|Copa América|2.0|1.0|San Juan
+34918,2011-07-08,Peru,Mexico,1.0,0.0,Copa América,Mendoza,Argentina,True,2011-07-08|Peru|Mexico|Copa América|1.0|0.0|Mendoza
+34932,2011-07-12,Uruguay,Mexico,1.0,0.0,Copa América,La Plata,Argentina,True,2011-07-12|Uruguay|Mexico|Copa América|1.0|0.0|La Plata
+35043,2011-08-10,United States,Mexico,1.0,1.0,Friendly,Philadelphia,United States,False,2011-08-10|United States|Mexico|Friendly|1.0|1.0|Philadelphia
+35127,2011-09-02,Poland,Mexico,1.0,1.0,Friendly,Warsaw,Poland,False,2011-09-02|Poland|Mexico|Friendly|1.0|1.0|Warsaw
+35166,2011-09-04,Mexico,Chile,1.0,0.0,Friendly,Barcelona,Spain,True,2011-09-04|Mexico|Chile|Friendly|1.0|0.0|Barcelona
+35354,2011-10-11,Mexico,Brazil,1.0,2.0,Friendly,Torreón,Mexico,False,2011-10-11|Mexico|Brazil|Friendly|1.0|2.0|Torreón
+35412,2011-11-11,Mexico,Serbia,2.0,0.0,Friendly,Querétaro,Mexico,False,2011-11-11|Mexico|Serbia|Friendly|2.0|0.0|Querétaro
+35602,2012-01-25,Mexico,Venezuela,3.0,1.0,Friendly,Houston,United States,True,2012-01-25|Mexico|Venezuela|Friendly|3.0|1.0|Houston
+35682,2012-02-29,Mexico,Colombia,0.0,2.0,Friendly,Miami Gardens,United States,True,2012-02-29|Mexico|Colombia|Friendly|0.0|2.0|Miami Gardens
+35807,2012-05-27,Mexico,Wales,2.0,0.0,Friendly,East Rutherford,United States,True,2012-05-27|Mexico|Wales|Friendly|2.0|0.0|East Rutherford
+35826,2012-05-31,Mexico,Bosnia and Herzegovina,2.0,1.0,Friendly,Chicago,United States,True,2012-05-31|Mexico|Bosnia and Herzegovina|Friendly|2.0|1.0|Chicago
+35874,2012-06-03,Mexico,Brazil,2.0,0.0,Friendly,Arlington,United States,True,2012-06-03|Mexico|Brazil|Friendly|2.0|0.0|Arlington
+35919,2012-06-08,Mexico,Guyana,3.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,2012-06-08|Mexico|Guyana|FIFA World Cup qualification|3.0|1.0|Mexico City
+35975,2012-06-12,El Salvador,Mexico,1.0,2.0,FIFA World Cup qualification,San Salvador,El Salvador,False,2012-06-12|El Salvador|Mexico|FIFA World Cup qualification|1.0|2.0|San Salvador
+36086,2012-08-15,Mexico,United States,0.0,1.0,Friendly,Mexico City,Mexico,False,2012-08-15|Mexico|United States|Friendly|0.0|1.0|Mexico City
+36136,2012-09-07,Costa Rica,Mexico,0.0,2.0,FIFA World Cup qualification,San José,Costa Rica,False,2012-09-07|Costa Rica|Mexico|FIFA World Cup qualification|0.0|2.0|San José
+36219,2012-09-11,Mexico,Costa Rica,1.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2012-09-11|Mexico|Costa Rica|FIFA World Cup qualification|1.0|0.0|Mexico City
+36310,2012-10-12,Guyana,Mexico,0.0,5.0,FIFA World Cup qualification,Houston,United States,True,2012-10-12|Guyana|Mexico|FIFA World Cup qualification|0.0|5.0|Houston
+36385,2012-10-16,Mexico,El Salvador,2.0,0.0,FIFA World Cup qualification,Torreón,Mexico,False,2012-10-16|Mexico|El Salvador|FIFA World Cup qualification|2.0|0.0|Torreón
+36712,2013-02-06,Mexico,Jamaica,0.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2013-02-06|Mexico|Jamaica|FIFA World Cup qualification|0.0|0.0|Mexico City
+36793,2013-03-22,Honduras,Mexico,2.0,2.0,FIFA World Cup qualification,San Pedro Sula,Honduras,False,2013-03-22|Honduras|Mexico|FIFA World Cup qualification|2.0|2.0|San Pedro Sula
+36870,2013-03-26,Mexico,United States,0.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2013-03-26|Mexico|United States|FIFA World Cup qualification|0.0|0.0|Mexico City
+36888,2013-04-17,Mexico,Peru,0.0,0.0,Friendly,San Francisco,United States,True,2013-04-17|Mexico|Peru|Friendly|0.0|0.0|San Francisco
+36914,2013-05-31,Mexico,Nigeria,2.0,2.0,Friendly,Houston,United States,True,2013-05-31|Mexico|Nigeria|Friendly|2.0|2.0|Houston
+36931,2013-06-04,Jamaica,Mexico,0.0,1.0,FIFA World Cup qualification,Kingston,Jamaica,False,2013-06-04|Jamaica|Mexico|FIFA World Cup qualification|0.0|1.0|Kingston
+36969,2013-06-07,Panama,Mexico,0.0,0.0,FIFA World Cup qualification,Panama City,Panama,False,2013-06-07|Panama|Mexico|FIFA World Cup qualification|0.0|0.0|Panama City
+37009,2013-06-11,Mexico,Costa Rica,0.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2013-06-11|Mexico|Costa Rica|FIFA World Cup qualification|0.0|0.0|Mexico City
+37039,2013-06-16,Mexico,Italy,1.0,2.0,Confederations Cup,Rio de Janeiro,Brazil,True,2013-06-16|Mexico|Italy|Confederations Cup|1.0|2.0|Rio de Janeiro
+37051,2013-06-19,Brazil,Mexico,2.0,0.0,Confederations Cup,Fortaleza,Brazil,False,2013-06-19|Brazil|Mexico|Confederations Cup|2.0|0.0|Fortaleza
+37056,2013-06-22,Japan,Mexico,1.0,2.0,Confederations Cup,Belo Horizonte,Brazil,True,2013-06-22|Japan|Mexico|Confederations Cup|1.0|2.0|Belo Horizonte
+37080,2013-07-07,Mexico,Panama,1.0,2.0,Gold Cup,Pasadena,United States,True,2013-07-07|Mexico|Panama|Gold Cup|1.0|2.0|Pasadena
+37094,2013-07-11,Mexico,Canada,2.0,0.0,Gold Cup,Seattle,United States,True,2013-07-11|Mexico|Canada|Gold Cup|2.0|0.0|Seattle
+37102,2013-07-14,Martinique,Mexico,1.0,3.0,Gold Cup,Denver,United States,True,2013-07-14|Martinique|Mexico|Gold Cup|1.0|3.0|Denver
+37125,2013-07-20,Mexico,Trinidad and Tobago,1.0,0.0,Gold Cup,Atlanta,United States,True,2013-07-20|Mexico|Trinidad and Tobago|Gold Cup|1.0|0.0|Atlanta
+37132,2013-07-24,Panama,Mexico,2.0,1.0,Gold Cup,Arlington,United States,True,2013-07-24|Panama|Mexico|Gold Cup|2.0|1.0|Arlington
+37167,2013-08-14,Mexico,Ivory Coast,4.0,1.0,Friendly,East Rutherford,United States,True,2013-08-14|Mexico|Ivory Coast|Friendly|4.0|1.0|East Rutherford
+37234,2013-09-06,Mexico,Honduras,1.0,2.0,FIFA World Cup qualification,Mexico City,Mexico,False,2013-09-06|Mexico|Honduras|FIFA World Cup qualification|1.0|2.0|Mexico City
+37314,2013-09-10,United States,Mexico,2.0,0.0,FIFA World Cup qualification,Columbus,United States,False,2013-09-10|United States|Mexico|FIFA World Cup qualification|2.0|0.0|Columbus
+37349,2013-10-11,Mexico,Panama,2.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,2013-10-11|Mexico|Panama|FIFA World Cup qualification|2.0|1.0|Mexico City
+37378,2013-10-15,Costa Rica,Mexico,2.0,1.0,FIFA World Cup qualification,San José,Costa Rica,False,2013-10-15|Costa Rica|Mexico|FIFA World Cup qualification|2.0|1.0|San José
+37427,2013-11-13,Mexico,New Zealand,5.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,2013-11-13|Mexico|New Zealand|FIFA World Cup qualification|5.0|1.0|Mexico City
+37513,2013-11-20,New Zealand,Mexico,2.0,4.0,FIFA World Cup qualification,Wellington,New Zealand,False,2013-11-20|New Zealand|Mexico|FIFA World Cup qualification|2.0|4.0|Wellington
+37575,2014-01-29,Mexico,South Korea,4.0,0.0,Friendly,San Antonio,United States,True,2014-01-29|Mexico|South Korea|Friendly|4.0|0.0|San Antonio
+37770,2014-05-31,Mexico,Ecuador,3.0,1.0,Friendly,Arlington,United States,True,2014-05-31|Mexico|Ecuador|Friendly|3.0|1.0|Arlington
+37806,2014-06-03,Mexico,Bosnia and Herzegovina,0.0,1.0,Friendly,Chicago,United States,True,2014-06-03|Mexico|Bosnia and Herzegovina|Friendly|0.0|1.0|Chicago
+37838,2014-06-06,Mexico,Portugal,0.0,1.0,Friendly,Foxborough,United States,True,2014-06-06|Mexico|Portugal|Friendly|0.0|1.0|Foxborough
+37864,2014-06-13,Mexico,Cameroon,1.0,0.0,FIFA World Cup,Natal,Brazil,True,2014-06-13|Mexico|Cameroon|FIFA World Cup|1.0|0.0|Natal
+37877,2014-06-17,Brazil,Mexico,0.0,0.0,FIFA World Cup,Fortaleza,Brazil,False,2014-06-17|Brazil|Mexico|FIFA World Cup|0.0|0.0|Fortaleza
+37899,2014-06-23,Croatia,Mexico,1.0,3.0,FIFA World Cup,Recife,Brazil,True,2014-06-23|Croatia|Mexico|FIFA World Cup|1.0|3.0|Recife
+37918,2014-06-29,Netherlands,Mexico,2.0,1.0,FIFA World Cup,Fortaleza,Brazil,True,2014-06-29|Netherlands|Mexico|FIFA World Cup|2.0|1.0|Fortaleza
+38026,2014-09-06,Mexico,Chile,0.0,0.0,Friendly,Santa Clara,United States,True,2014-09-06|Mexico|Chile|Friendly|0.0|0.0|Santa Clara
+38078,2014-09-09,Mexico,Bolivia,1.0,0.0,Friendly,Commerce City,United States,True,2014-09-09|Mexico|Bolivia|Friendly|1.0|0.0|Commerce City
+38175,2014-10-12,Mexico,Panama,1.0,0.0,Friendly,Querétaro,Mexico,False,2014-10-12|Mexico|Panama|Friendly|1.0|0.0|Querétaro
+38261,2014-11-12,Netherlands,Mexico,2.0,3.0,Friendly,Amsterdam,Netherlands,False,2014-11-12|Netherlands|Mexico|Friendly|2.0|3.0|Amsterdam
+38335,2014-11-18,Belarus,Mexico,3.0,2.0,Friendly,Borisov,Belarus,False,2014-11-18|Belarus|Mexico|Friendly|3.0|2.0|Borisov
+38642,2015-04-15,United States,Mexico,2.0,0.0,Friendly,San Antonio,United States,False,2015-04-15|United States|Mexico|Friendly|2.0|0.0|San Antonio
+38686,2015-05-30,Mexico,Guatemala,3.0,0.0,Friendly,Tuxtla Gutiérrez,Mexico,False,2015-05-30|Mexico|Guatemala|Friendly|3.0|0.0|Tuxtla Gutiérrez
+38697,2015-06-03,Peru,Mexico,1.0,1.0,Friendly,Lima,Peru,False,2015-06-03|Peru|Mexico|Friendly|1.0|1.0|Lima
+38718,2015-06-07,Brazil,Mexico,2.0,0.0,Friendly,São Paulo,Brazil,False,2015-06-07|Brazil|Mexico|Friendly|2.0|0.0|São Paulo
+38776,2015-06-12,Mexico,Bolivia,0.0,0.0,Copa América,Viña del Mar,Chile,True,2015-06-12|Mexico|Bolivia|Copa América|0.0|0.0|Viña del Mar
+38832,2015-06-15,Chile,Mexico,3.0,3.0,Copa América,Santiago,Chile,False,2015-06-15|Chile|Mexico|Copa América|3.0|3.0|Santiago
+38867,2015-06-19,Mexico,Ecuador,1.0,2.0,Copa América,Rancagua,Chile,True,2015-06-19|Mexico|Ecuador|Copa América|1.0|2.0|Rancagua
+38883,2015-06-27,Mexico,Costa Rica,2.0,2.0,Friendly,Orlando,United States,True,2015-06-27|Mexico|Costa Rica|Friendly|2.0|2.0|Orlando
+38910,2015-07-01,Honduras,Mexico,0.0,0.0,Friendly,Houston,United States,True,2015-07-01|Honduras|Mexico|Friendly|0.0|0.0|Houston
+38928,2015-07-09,Mexico,Cuba,6.0,0.0,Gold Cup,Chicago,United States,True,2015-07-09|Mexico|Cuba|Gold Cup|6.0|0.0|Chicago
+38935,2015-07-12,Guatemala,Mexico,0.0,0.0,Gold Cup,Glendale,United States,True,2015-07-12|Guatemala|Mexico|Gold Cup|0.0|0.0|Glendale
+38942,2015-07-15,Trinidad and Tobago,Mexico,4.0,4.0,Gold Cup,Charlotte,United States,True,2015-07-15|Trinidad and Tobago|Mexico|Gold Cup|4.0|4.0|Charlotte
+38945,2015-07-19,Mexico,Costa Rica,1.0,0.0,Gold Cup,East Rutherford,United States,True,2015-07-19|Mexico|Costa Rica|Gold Cup|1.0|0.0|East Rutherford
+38947,2015-07-22,Panama,Mexico,1.0,2.0,Gold Cup,Atlanta,United States,True,2015-07-22|Panama|Mexico|Gold Cup|1.0|2.0|Atlanta
+38950,2015-07-26,Jamaica,Mexico,1.0,3.0,Gold Cup,Philadelphia,United States,True,2015-07-26|Jamaica|Mexico|Gold Cup|1.0|3.0|Philadelphia
+39110,2015-09-08,Mexico,Argentina,2.0,2.0,Friendly,Arlington,United States,True,2015-09-08|Mexico|Argentina|Friendly|2.0|2.0|Arlington
+39203,2015-10-10,United States,Mexico,2.0,3.0,Friendly,Pasadena,United States,False,2015-10-10|United States|Mexico|Friendly|2.0|3.0|Pasadena
+39340,2015-11-13,Mexico,El Salvador,3.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2015-11-13|Mexico|El Salvador|FIFA World Cup qualification|3.0|0.0|Mexico City
+39379,2015-11-17,Honduras,Mexico,0.0,2.0,FIFA World Cup qualification,San Pedro Sula,Honduras,False,2015-11-17|Honduras|Mexico|FIFA World Cup qualification|0.0|2.0|San Pedro Sula
+39533,2016-03-25,Canada,Mexico,0.0,3.0,FIFA World Cup qualification,Vancouver,Canada,False,2016-03-25|Canada|Mexico|FIFA World Cup qualification|0.0|3.0|Vancouver
+39623,2016-03-29,Mexico,Canada,2.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2016-03-29|Mexico|Canada|FIFA World Cup qualification|2.0|0.0|Mexico City
+39683,2016-05-28,Mexico,Paraguay,1.0,0.0,Friendly,Atlanta,United States,True,2016-05-28|Mexico|Paraguay|Friendly|1.0|0.0|Atlanta
+39812,2016-06-05,Mexico,Uruguay,3.0,1.0,Copa América,Glendale,United States,True,2016-06-05|Mexico|Uruguay|Copa América|3.0|1.0|Glendale
+39853,2016-06-09,Mexico,Jamaica,2.0,0.0,Copa América,Pasadena,United States,True,2016-06-09|Mexico|Jamaica|Copa América|2.0|0.0|Pasadena
+39877,2016-06-13,Mexico,Venezuela,1.0,1.0,Copa América,Houston,United States,True,2016-06-13|Mexico|Venezuela|Copa América|1.0|1.0|Houston
+39905,2016-06-18,Mexico,Chile,0.0,7.0,Copa América,Santa Clara,United States,True,2016-06-18|Mexico|Chile|Copa América|0.0|7.0|Santa Clara
+40006,2016-09-02,El Salvador,Mexico,1.0,3.0,FIFA World Cup qualification,San Salvador,El Salvador,False,2016-09-02|El Salvador|Mexico|FIFA World Cup qualification|1.0|3.0|San Salvador
+40078,2016-09-06,Mexico,Honduras,0.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2016-09-06|Mexico|Honduras|FIFA World Cup qualification|0.0|0.0|Mexico City
+40150,2016-10-08,Mexico,New Zealand,2.0,1.0,Friendly,Nashville,United States,True,2016-10-08|Mexico|New Zealand|Friendly|2.0|1.0|Nashville
+40205,2016-10-11,Mexico,Panama,1.0,0.0,Friendly,Bridgeview,United States,True,2016-10-11|Mexico|Panama|Friendly|1.0|0.0|Bridgeview
+40275,2016-11-11,United States,Mexico,1.0,2.0,FIFA World Cup qualification,Columbus,United States,False,2016-11-11|United States|Mexico|FIFA World Cup qualification|1.0|2.0|Columbus
+40340,2016-11-15,Panama,Mexico,0.0,0.0,FIFA World Cup qualification,Panama City,Panama,False,2016-11-15|Panama|Mexico|FIFA World Cup qualification|0.0|0.0|Panama City
+40440,2017-02-08,Mexico,Iceland,1.0,0.0,Friendly,Las Vegas,United States,True,2017-02-08|Mexico|Iceland|Friendly|1.0|0.0|Las Vegas
+40490,2017-03-24,Mexico,Costa Rica,2.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2017-03-24|Mexico|Costa Rica|FIFA World Cup qualification|2.0|0.0|Mexico City
+40571,2017-03-28,Trinidad and Tobago,Mexico,0.0,1.0,FIFA World Cup qualification,Port of Spain,Trinidad and Tobago,False,2017-03-28|Trinidad and Tobago|Mexico|FIFA World Cup qualification|0.0|1.0|Port of Spain
+40590,2017-05-28,Mexico,Croatia,1.0,2.0,Friendly,Los Angeles,United States,True,2017-05-28|Mexico|Croatia|Friendly|1.0|2.0|Los Angeles
+40595,2017-06-01,Mexico,Republic of Ireland,3.0,1.0,Friendly,East Rutherford,United States,True,2017-06-01|Mexico|Republic of Ireland|Friendly|3.0|1.0|East Rutherford
+40656,2017-06-08,Mexico,Honduras,3.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2017-06-08|Mexico|Honduras|FIFA World Cup qualification|3.0|0.0|Mexico City
+40716,2017-06-11,Mexico,United States,1.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,2017-06-11|Mexico|United States|FIFA World Cup qualification|1.0|1.0|Mexico City
+40758,2017-06-18,Portugal,Mexico,2.0,2.0,Confederations Cup,Kazan,Russia,True,2017-06-18|Portugal|Mexico|Confederations Cup|2.0|2.0|Kazan
+40760,2017-06-21,Mexico,New Zealand,2.0,1.0,Confederations Cup,Sochi,Russia,True,2017-06-21|Mexico|New Zealand|Confederations Cup|2.0|1.0|Sochi
+40767,2017-06-24,Russia,Mexico,1.0,2.0,Confederations Cup,Kazan,Russia,False,2017-06-24|Russia|Mexico|Confederations Cup|1.0|2.0|Kazan
+40806,2017-06-29,Germany,Mexico,4.0,1.0,Confederations Cup,Sochi,Russia,True,2017-06-29|Germany|Mexico|Confederations Cup|4.0|1.0|Sochi
+40824,2017-07-01,Mexico,Paraguay,2.0,1.0,Friendly,Seattle,United States,True,2017-07-01|Mexico|Paraguay|Friendly|2.0|1.0|Seattle
+40828,2017-07-02,Portugal,Mexico,2.0,1.0,Confederations Cup,Moscow,Russia,True,2017-07-02|Portugal|Mexico|Confederations Cup|2.0|1.0|Moscow
+40849,2017-07-09,Mexico,El Salvador,3.0,1.0,Gold Cup,San Diego,United States,True,2017-07-09|Mexico|El Salvador|Gold Cup|3.0|1.0|San Diego
+40856,2017-07-13,Mexico,Jamaica,0.0,0.0,Gold Cup,Denver,United States,True,2017-07-13|Mexico|Jamaica|Gold Cup|0.0|0.0|Denver
+40863,2017-07-16,Curaçao,Mexico,0.0,2.0,Gold Cup,San Antonio,United States,True,2017-07-16|Curaçao|Mexico|Gold Cup|0.0|2.0|San Antonio
+40869,2017-07-20,Mexico,Honduras,1.0,0.0,Gold Cup,Glendale,United States,True,2017-07-20|Mexico|Honduras|Gold Cup|1.0|0.0|Glendale
+40871,2017-07-23,Mexico,Jamaica,0.0,1.0,Gold Cup,Pasadena,United States,True,2017-07-23|Mexico|Jamaica|Gold Cup|0.0|1.0|Pasadena
+40920,2017-09-01,Mexico,Panama,1.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2017-09-01|Mexico|Panama|FIFA World Cup qualification|1.0|0.0|Mexico City
+40980,2017-09-05,Costa Rica,Mexico,1.0,1.0,FIFA World Cup qualification,San José,Costa Rica,False,2017-09-05|Costa Rica|Mexico|FIFA World Cup qualification|1.0|1.0|San José
+41044,2017-10-06,Mexico,Trinidad and Tobago,3.0,1.0,FIFA World Cup qualification,San Luis Potosí,Mexico,False,2017-10-06|Mexico|Trinidad and Tobago|FIFA World Cup qualification|3.0|1.0|San Luis Potosí
+41102,2017-10-10,Honduras,Mexico,3.0,2.0,FIFA World Cup qualification,San Pedro Sula,Honduras,False,2017-10-10|Honduras|Mexico|FIFA World Cup qualification|3.0|2.0|San Pedro Sula
+41145,2017-11-10,Belgium,Mexico,3.0,3.0,Friendly,Brussels,Belgium,False,2017-11-10|Belgium|Mexico|Friendly|3.0|3.0|Brussels
+41190,2017-11-13,Poland,Mexico,0.0,1.0,Friendly,Gdańsk,Poland,False,2017-11-13|Poland|Mexico|Friendly|0.0|1.0|Gdańsk
+41311,2018-01-31,Mexico,Bosnia and Herzegovina,1.0,0.0,Friendly,San Antonio,United States,True,2018-01-31|Mexico|Bosnia and Herzegovina|Friendly|1.0|0.0|San Antonio
+41355,2018-03-23,Mexico,Iceland,3.0,0.0,Friendly,Santa Clara,United States,True,2018-03-23|Mexico|Iceland|Friendly|3.0|0.0|Santa Clara
+41429,2018-03-27,Mexico,Croatia,0.0,1.0,Friendly,Arlington,United States,True,2018-03-27|Mexico|Croatia|Friendly|0.0|1.0|Arlington
+41484,2018-05-28,Mexico,Wales,0.0,0.0,Friendly,Pasadena,United States,True,2018-05-28|Mexico|Wales|Friendly|0.0|0.0|Pasadena
+41532,2018-06-02,Mexico,Scotland,1.0,0.0,Friendly,Mexico City,Mexico,False,2018-06-02|Mexico|Scotland|Friendly|1.0|0.0|Mexico City
+41619,2018-06-09,Denmark,Mexico,2.0,0.0,Friendly,Brøndby,Denmark,False,2018-06-09|Denmark|Mexico|Friendly|2.0|0.0|Brøndby
+41649,2018-06-17,Germany,Mexico,0.0,1.0,FIFA World Cup,Moscow,Russia,True,2018-06-17|Germany|Mexico|FIFA World Cup|0.0|1.0|Moscow
+41667,2018-06-23,South Korea,Mexico,1.0,2.0,FIFA World Cup,Rostov-on-Don,Russia,True,2018-06-23|South Korea|Mexico|FIFA World Cup|1.0|2.0|Rostov-on-Don
+41681,2018-06-27,Mexico,Sweden,0.0,3.0,FIFA World Cup,Ekaterinburg,Russia,True,2018-06-27|Mexico|Sweden|FIFA World Cup|0.0|3.0|Ekaterinburg
+41692,2018-07-02,Brazil,Mexico,2.0,0.0,FIFA World Cup,Samara,Russia,True,2018-07-02|Brazil|Mexico|FIFA World Cup|2.0|0.0|Samara
+41766,2018-09-07,Mexico,Uruguay,1.0,4.0,Friendly,Houston,United States,True,2018-09-07|Mexico|Uruguay|Friendly|1.0|4.0|Houston
+41867,2018-09-11,United States,Mexico,1.0,0.0,Friendly,Nashville,United States,False,2018-09-11|United States|Mexico|Friendly|1.0|0.0|Nashville
+41894,2018-10-11,Mexico,Costa Rica,3.0,2.0,Friendly,San Nicolás de los Garza,Mexico,False,2018-10-11|Mexico|Costa Rica|Friendly|3.0|2.0|San Nicolás de los Garza
+42004,2018-10-16,Mexico,Chile,0.0,1.0,Friendly,Querétaro,Mexico,False,2018-10-16|Mexico|Chile|Friendly|0.0|1.0|Querétaro
+42076,2018-11-16,Argentina,Mexico,2.0,0.0,Friendly,Córdoba,Argentina,False,2018-11-16|Argentina|Mexico|Friendly|2.0|0.0|Córdoba
+42166,2018-11-20,Argentina,Mexico,2.0,0.0,Friendly,Mendoza,Argentina,False,2018-11-20|Argentina|Mexico|Friendly|2.0|0.0|Mendoza
+42319,2019-03-22,Mexico,Chile,3.0,1.0,Friendly,San Diego,United States,True,2019-03-22|Mexico|Chile|Friendly|3.0|1.0|San Diego
+42417,2019-03-26,Paraguay,Mexico,2.0,4.0,Friendly,Santa Clara,United States,True,2019-03-26|Paraguay|Mexico|Friendly|2.0|4.0|Santa Clara
+42479,2019-06-05,Mexico,Venezuela,3.0,1.0,Friendly,Atlanta,United States,True,2019-06-05|Mexico|Venezuela|Friendly|3.0|1.0|Atlanta
+42548,2019-06-09,Mexico,Ecuador,3.0,2.0,Friendly,Arlington,United States,True,2019-06-09|Mexico|Ecuador|Friendly|3.0|2.0|Arlington
+42607,2019-06-15,Mexico,Cuba,7.0,0.0,Gold Cup,Los Angeles,United States,True,2019-06-15|Mexico|Cuba|Gold Cup|7.0|0.0|Los Angeles
+42645,2019-06-19,Mexico,Canada,3.0,1.0,Gold Cup,Denver,United States,True,2019-06-19|Mexico|Canada|Gold Cup|3.0|1.0|Denver
+42674,2019-06-23,Martinique,Mexico,2.0,3.0,Gold Cup,Charlotte,United States,True,2019-06-23|Martinique|Mexico|Gold Cup|2.0|3.0|Charlotte
+42706,2019-06-29,Mexico,Costa Rica,1.0,1.0,Gold Cup,Houston,United States,True,2019-06-29|Mexico|Costa Rica|Gold Cup|1.0|1.0|Houston
+42722,2019-07-02,Haiti,Mexico,0.0,1.0,Gold Cup,Glendale,United States,True,2019-07-02|Haiti|Mexico|Gold Cup|0.0|1.0|Glendale
+42733,2019-07-07,United States,Mexico,0.0,1.0,Gold Cup,Chicago,United States,False,2019-07-07|United States|Mexico|Gold Cup|0.0|1.0|Chicago
+42872,2019-09-06,United States,Mexico,0.0,3.0,Friendly,East Rutherford,United States,False,2019-09-06|United States|Mexico|Friendly|0.0|3.0|East Rutherford
+42940,2019-09-10,Argentina,Mexico,4.0,0.0,Friendly,San Antonio,United States,True,2019-09-10|Argentina|Mexico|Friendly|4.0|0.0|San Antonio
+42994,2019-10-02,Mexico,Trinidad and Tobago,2.0,0.0,Friendly,Toluca,Mexico,False,2019-10-02|Mexico|Trinidad and Tobago|Friendly|2.0|0.0|Toluca
+43055,2019-10-11,Bermuda,Mexico,1.0,5.0,CONCACAF Nations League,Hamilton,Bermuda,False,2019-10-11|Bermuda|Mexico|CONCACAF Nations League|1.0|5.0|Hamilton
+43139,2019-10-15,Mexico,Panama,3.0,1.0,CONCACAF Nations League,Mexico City,Mexico,False,2019-10-15|Mexico|Panama|CONCACAF Nations League|3.0|1.0|Mexico City
+43237,2019-11-15,Panama,Mexico,0.0,3.0,CONCACAF Nations League,Panama City,Panama,False,2019-11-15|Panama|Mexico|CONCACAF Nations League|0.0|3.0|Panama City
+43324,2019-11-19,Mexico,Bermuda,2.0,1.0,CONCACAF Nations League,Mexico City,Mexico,False,2019-11-19|Mexico|Bermuda|CONCACAF Nations League|2.0|1.0|Mexico City
+43449,2020-10-07,Netherlands,Mexico,0.0,1.0,Friendly,Amsterdam,Netherlands,False,2020-10-07|Netherlands|Mexico|Friendly|0.0|1.0|Amsterdam
+43531,2020-10-13,Mexico,Algeria,2.0,2.0,Friendly,The Hague,Netherlands,True,2020-10-13|Mexico|Algeria|Friendly|2.0|2.0|The Hague
+43632,2020-11-14,Mexico,South Korea,3.0,2.0,Friendly,Wiener Neustadt,Austria,True,2020-11-14|Mexico|South Korea|Friendly|3.0|2.0|Wiener Neustadt
+43683,2020-11-17,Japan,Mexico,0.0,2.0,Friendly,Graz,Austria,True,2020-11-17|Japan|Mexico|Friendly|0.0|2.0|Graz
+43811,2021-03-27,Wales,Mexico,1.0,0.0,Friendly,Cardiff,Wales,False,2021-03-27|Wales|Mexico|Friendly|1.0|0.0|Cardiff
+43872,2021-03-30,Costa Rica,Mexico,0.0,1.0,Friendly,Wiener Neustadt,Austria,True,2021-03-30|Costa Rica|Mexico|Friendly|0.0|1.0|Wiener Neustadt
+43930,2021-05-29,Mexico,Iceland,2.0,1.0,Friendly,Arlington,United States,True,2021-05-29|Mexico|Iceland|Friendly|2.0|1.0|Arlington
+43965,2021-06-03,Mexico,Costa Rica,0.0,0.0,CONCACAF Nations League,Denver,United States,True,2021-06-03|Mexico|Costa Rica|CONCACAF Nations League|0.0|0.0|Denver
+44027,2021-06-06,United States,Mexico,3.0,2.0,CONCACAF Nations League,Denver,United States,False,2021-06-06|United States|Mexico|CONCACAF Nations League|3.0|2.0|Denver
+44105,2021-06-12,Mexico,Honduras,0.0,0.0,Friendly,Atlanta,United States,True,2021-06-12|Mexico|Honduras|Friendly|0.0|0.0|Atlanta
+44202,2021-06-30,Mexico,Panama,3.0,0.0,Friendly,Nashville,United States,True,2021-06-30|Mexico|Panama|Friendly|3.0|0.0|Nashville
+44212,2021-07-03,Mexico,Nigeria,4.0,0.0,Friendly,Nashville,United States,True,2021-07-03|Mexico|Nigeria|Friendly|4.0|0.0|Nashville
+44238,2021-07-10,Mexico,Trinidad and Tobago,0.0,0.0,Gold Cup,Arlington,United States,True,2021-07-10|Mexico|Trinidad and Tobago|Gold Cup|0.0|0.0|Arlington
+44258,2021-07-14,Guatemala,Mexico,0.0,3.0,Gold Cup,Dallas,United States,True,2021-07-14|Guatemala|Mexico|Gold Cup|0.0|3.0|Dallas
+44270,2021-07-18,Mexico,El Salvador,1.0,0.0,Gold Cup,Dallas,United States,True,2021-07-18|Mexico|El Salvador|Gold Cup|1.0|0.0|Dallas
+44277,2021-07-24,Mexico,Honduras,3.0,0.0,Gold Cup,Glendale,United States,True,2021-07-24|Mexico|Honduras|Gold Cup|3.0|0.0|Glendale
+44281,2021-07-29,Mexico,Canada,2.0,1.0,Gold Cup,Houston,United States,True,2021-07-29|Mexico|Canada|Gold Cup|2.0|1.0|Houston
+44283,2021-08-01,United States,Mexico,1.0,0.0,Gold Cup,Las Vegas,United States,False,2021-08-01|United States|Mexico|Gold Cup|1.0|0.0|Las Vegas
+44348,2021-09-02,Mexico,Jamaica,2.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,2021-09-02|Mexico|Jamaica|FIFA World Cup qualification|2.0|1.0|Mexico City
+44396,2021-09-05,Costa Rica,Mexico,0.0,1.0,FIFA World Cup qualification,San José,Costa Rica,False,2021-09-05|Costa Rica|Mexico|FIFA World Cup qualification|0.0|1.0|San José
+44455,2021-09-08,Panama,Mexico,1.0,1.0,FIFA World Cup qualification,Panama City,Panama,False,2021-09-08|Panama|Mexico|FIFA World Cup qualification|1.0|1.0|Panama City
+44484,2021-10-07,Mexico,Canada,1.0,1.0,FIFA World Cup qualification,Mexico City,Mexico,False,2021-10-07|Mexico|Canada|FIFA World Cup qualification|1.0|1.0|Mexico City
+44547,2021-10-10,Mexico,Honduras,3.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2021-10-10|Mexico|Honduras|FIFA World Cup qualification|3.0|0.0|Mexico City
+44616,2021-10-13,El Salvador,Mexico,0.0,2.0,FIFA World Cup qualification,San Salvador,El Salvador,False,2021-10-13|El Salvador|Mexico|FIFA World Cup qualification|0.0|2.0|San Salvador
+44625,2021-10-27,Mexico,Ecuador,2.0,3.0,Friendly,Charlotte,United States,True,2021-10-27|Mexico|Ecuador|Friendly|2.0|3.0|Charlotte
+44672,2021-11-12,United States,Mexico,2.0,0.0,FIFA World Cup qualification,Cincinnati,United States,False,2021-11-12|United States|Mexico|FIFA World Cup qualification|2.0|0.0|Cincinnati
+44756,2021-11-16,Canada,Mexico,2.0,1.0,FIFA World Cup qualification,Edmonton,Canada,False,2021-11-16|Canada|Mexico|FIFA World Cup qualification|2.0|1.0|Edmonton
+44802,2021-12-08,Mexico,Chile,2.0,2.0,Friendly,Austin,United States,True,2021-12-08|Mexico|Chile|Friendly|2.0|2.0|Austin
+44901,2022-01-27,Jamaica,Mexico,1.0,2.0,FIFA World Cup qualification,Kingston,Jamaica,False,2022-01-27|Jamaica|Mexico|FIFA World Cup qualification|1.0|2.0|Kingston
+44927,2022-01-30,Mexico,Costa Rica,0.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2022-01-30|Mexico|Costa Rica|FIFA World Cup qualification|0.0|0.0|Mexico City
+44950,2022-02-02,Mexico,Panama,1.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2022-02-02|Mexico|Panama|FIFA World Cup qualification|1.0|0.0|Mexico City
+44974,2022-03-24,Mexico,United States,0.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2022-03-24|Mexico|United States|FIFA World Cup qualification|0.0|0.0|Mexico City
+45047,2022-03-27,Honduras,Mexico,0.0,1.0,FIFA World Cup qualification,San Pedro Sula,Honduras,False,2022-03-27|Honduras|Mexico|FIFA World Cup qualification|0.0|1.0|San Pedro Sula
+45121,2022-03-30,Mexico,El Salvador,2.0,0.0,FIFA World Cup qualification,Mexico City,Mexico,False,2022-03-30|Mexico|El Salvador|FIFA World Cup qualification|2.0|0.0|Mexico City
+45129,2022-04-27,Mexico,Guatemala,0.0,0.0,Friendly,Orlando,United States,True,2022-04-27|Mexico|Guatemala|Friendly|0.0|0.0|Orlando
+45147,2022-05-28,Mexico,Nigeria,2.0,1.0,Friendly,Arlington,United States,True,2022-05-28|Mexico|Nigeria|Friendly|2.0|1.0|Arlington
+45188,2022-06-02,Mexico,Uruguay,0.0,3.0,Friendly,Glendale,United States,True,2022-06-02|Mexico|Uruguay|Friendly|0.0|3.0|Glendale
+45249,2022-06-05,Mexico,Ecuador,0.0,0.0,Friendly,Chicago,United States,True,2022-06-05|Mexico|Ecuador|Friendly|0.0|0.0|Chicago
+45361,2022-06-11,Mexico,Suriname,3.0,0.0,CONCACAF Nations League,Torreón,Mexico,False,2022-06-11|Mexico|Suriname|CONCACAF Nations League|3.0|0.0|Torreón
+45421,2022-06-14,Jamaica,Mexico,1.0,1.0,CONCACAF Nations League,Kingston,Jamaica,False,2022-06-14|Jamaica|Mexico|CONCACAF Nations League|1.0|1.0|Kingston
+45476,2022-08-31,Mexico,Paraguay,0.0,1.0,Friendly,Atlanta,United States,True,2022-08-31|Mexico|Paraguay|Friendly|0.0|1.0|Atlanta
+45538,2022-09-24,Mexico,Peru,1.0,0.0,Friendly,Pasadena,United States,True,2022-09-24|Mexico|Peru|Friendly|1.0|0.0|Pasadena
+45599,2022-09-27,Mexico,Colombia,2.0,3.0,Friendly,Santa Clara,United States,True,2022-09-27|Mexico|Colombia|Friendly|2.0|3.0|Santa Clara
+45631,2022-11-09,Mexico,Iraq,4.0,0.0,Friendly,Girona,Spain,True,2022-11-09|Mexico|Iraq|Friendly|4.0|0.0|Girona
+45650,2022-11-16,Mexico,Sweden,1.0,2.0,Friendly,Girona,Spain,True,2022-11-16|Mexico|Sweden|Friendly|1.0|2.0|Girona
+45723,2022-11-22,Mexico,Poland,0.0,0.0,FIFA World Cup,Doha,Qatar,True,2022-11-22|Mexico|Poland|FIFA World Cup|0.0|0.0|Doha
+45739,2022-11-26,Argentina,Mexico,2.0,0.0,FIFA World Cup,Lusail,Qatar,True,2022-11-26|Argentina|Mexico|FIFA World Cup|2.0|0.0|Lusail
+45755,2022-11-30,Saudi Arabia,Mexico,1.0,2.0,FIFA World Cup,Lusail,Qatar,True,2022-11-30|Saudi Arabia|Mexico|FIFA World Cup|1.0|2.0|Lusail
+45880,2023-03-23,Suriname,Mexico,0.0,2.0,CONCACAF Nations League,Paramaribo,Suriname,False,2023-03-23|Suriname|Mexico|CONCACAF Nations League|0.0|2.0|Paramaribo
+45957,2023-03-26,Mexico,Jamaica,2.0,2.0,CONCACAF Nations League,Mexico City,Mexico,False,2023-03-26|Mexico|Jamaica|CONCACAF Nations League|2.0|2.0|Mexico City
+46033,2023-04-19,United States,Mexico,1.0,1.0,Friendly,Glendale,United States,False,2023-04-19|United States|Mexico|Friendly|1.0|1.0|Glendale
+46034,2023-06-07,Mexico,Guatemala,2.0,0.0,Friendly,Mazatlán,Mexico,False,2023-06-07|Mexico|Guatemala|Friendly|2.0|0.0|Mazatlán
+46036,2023-06-10,Mexico,Cameroon,2.0,2.0,Friendly,San Diego,United States,True,2023-06-10|Mexico|Cameroon|Friendly|2.0|2.0|San Diego
+46062,2023-06-15,United States,Mexico,3.0,0.0,CONCACAF Nations League,Las Vegas,United States,False,2023-06-15|United States|Mexico|CONCACAF Nations League|3.0|0.0|Las Vegas
+46124,2023-06-18,Panama,Mexico,0.0,1.0,CONCACAF Nations League,Las Vegas,United States,True,2023-06-18|Panama|Mexico|CONCACAF Nations League|0.0|1.0|Las Vegas
+46202,2023-06-25,Mexico,Honduras,4.0,0.0,Gold Cup,Houston,United States,True,2023-06-25|Mexico|Honduras|Gold Cup|4.0|0.0|Houston
+46214,2023-06-29,Haiti,Mexico,1.0,3.0,Gold Cup,Glendale,United States,True,2023-06-29|Haiti|Mexico|Gold Cup|1.0|3.0|Glendale
+46227,2023-07-02,Mexico,Qatar,0.0,1.0,Gold Cup,Santa Clara,United States,True,2023-07-02|Mexico|Qatar|Gold Cup|0.0|1.0|Santa Clara
+46240,2023-07-08,Mexico,Costa Rica,2.0,0.0,Gold Cup,Arlington,United States,True,2023-07-08|Mexico|Costa Rica|Gold Cup|2.0|0.0|Arlington
+46275,2023-07-12,Jamaica,Mexico,0.0,3.0,Gold Cup,Paradise,United States,True,2023-07-12|Jamaica|Mexico|Gold Cup|0.0|3.0|Paradise
+46289,2023-07-16,Mexico,Panama,1.0,0.0,Gold Cup,Inglewood,United States,True,2023-07-16|Mexico|Panama|Gold Cup|1.0|0.0|Inglewood
+46382,2023-09-09,Mexico,Australia,2.0,2.0,Friendly,Arlington,United States,True,2023-09-09|Mexico|Australia|Friendly|2.0|2.0|Arlington
+46457,2023-09-12,Mexico,Uzbekistan,3.0,3.0,Friendly,Atlanta,United States,True,2023-09-12|Mexico|Uzbekistan|Friendly|3.0|3.0|Atlanta
+46551,2023-10-14,Mexico,Ghana,2.0,0.0,Friendly,Charlotte,United States,True,2023-10-14|Mexico|Ghana|Friendly|2.0|0.0|Charlotte
+46633,2023-10-17,Mexico,Germany,2.0,2.0,Friendly,Philadelphia,United States,True,2023-10-17|Mexico|Germany|Friendly|2.0|2.0|Philadelphia
+46710,2023-11-17,Honduras,Mexico,2.0,0.0,CONCACAF Nations League,Tegucigalpa,Honduras,False,2023-11-17|Honduras|Mexico|CONCACAF Nations League|2.0|0.0|Tegucigalpa
+46794,2023-11-21,Mexico,Honduras,2.0,0.0,CONCACAF Nations League,Mexico City,Mexico,False,2023-11-21|Mexico|Honduras|CONCACAF Nations League|2.0|0.0|Mexico City
+46861,2023-12-16,Mexico,Colombia,2.0,3.0,Friendly,Los Angeles,United States,True,2023-12-16|Mexico|Colombia|Friendly|2.0|3.0|Los Angeles
+47022,2024-03-21,Panama,Mexico,0.0,3.0,CONCACAF Nations League,Arlington,United States,True,2024-03-21|Panama|Mexico|CONCACAF Nations League|0.0|3.0|Arlington
+47100,2024-03-24,United States,Mexico,2.0,0.0,CONCACAF Nations League,Arlington,United States,False,2024-03-24|United States|Mexico|CONCACAF Nations League|2.0|0.0|Arlington
+47183,2024-05-31,Bolivia,Mexico,0.0,1.0,Friendly,Chicago,United States,True,2024-05-31|Bolivia|Mexico|Friendly|0.0|1.0|Chicago
+47202,2024-06-05,Mexico,Uruguay,0.0,4.0,Friendly,Denver,United States,True,2024-06-05|Mexico|Uruguay|Friendly|0.0|4.0|Denver
+47278,2024-06-08,Mexico,Brazil,2.0,3.0,Friendly,College Station,United States,True,2024-06-08|Mexico|Brazil|Friendly|2.0|3.0|College Station
+47413,2024-06-22,Mexico,Jamaica,1.0,0.0,Copa América,Houston,United States,True,2024-06-22|Mexico|Jamaica|Copa América|1.0|0.0|Houston
+47433,2024-06-26,Venezuela,Mexico,1.0,0.0,Copa América,Inglewood,United States,True,2024-06-26|Venezuela|Mexico|Copa América|1.0|0.0|Inglewood
+47448,2024-06-30,Mexico,Ecuador,0.0,0.0,Copa América,Glendale,United States,True,2024-06-30|Mexico|Ecuador|Copa América|0.0|0.0|Glendale
+47559,2024-09-07,Mexico,New Zealand,3.0,0.0,Friendly,Pasadena,United States,True,2024-09-07|Mexico|New Zealand|Friendly|3.0|0.0|Pasadena
+47618,2024-09-10,Mexico,Canada,0.0,0.0,Friendly,Arlington,United States,True,2024-09-10|Mexico|Canada|Friendly|0.0|0.0|Arlington
+47808,2024-10-15,Mexico,United States,2.0,0.0,Friendly,Zapopan,Mexico,False,2024-10-15|Mexico|United States|Friendly|2.0|0.0|Zapopan
+47917,2024-11-15,Honduras,Mexico,2.0,0.0,CONCACAF Nations League,San Pedro Sula,Honduras,False,2024-11-15|Honduras|Mexico|CONCACAF Nations League|2.0|0.0|San Pedro Sula
+48010,2024-11-19,Mexico,Honduras,4.0,0.0,CONCACAF Nations League,Toluca,Mexico,False,2024-11-19|Mexico|Honduras|CONCACAF Nations League|4.0|0.0|Toluca
+48122,2025-03-20,Canada,Mexico,0.0,2.0,CONCACAF Nations League,Inglewood,United States,True,2025-03-20|Canada|Mexico|CONCACAF Nations League|0.0|2.0|Inglewood
+48203,2025-03-23,Panama,Mexico,1.0,2.0,CONCACAF Nations League,Inglewood,United States,True,2025-03-23|Panama|Mexico|CONCACAF Nations League|1.0|2.0|Inglewood
+48375,2025-06-07,Mexico,Switzerland,2.0,4.0,Friendly,Salt Lake City,United States,True,2025-06-07|Mexico|Switzerland|Friendly|2.0|4.0|Salt Lake City
+48430,2025-06-10,Mexico,Turkey,1.0,0.0,Friendly,Chapel Hill,United States,True,2025-06-10|Mexico|Turkey|Friendly|1.0|0.0|Chapel Hill
+48472,2025-06-14,Mexico,Dominican Republic,3.0,2.0,Gold Cup,Inglewood,United States,True,2025-06-14|Mexico|Dominican Republic|Gold Cup|3.0|2.0|Inglewood
+48481,2025-06-18,Suriname,Mexico,0.0,2.0,Gold Cup,Arlington,United States,True,2025-06-18|Suriname|Mexico|Gold Cup|0.0|2.0|Arlington
+48488,2025-06-22,Mexico,Costa Rica,0.0,0.0,Gold Cup,Paradise,United States,True,2025-06-22|Mexico|Costa Rica|Gold Cup|0.0|0.0|Paradise
+48497,2025-06-28,Mexico,Saudi Arabia,2.0,0.0,Gold Cup,Glendale,United States,True,2025-06-28|Mexico|Saudi Arabia|Gold Cup|2.0|0.0|Glendale
+48502,2025-07-02,Mexico,Honduras,1.0,0.0,Gold Cup,Santa Clara,United States,True,2025-07-02|Mexico|Honduras|Gold Cup|1.0|0.0|Santa Clara
+48506,2025-07-06,United States,Mexico,1.0,2.0,Gold Cup,Houston,United States,False,2025-07-06|United States|Mexico|Gold Cup|1.0|2.0|Houston
+48593,2025-09-06,Mexico,Japan,0.0,0.0,Friendly,Oakland,United States,True,2025-09-06|Mexico|Japan|Friendly|0.0|0.0|Oakland
+48642,2025-09-09,Mexico,South Korea,2.0,2.0,Friendly,Nashville,United States,True,2025-09-09|Mexico|South Korea|Friendly|2.0|2.0|Nashville
+48764,2025-10-11,Mexico,Colombia,0.0,4.0,Friendly,Arlington,United States,True,2025-10-11|Mexico|Colombia|Friendly|0.0|4.0|Arlington
+48816,2025-10-14,Mexico,Ecuador,1.0,1.0,Friendly,Zapopan,Mexico,False,2025-10-14|Mexico|Ecuador|Friendly|1.0|1.0|Zapopan
+48920,2025-11-15,Mexico,Uruguay,0.0,0.0,Friendly,Torreón,Mexico,False,2025-11-15|Mexico|Uruguay|Friendly|0.0|0.0|Torreón
+48994,2025-11-18,Mexico,Paraguay,1.0,2.0,Friendly,San Antonio,United States,True,2025-11-18|Mexico|Paraguay|Friendly|1.0|2.0|San Antonio
+49113,2026-01-22,Panama,Mexico,0.0,1.0,Friendly,Panama City,Panama,False,2026-01-22|Panama|Mexico|Friendly|0.0|1.0|Panama City
+49114,2026-01-25,Bolivia,Mexico,0.0,1.0,Friendly,Santa Cruz,Bolivia,False,2026-01-25|Bolivia|Mexico|Friendly|0.0|1.0|Santa Cruz
+49116,2026-02-25,Mexico,Iceland,4.0,0.0,Friendly,Querétaro,Mexico,False,2026-02-25|Mexico|Iceland|Friendly|4.0|0.0|Querétaro
+49183,2026-03-28,Mexico,Portugal,0.0,0.0,Friendly,Mexico City,Mexico,False,2026-03-28|Mexico|Portugal|Friendly|0.0|0.0|Mexico City
+49233,2026-03-31,Mexico,Belgium,1.0,1.0,Friendly,Chicago,United States,True,2026-03-31|Mexico|Belgium|Friendly|1.0|1.0|Chicago
+49261,2026-05-22,Mexico,Ghana,2.0,0.0,Friendly,Puebla,Mexico,False,2026-05-22|Mexico|Ghana|Friendly|2.0|0.0|Puebla
+49273,2026-05-30,Mexico,Australia,1.0,0.0,Friendly,Pasadena,United States,True,2026-05-30|Mexico|Australia|Friendly|1.0|0.0|Pasadena
+49315,2026-06-04,Mexico,Serbia,5.0,1.0,Friendly,Toluca,Mexico,False,2026-06-04|Mexico|Serbia|Friendly|5.0|1.0|Toluca
+49406,2026-06-11,Mexico,South Africa,2.0,0.0,FIFA World Cup,Mexico City,Mexico,False,2026-06-11|Mexico|South Africa|FIFA World Cup|2.0|0.0|Mexico City
+49431,2026-06-18,Mexico,South Korea,1.0,0.0,FIFA World Cup,Zapopan,Mexico,False,2026-06-18|Mexico|South Korea|FIFA World Cup|1.0|0.0|Zapopan
+49454,2026-06-24,Mexico,Czech Republic,3.0,0.0,FIFA World Cup,Mexico City,Mexico,False,2026-06-24|Mexico|Czech Republic|FIFA World Cup|3.0|0.0|Mexico City
+49484,2026-06-30,Mexico,Ecuador,2.0,0.0,FIFA World Cup,Mexico City,Mexico,False,2026-06-30|Mexico|Ecuador|FIFA World Cup|2.0|0.0|Mexico City
+49497,2026-07-05,Mexico,England,2.0,3.0,FIFA World Cup,Mexico City,Mexico,False,2026-07-05|Mexico|England|FIFA World Cup|2.0|3.0|Mexico City
