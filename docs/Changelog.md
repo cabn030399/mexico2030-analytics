@@ -1,193 +1,415 @@
 # Changelog
 
-# Camino al Mundial 2030
+# México2030 Analytics
+
+Registro de cambios, decisiones técnicas y avances relevantes del proyecto.
 
 ---
 
-## v0.1.0 - Fundación del Proyecto
+## v0.1.0 — Fundación del Proyecto
 
-Fecha: Julio 2026
+**Fecha:** Julio 2026
 
 ### Completado
 
-* Definición de visión del proyecto.
+* Definición de la visión del proyecto.
 * Definición de objetivos estratégicos.
-* Definición de alcance.
-* Exclusión de Selección Femenil del MVP.
-* Selección de stack tecnológico.
+* Definición del alcance.
+* Exclusión de la Selección Femenil del alcance inicial.
+* Selección del stack tecnológico.
 * Creación del repositorio GitHub.
-* Creación de Project_Master.md.
-* Creación de Architecture.md.
-* Creación de Data_Dictionary.md.
-* Creación de datasets Bronze, Silver y Gold.
-* Selección del dataset histórico oficial.
-* Descarga de resultados internacionales históricos.
+* Creación de `Project_Master.md`.
+* Creación de `Architecture.md`.
+* Creación de `Data_Dictionary.md`.
+* Definición de las capas Bronze, Silver y Gold.
+* Selección del dataset histórico.
+* Descarga del dataset de resultados internacionales.
 
-### Dataset Oficial MVP
+### Dataset utilizado
 
-International Football Results from 1872 to 2026
+**International Football Results from 1872 to 2026**
 
 Autor:
-Mart Jürisoo
+
+**Mart Jürisoo**
 
 Fuente:
-Kaggle
 
-Archivos:
+**Kaggle**
 
-* results.csv
-* goalscorers.csv
-* shootouts.csv
-* former_names.csv
+Archivos disponibles en el dataset:
+
+* `results.csv`
+* `goalscorers.csv`
+* `shootouts.csv`
+* `former_names.csv`
+
+Para el pipeline actual de partidos se utiliza principalmente:
+
+```text
+results.csv
+```
 
 ### Estado
 
-Fase de Planificación:
-✅ Completada
-
-Fase de Infraestructura:
-✅ Completada
-
-Fase de Desarrollo:
-⏳ En progreso
+* Fase de Planificación: completada.
+* Fase de Infraestructura: completada.
+* Fase de Desarrollo: iniciada.
 
 ---
 
-## Próxima Versión
+## v0.2.0 — Data Ingestion
 
-v0.2.0
+**Fecha:** 2026-07-11
 
-Objetivos:
-
-* Crear notebook 001_data_ingestion.ipynb
-* Explorar results.csv
-* Construir primera carga hacia BigQuery
-* Crear tabla bronze.raw_matches
-## [v0.2.0] - 2026-07-11
 ### Añadido
-- Notebook creado: `notebooks/001_data_ingestion.ipynb`
-- Objetivo: Exploración inicial y análisis de calidad del dataset histórico de resultados internacionales.
-- Estado: Completado exitosamente.
-- Hallazgos clave: 49,505 registros totales y 1,008 partidos identificados de la Selección de México.
-DA-013
 
-Se identificaron 4 registros con home_score y away_score nulos.
+* Notebook creado:
+  `notebooks/001_data_ingestion.ipynb`
+* Exploración inicial del dataset histórico.
+* Validación inicial de estructura y tipos de datos.
+* Identificación de registros correspondientes a México.
 
-Corresponden a partidos proyectados del Mundial FIFA 2026.
+### Resultado
 
-Decisión:
-Mantener registros en Bronze.
-Excluir registros sin marcador en Silver y Gold.
+Dataset original:
 
-Estado:
-Aprobado.
-## DA-015
+```text
+49,505 registros
+9 columnas
+```
 
-Fecha: 2026-07-13
+Partidos identificados de México:
 
-Sprint 3 - Silver Layer
+```text
+1,008
+```
 
-Acciones:
+### DA-013 — Registros sin marcador
 
-- Eliminados 4 registros sin marcador.
-- Validación de duplicados completada.
-- Creado match_id.
-- Generado matches_silver.csv.
+Se identificaron:
 
-Resultado:
+```text
+4 registros
+```
 
-silver.matches contiene 49,501 registros válidos para análisis.
+con `home_score` y `away_score` nulos.
 
-Estado:
+### Decisión
 
-Aprobado.
+* Mantener los registros en Bronze como parte del origen.
+* Excluir los registros sin marcador de Silver.
+* No utilizarlos para las métricas de Gold.
+
+### Estado
+
+✅ Aprobado
+
 ---
 
-## [v0.3.0] - 2026-07-14
+## DA-015 — Silver Layer
 
-### Sprint 4 - Gold Layer
+**Fecha:** 2026-07-13
 
-#### Añadido
+### Sprint 3 — Silver Layer
 
-- Creación de la tabla `gold.fact_mexico_matches`.
-- Definición oficial de la granularidad:
-  - 1 fila = 1 partido de México.
-- Construcción de métricas analíticas para Tableau.
+### Acciones
 
-#### Resultado
+* Creación del notebook:
+  `notebooks/003_silver_matches.ipynb`
+* Eliminación de los 4 registros sin marcador para la capa Silver.
+* Conversión y normalización de fechas.
+* Creación de `match_id`.
+* Generación de `match_key`.
+* Validación de duplicados.
+* Construcción del dataset Silver.
+
+### Resultado
+
+La capa Silver contiene:
+
+```text
+49,501 registros válidos
+```
+
+La clave lógica utilizada para identificar partidos es:
+
+```text
+date|home_team|away_team|tournament
+```
+
+### Validaciones
+
+```text
+match_key duplicadas: 0
+Registros involucrados en duplicados: 0
+match_id únicos: 49,501
+```
+
+### Estado
+
+✅ Aprobado
+
+---
+
+## v0.3.0 — Gold Layer
+
+**Fecha:** 2026-07-14
+
+### Sprint 4 — Gold Layer
+
+### Añadido
+
+* Creación de la tabla:
+
+```text
+gold.fact_mexico_matches
+```
+
+* Definición de la granularidad:
+
+  * 1 fila = 1 partido de México.
+* Filtrado de los partidos correspondientes a México.
+* Construcción de variables analíticas.
+* Preparación de métricas para Tableau.
+
+### Resultado
 
 Cobertura validada:
 
-- Primer partido: 1923-01-01
-- Último partido: 2026-07-05
-- Total partidos: 1008
+| Métrica                  |      Valor |
+| ------------------------ | ---------: |
+| Primer partido de México | 1923-01-01 |
+| Último partido de México | 2026-07-05 |
+| Total de partidos        |      1,008 |
 
-#### Estado
+### Estado
 
 ✅ Completado
 
 ---
 
-## [v0.4.0] - 2026-07-15
+## v0.4.0 — Dashboard Tableau V1
 
-### Sprint 5 - Dashboard Tableau V1
+**Fecha:** 2026-07-15
 
-#### Añadido
+### Sprint 5 — Dashboard Tableau V1
 
-KPIs:
+### Añadido
 
-- Partidos Jugados
-- Victorias
-- Empates
-- Derrotas
-- % Victorias
+#### KPIs
 
-Visualizaciones:
+* Partidos Jugados
+* Victorias
+* Empates
+* Derrotas
+* % Victorias
 
-- Rendimiento por Año
-- Resultados por Competición
-- Home vs Away vs Neutral
-- Top 10 Rivales Más Enfrentados
+#### Visualizaciones
 
-#### Resultado
+* Rendimiento por Año.
+* Resultados por Competición.
+* Home vs Away vs Neutral.
+* Top 10 Rivales Más Enfrentados.
+
+### Resultado
 
 Dashboard publicado en Tableau Public.
 
-#### Estado
+### Estado
 
 ✅ Completado
 
 ---
 
-## [v0.5.0] - 2026-07-16
+## v0.5.0 — Integración BigQuery y Procesamiento Incremental
 
-### Cierre Oficial MVP
+**Fecha:** Julio 2026
 
-#### Completado
+### Objetivo
 
-- BigQuery Bronze Layer
-- BigQuery Silver Layer
-- BigQuery Gold Layer
-- fact_mexico_matches
-- Dashboard Tableau V1
-- Publicación inicial en LinkedIn
-- Documentación técnica completa
+Evolucionar el pipeline desde un procesamiento histórico hacia un flujo capaz de identificar nuevos partidos sin depender de la regeneración completa del dataset analítico.
 
-#### Resultado
+### Añadido
 
-México2030 Analytics alcanza el estado:
+* Integración del entorno Python con BigQuery.
+* Creación y validación de datasets:
 
-✅ MVP COMPLETADO
+  * `bronze`
+  * `silver`
+  * `gold`
+* Integración de la tabla:
 
-Versión:
+```text
+silver.matches
+```
 
-v0.1.0
+* Validación de la tabla:
 
-Cobertura:
+```text
+gold.fact_mexico_matches
+```
 
-- 1008 partidos
-- 1923–2026
+* Creación del notebook:
 
-#### Estado
+```text
+notebooks/004_bigquery_incremental.ipynb
+```
 
-✅ Cerrado
+* Implementación de detección incremental basada en `match_key`.
+* Separación entre registros existentes y registros nuevos.
+* Reconstrucción controlada de Silver y Gold durante la integración.
+* Validaciones finales de consistencia.
+
+### Estrategia incremental
+
+La comparación utiliza:
+
+```text
+match_key
+```
+
+en lugar de depender de:
+
+```text
+match_id
+```
+
+Esto permite determinar si un partido ya existe mediante una clave lógica estable.
+
+### Validación de idempotencia
+
+Se comparó el conjunto actual de México contra sí mismo:
+
+```text
+Partidos existentes: 1008
+Partidos nuevos: 0
+```
+
+Resultado:
+
+```text
+No se detectaron nuevos partidos.
+```
+
+### Validación con registro sintético
+
+Se añadió un partido de prueba con:
+
+```text
+match_key:
+2026-08-28|Mexico|Test Team|Test Tournament
+```
+
+Resultado:
+
+```text
+Partidos existentes: 1008
+Partidos nuevos detectados: 1
+```
+
+Esto permitió validar que un partido con una `match_key` nueva es identificado correctamente como registro incremental.
+
+### Estado
+
+✅ Implementado y validado
+
+### Limitación actual
+
+El proceso incremental está implementado para el alcance actual del proyecto, pero no se presenta como un sistema autónomo de producción.
+
+La actualización del origen de datos y la ejecución del pipeline siguen siendo procesos controlados.
+
+---
+
+## Validaciones Finales del Pipeline
+
+Como parte del cierre de la etapa de automatización de partidos se realizaron validaciones sobre las capas principales.
+
+### Silver
+
+```text
+Registros: 49,501
+match_id únicos: 49,501
+match_key duplicadas: 0
+Registros involucrados en duplicados: 0
+```
+
+### México
+
+```text
+Partidos de México: 1,008
+```
+
+### Gold
+
+```text
+gold.fact_mexico_matches: 1,008 registros
+```
+
+### Estado
+
+✅ Pipeline de partidos validado
+
+---
+
+# Estado Actual del Proyecto
+
+La etapa correspondiente al **pipeline de partidos** se considera completada dentro del alcance definido.
+
+Actualmente se encuentran implementados:
+
+* Data ingestion.
+* Bronze.
+* Silver.
+* `match_key`.
+* Validación de duplicados.
+* Procesamiento incremental.
+* Validación de idempotencia.
+* Integración con BigQuery.
+* Silver en BigQuery.
+* Gold en BigQuery.
+* `gold.fact_mexico_matches`.
+* Dashboard Tableau V1.
+* Documentación técnica.
+
+### Estado general
+
+✅ **Pipeline de partidos completado**
+
+✅ **Dashboard V1 publicado**
+
+⏳ **Siguiente fase: Datos de Jugadores**
+
+---
+
+# Próxima Fase
+
+## Jugadores
+
+La siguiente etapa del proyecto estará enfocada en incorporar información de jugadores y construir una capa analítica que permita complementar el análisis histórico de partidos.
+
+Objetivos previstos:
+
+* Incorporar datos de jugadores.
+* Diseñar el modelo Silver correspondiente.
+* Construir el modelo Gold de jugadores.
+* Definir KPIs individuales.
+* Preparar análisis y visualizaciones de jugadores.
+
+Estas funcionalidades todavía forman parte de la evolución futura del proyecto y no deben interpretarse como componentes ya implementados.
+
+---
+
+# Principios del Changelog
+
+Este documento registra:
+
+* Cambios implementados.
+* Decisiones técnicas relevantes.
+* Validaciones realizadas.
+* Limitaciones conocidas.
+* Evolución prevista del proyecto.
+
+Las funcionalidades futuras se mantienen separadas de las funcionalidades ya implementadas para evitar confundir el estado planificado con el estado real del sistema.
+
